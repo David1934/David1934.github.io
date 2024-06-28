@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body{
+    background-color: #000;
+}
+
+span{
+    width: 30px;
+    height: 30px;
+    background: url("../images/star.png") no-repeat;
+    position: absolute;
+    background-size:100% 100%;
+    animation: flash 1s alternate infinite;
+}
+
+@keyframes flash {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+span:hover{
+    transform: scale(3, 3) rotate(180deg) !important;
+    transition: all 1s;
+}
+#wrapper {
+    position:absolute;
+    top:50px;
+    left:80%;
+    width:200px;
+    height:200px;
+    margin-left:-100px;
+    animation: moonline 30s linear;
+    z-index:9999999999999999;
+}
+@-webkit-keyframes moonline {
+    0% {top:250px;left:0%;opacity:0;}
+    30% {top:150px;left:40%;opacity:0.5;}
+    80% {top:50px;left:80%;opacity:1;}
+}
+#circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    background-color: #EFEFEF;
+    box-shadow:0 0 40px #FFFFFF;
+    border-radius: 100px;
+    animation:moonright 30s linear;
+
+}
+@-webkit-keyframes moonright {
+    0% {-webkit-box-shadow:0 0 10px #FFFFFF;}
+    30% {-webkit-box-shadow:0 0 15px #FFFFFF;}
+    40% {-webkit-box-shadow:0 0 20px #FFFFFF;}
+    50% {-webkit-box-shadow:0 0 25px #FFFFFF;}
+    100% {-webkit-box-shadow:0 0 30px #FFFFFF;}
+}
