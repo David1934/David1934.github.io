@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bing每日一图背景</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+        }
+        #content {
+            text-align: center;
+            color: white;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div id="content">
+        <h1>每日一图背景</h1>
+        <p>加载中...</p>
+    </div>
+
+    <script>
+        // Bing每日一图的API
+        const bingApiUrl = 'https://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1&mkt=en-US';
+
+        // 获取每日一图的URL
+        fetch(bingApiUrl)
+            .then(response => response.json())
+            .then(data => {
+                const imageUrl = 'https://www.bing.com' + data.images[0].url;
+                document.body.style.backgroundImage = `url('${imageUrl}')`;
+                document.getElementById('content').innerHTML = `<h1>每日一图背景</h1><p>${data.images[0].copyright}</p>`;
+            })
+            .catch(error => {
+                console.error('获取图片失败:', error);
+                document.getElementById('content').innerHTML = '<h1>获取图片失败</h1><p>请检查网络连接或稍后再试。</p>';
+            });
+    </script>
+</body>
+</html>

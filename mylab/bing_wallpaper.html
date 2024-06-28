@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bing Daily Wallpaper</title>
+    <style>
+        #bing-wallpaper {
+            width: 100%;
+            height: 100vh; /* 使用视口高度作为容器高度 */
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body>
+
+<div id="bing-wallpaper"></div>
+
+<script>
+    // 获取Bing每日图片的函数
+    function fetchBingWallpaper() {
+        const bingApiUrl = 'https://cn.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1';
+        fetch(bingApiUrl)
+            .then(response => response.json())
+            .then(data => {
+                // Bing API返回的数据中包含了图片的URL
+                const imageUrl = 'https://www.bing.com' + data.images[0].url;
+                // 更新页面背景
+                document.getElementById('bing-wallpaper').style.backgroundImage = `url('${imageUrl}')`;
+            })
+            .catch(error => console.error('Error fetching Bing wallpaper:', error));
+    }
+
+    // 页面加载完成后获取壁纸
+    window.addEventListener('load', fetchBingWallpaper);
+</script>
+
+</body>
+</html>

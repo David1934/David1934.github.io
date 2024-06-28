@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Random Bing Background</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.5s ease-in-out;
+  }
+</style>
+</head>
+<body>
+<script>
+  function getRandomBingImage() {
+    // 构建请求URL，获取Bing的背景图片
+    var bingUrl = 'https://www.bing.com';
+    var requestUrl = bingUrl + '/HPImageArchive.aspx?format=js&idx=0&n=1&mkt=en-US';
+
+    // 使用fetch API获取图片数据
+    fetch(requestUrl)
+      .then(response => response.json())
+      .then(data => {
+        // 获取图片URL
+        var imageUrl = bingUrl + data.images[0].url;
+        // 设置背景图片
+        document.body.style.backgroundImage = 'url(' + imageUrl + ')';
+      })
+      .catch(error => console.error('Error fetching Bing background:', error));
+  }
+
+  // 页面加载时获取随机背景
+  window.onload = getRandomBingImage;
+</script>
+</body>
+</html>

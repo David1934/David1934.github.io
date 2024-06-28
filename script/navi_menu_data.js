@@ -75,15 +75,23 @@ Favorite2=new Array(
 "Speedtest.net","◆Speedtest.net",
 "www.all-nettools.com/toolbox","All Network Tools", //216.92.207.177/tools1.htm
 "ipaddress.com","◆IP address tools",
+"https://resolve.rs/ip/geolocation.html","◆IP Address Geolocation",
 "tool.chinaz.com","◆站长工具",
 "tool.webmasterhome.cn","◆站长工具2",
 "www.52bt.cn",'哪吒探针', // https://github.com/naiba/nezha
 "www.123cha.com","◆IP,手机归属查询",  //www.e786.com/ip/index.php
 //"ip.loveroot.com","◆IP探索者",
 //"ip.flush.com.cn","IP位置定位",
-"www.metric-conversions.org",'metric conversions',
 "file2hd.com","◆获得网站任何文件",
-"apk-dl.com","GooglePlayAPK下载",
+"https://www.asciitable.com/","ASCII table",
+"https://www.lookuptables.com/text/ascii-table","ASCII table",
+"https://www.allconversions.com","Unit Conversion", // https://www.lookuptables.com/
+"www.metric-conversions.org",'metric conversions',
+"https://www.lookuptables.com/text/html-character-codes",'HTML Character Codes',
+"https://home.unicode.org/",'unicode.org',
+"https://www.lookuptables.com/text/unicode-characters","Unicode Characters and Blocks",
+"https://www.dialingcode.com/","dialing/country codes",
+"https://symbl.cc/en/emoji/",'Full Emoji List',
 "www.docspal.com","文件格式转换",
 "www.PdfUnlock.com","PDF Unlock",
 "www.WebResizer.com","在线图片无损压缩",
@@ -480,7 +488,7 @@ Favorite17=new Array(
 Favorite18=new Array(
 "===国外Apk下载====",
 
-"https://play.google.com/store/apps",'∏ Google Play',
+"https://play.google.com/store/apps",'<&Hopf;> Google Play',
 "https://apps.evozi.com/apk-downloader/",'apps.evozi.com',
 "https://apk-dl.com/",'apk-dl.com',
 
