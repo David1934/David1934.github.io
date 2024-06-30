@@ -33,7 +33,7 @@
         const bingApiUrl = 'https://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1&mkt=en-US';
 
         // 获取每日一图的URL
-        fetch(bingApiUrl)
+        fetch(bingApiUrl, {mode:'no-cors'})
             .then(response => response.json())
             .then(data => {
                 const imageUrl = 'https://www.bing.com' + data.images[0].url;

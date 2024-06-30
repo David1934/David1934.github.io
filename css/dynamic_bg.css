@@ -17,6 +17,16 @@ a{
     text-decoration:none
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  background-size: contain;
+  -webkit-background-size:contain;
+  -moz-background-size:contain;
+  -ms-background-size:contain;
+  -o-background-size:contain;
+}
+
 @font-face{
     font-weight:400;
     font-style:normal
@@ -33,7 +43,7 @@ a{
     color:#fff;
     font-weight:400;
     font-size:30px;
-    text-shadow:4px 4px 5px #c0c0c0
+    text-shadow:4px 4px 5px #000
 }
 
 .list .title{

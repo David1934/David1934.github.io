@@ -1,0 +1,74 @@
+
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="shortcut icon" href="favicon.ico">
+<meta name="viewport" content="width=device-width">
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+<title>阿源定制网络导航--Amazing navigator</title>
+<meta name="keywords" content="阿源定制网络导航">
+<meta name="description" content="阿源定制网络导航">
+<link href="./css/navi_menu.css" type="text/css" rel="stylesheet">
+<link href="./css/star.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<script language="JavaScript1.2" src="script/navi_menu_data.js"></script>
+<script language="JavaScript1.2" src="script/star.js"></script>
+<script language="JavaScript1.2">
+function MakeAItem(Folder,index)
+{
+	var items=0;
+	
+	while(Folder[items+1])
+		items+=2;
+	items/=2;
+
+	if(Folder[0]!="")
+		document.write('<br><br><br><h1>' + Folder[0] + '</h1><br><br>');
+
+	for(var i=1;i<items*2;i+=2)
+	{
+		if(Folder[i]!="-")
+		{
+			//document.write('<li><span class="icon"><img src="images/explorer.png"></span>');
+			document.write('<li><img class="icon" src="images/explorer.png">');
+
+			if(Folder[i].substring(0,8)=='https://')
+				document.write('<a href="' + Folder[i] + '" target=_blank class=text>');
+			else
+				document.write('<a href="http://' + Folder[i] + '" target=_blank class=text>');
+			document.write('<h2>' + Folder[i+1] + '</h2>');
+			document.write('<h3>Amazing navigator</h3></a></li>');
+		}
+
+	}
+	return items;
+}
+</script>
+
+<div class="list">
+<h1 class="title">阿源定制网络导航</h1>
+<h3><a href="day_natural.html">切换到自然风光主题</a></h1>
+
+<script language="JavaScript1.2">
+	var FavoriteName;
+	var Favorite_Num;
+
+	FavoriteName=eval("CoolSite")
+	MakeAItem(FavoriteName,1);
+	Favorite_Num=1;
+	while(eval("window.Favorite"+Favorite_Num))
+		Favorite_Num++;
+
+	for(var i=1;i<Favorite_Num;i++)
+	{
+		FavoriteName=eval("Favorite"+i)
+		MakeAItem(FavoriteName,i+1);
+	}
+</script>
+
+</div> 
+</body>
+</html>
