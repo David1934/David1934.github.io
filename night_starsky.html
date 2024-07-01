@@ -1,6 +1,6 @@
 
 <!doctype html>
-<html>
+<html lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="shortcut icon" href="favicon.ico">
@@ -16,37 +16,7 @@
 <body>
 <script language="JavaScript1.2" src="script/navi_menu_data.js"></script>
 <script language="JavaScript1.2" src="script/star.js"></script>
-<script language="JavaScript1.2">
-function MakeAItem(Folder,index)
-{
-	var items=0;
-	
-	while(Folder[items+1])
-		items+=2;
-	items/=2;
-
-	if(Folder[0]!="")
-		document.write('<br><br><br><h1>' + Folder[0] + '</h1><br><br>');
-
-	for(var i=1;i<items*2;i+=2)
-	{
-		if(Folder[i]!="-")
-		{
-			//document.write('<li><span class="icon"><img src="images/explorer.png"></span>');
-			document.write('<li><img class="icon" src="images/explorer.png">');
-
-			if(Folder[i].substring(0,8)=='https://')
-				document.write('<a href="' + Folder[i] + '" target=_blank class=text>');
-			else
-				document.write('<a href="http://' + Folder[i] + '" target=_blank class=text>');
-			document.write('<h2>' + Folder[i+1] + '</h2>');
-			document.write('<h3>Amazing navigator</h3></a></li>');
-		}
-
-	}
-	return items;
-}
-</script>
+<script language="JavaScript1.2" src="script/navi_menu_code.js"></script>
 
 <div class="list">
 <h1 class="title">阿源定制网络导航</h1>
