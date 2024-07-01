@@ -46,6 +46,7 @@ a{
     margin:5px;
     height:100px;
     width:350px!important;
+    border-radius: 20px;
     background:#fff;
     background:#ffffffc7;
     box-shadow:2px 2px 4px rgba(0,0,0,.2);
@@ -58,6 +59,7 @@ a{
 }
 
 .list li:hover{
+    border-radius: 20px;
     background:#202020;
     box-shadow:2px 2px 4px rgba(0,0,0,.4)
 }
