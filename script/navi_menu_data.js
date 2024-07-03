@@ -30,16 +30,27 @@ CoolSite=new Array(
 "www.Zaobao.com",'联合早报网',"",
 "epaper.xkb.com.cn",'新快报',"",
 "www.nfcmag.com",'◆《南风窗》',"",
-"www.bochk.com",'中银香港',"",
 "","",""
 );
 
 Favorite1=new Array(
 "热门AI",
 
-"https://chatgpt.com","◆ChatGPT","最早最热的AI王者",
+"https://ai.xiabb.chat","◆阿水AI6.0","聚合AI,无需梯子chatGPT服务",
+"https://chat.aimoshu.cc","chatAI","聚合AI,无需梯子chatGPT服务",
+
+"https://chatglm.cn","◆智谱清言","质量不错",
 "https://kimi.moonshot.cn","◆Kimi.AI","很火的免费国内AI",
-"https://www.tiangong.cn","◆天工AI","据说不错",
+"https://www.doubao.com/chat","◆豆包","字节跳动出品",
+"https://yuanbao.tencent.com/chat","◆腾讯元宝","腾讯出品",
+
+"https://tongyi.aliyun.com/qianwen","通义千问","阿里出品",
+"https://www.tiangong.cn","天工AI","国内AI",
+"https://xinghuo.xfyun.cn","讯飞星火","科大讯飞出品",
+"https://yiyan.baidu.com","文心一言","百度出品",
+"https://platform.baichuan-ai.com","百川","国内AI",
+
+"https://chat.openai.com","◆ChatGPT","最早最热的AI王者",
 "https://gemini.google.com","★Google Gemini","Google的AI,效果一般",
 "","",""
 );
@@ -196,11 +207,42 @@ Favorite5=new Array(
 );
 
 Favorite6=new Array(
+"HongKong香港",
+
+"www.hkpl.gov.hk",'◆香港公共图书馆',"",
+"www.weather.com.hk",'香港天气预报',"",
+"www.hko.gov.hk",'香港天文台',"",
+"https://www.edb.gov.hk",'香港教育局',"",
+"www.mtr.com.hk",'香港地铁',"",
+"hketransport.gov.hk",'香港乘車易網',"",
+"bus.mapbar.com/hongkong/",'香港公交换乘1',"",
+"www.kmb.com.hk",'九龍巴士',"",
+"www.nwstbus.com.hk",'城巴_新巴',"", //www.citybus.com.hk
+"www.newlantaobus.com",'新大嶼山巴士',"",
+"maps.google.com.hk",'Google香港地图',"",
+"www.map.gov.hk",'香港gov地图',"香港政府地图",
+"www.ushb.net",'HK特區聯合交通網',"",
+"www.centamap.com",'中原香港地图',"",
+"www.midlandmap.hk",'美聯香港地圖',"",
+"https://www.landsd.gov.hk/sc/resources/mapping-information/hk-geographic-data.html","地政署地图","",
+"www.bochk.com",'中银香港',"",
+"","",""
+);
+
+Favorite7=new Array(
 "电脑菜鸟学苑",
 
 "https://www.runoob.com/","菜鸟教程","多种程序语言工具学习",
 "linux.vbird.org","◆鳥哥的Linux私房菜","历史悠久的Linux入门教程",
 "www.study-area.org",'◆台湾-酷！學園',"",
+"https://www.w3schools.com","Online web tutorials","英文版在线教程",
+"https://www.w3schools.com/css/css_examples.asp","W3Schools CSS Examples","",
+"https://www.w3schools.com/cssref/index.php","css reference","css语法参考",
+"https://www.w3schools.com/icons/icons_reference.asp","Icons from Font","Awesome, Bootstrap and Google",
+"https://www.w3schools.com/css/css_templates.asp","css templates","css模版",
+"https://fct.co/css-templates/","Free css templates","免费的css模版",
+"https://www.w3schools.com/css/css_website.asp","css website","",
+"https://www.w3schools.com/spaces/index.php","W3Schools Spaces","",
 "www.eet-china.com","电子工程专辑","",
 "www.icpcw.com","电脑报","",
 "","",""
