@@ -7,7 +7,7 @@ function MakeAItem(Folder,index)
 	items/=3;
 
 	if(Folder[0]!="")
-		document.write('<br><br><br><h1>' + Folder[0] + '</h1><br><br>');
+		document.write('<br><br><br><p class="category">' + Folder[0] + '</p><br><br>');
 
 	for(var i=1;i<items*3;i+=3)
 	{

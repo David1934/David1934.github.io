@@ -34,7 +34,7 @@ CoolSite=new Array(
 );
 
 Favorite1=new Array(
-"热门AI",
+"热门AI工具",
 
 "https://ai.xiabb.chat","◆阿水AI6.0","聚合AI,无需梯子chatGPT服务",
 "https://chat.aimoshu.cc","chatAI","聚合AI,无需梯子chatGPT服务",
@@ -56,7 +56,7 @@ Favorite1=new Array(
 );
 
 Favorite2=new Array(
-"在线字典.语言学习",
+"在线字典-语言学习",
 
 "www.inputking.com","在线多语言输入","在线多语言输入",
 "www.cantoneseinput.com","◆在线粤语输入","◆在线粤语输入",
