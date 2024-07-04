@@ -4,19 +4,21 @@ CoolSite=new Array(
 "support.adapsphotonics.com","Redmine","项目问题进度跟踪",
 "https://www.teambition.com","Teambition","问题跟踪,技术文档",
 "https://qiye.aliyun.com","阿里云企业邮箱","收发公司邮件",
+"https://login.partner.microsoftonline.cn","微软office365","",
 "https://ace.adapsphotonics.com:6002/login.xhtml","工时登记系统","查看填写工时,需在公司内网",
 "https://vm.adaps.cn","vmware云桌面","查看SVN资料,需在公司内网",
 "ci.adaps.corp/ReleaseServer","内部发布软件下载","需在公司内网",
 "gerrit.adaps.corp","软件gerrit服务器","需在公司内网",
 "ci.adaps.corp:8080","软件Jenkins服务器","需在公司内网",
+"https://thoughts.teambition.com/workspaces/6010c01531fe71004633fea0/docs/63d9d1a9ce56760001c15c51","QRD8550手机流转记录","",
 "","",""
 );
 
 Favorite1=new Array(
 "热门AI",
 
+"https://chat.openai.com","◆ChatGPT","最早最热的AI王者",
 "https://metaso.cn","◆秘塔AI搜索","国内免费AI搜索",
-"https://ai.xiabb.chat","◆阿水AI6.0","聚合AI,无需梯子chatGPT服务",
 "https://chat.aimoshu.cc","chatAI","聚合AI,无需梯子chatGPT服务",
 
 "https://chatglm.cn","◆智谱清言","质量不错",
@@ -30,13 +32,16 @@ Favorite1=new Array(
 "https://yiyan.baidu.com","文心一言","百度出品",
 "https://platform.baichuan-ai.com","百川","国内AI",
 
-"https://chat.openai.com","◆ChatGPT","最早最热的AI王者",
 "https://gemini.google.com","★Google Gemini","Google的AI,效果一般",
 "","",""
 );
 
 Favorite2=new Array(
 "软件开发相关",
+
+"https://redmine.rock-chips.com",'瑞星微redmine',"Rockchip技术支持",
+"https://e2e.ti.com",'TI e2e',"TI技术支持",
+"https://myaccount.qualcomm.com/profile",'Qualcomm开发相关',"高通技术支持",
 
 "https://www.chaspark.com/#/patents/","◆查思专利","不注册也可查",
 "www.sipo.gov.cn/sipo/zljs/default.htm",'专利检索',"",
