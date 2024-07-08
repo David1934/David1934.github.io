@@ -95,10 +95,13 @@ Favorite8=new Array(
 );
 
 Favorite10=new Array(
-"热门AI",
+"搜索引擎 & 热门AI",
 
-"https://chat.openai.com","◆ChatGPT","最早最热的AI王者",
+"https://www.google.com","★Google","",
 "https://metaso.cn","◆秘塔AI搜索","国内免费AI搜索",
+"https://cn.bing.com/?ensearch=1","Bing国际版","无需梯子",
+
+"https://chat.openai.com","★◆ChatGPT","最早最热的AI王者",
 "https://chat.aimoshu.cc","chatAI","聚合AI,无需梯子chatGPT服务",
 
 "https://chatglm.cn","◆智谱清言","质量不错",

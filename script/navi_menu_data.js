@@ -50,7 +50,7 @@ Favorite1=new Array(
 "https://yiyan.baidu.com","文心一言","百度出品",
 "https://platform.baichuan-ai.com","百川","国内AI",
 
-"https://chat.openai.com","◆ChatGPT","最早最热的AI王者",
+"https://chat.openai.com","★ChatGPT","最早最热的AI王者",
 "https://gemini.google.com","★Google Gemini","Google的AI,效果一般",
 "","",""
 );
@@ -88,7 +88,7 @@ Favorite2=new Array(
 "dict.cnki.net","CNKI翻译助手","",
 "www.iciba.net","金山词霸在线词典","",
 "dict.yodao.com/","有道海量词典","",
-"translate.google.com/translate_t",'◆Google多语言翻译',"", //www.google.com/language_tools?hl=en
+"translate.google.com/translate_t",'★◆Google多语言翻译',"", //www.google.com/language_tools?hl=en
 "www.allwords.com",'西方多语言词典',"",
 "www.dict.org",'Dict.Org',"",
 "www.thefreedictionary.com",'Free Dictionary',"",
@@ -188,8 +188,8 @@ Favorite5=new Array(
 "www.patent.com.cn",'中国专利信息网',"",
 
 "www.ip-adress.com/ip_tracer/encrypted.google.com","★查加密谷歌IP","",
-"www.google.com/codesearch","Google代码搜索","",
-"code.google.com","Google Code","",
+"www.google.com/codesearch","★Google代码搜索","",
+"code.google.com","★Google Code","",
 
 "www.all-nettools.com/toolbox","All Network Tools","", //216.92.207.177/tools1.htm
 "ipaddress.com","◆IP address tools","",

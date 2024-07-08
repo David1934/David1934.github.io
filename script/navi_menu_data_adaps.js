@@ -10,15 +10,18 @@ CoolSite=new Array(
 "ci.adaps.corp/ReleaseServer","内部发布软件下载","需在公司内网",
 "gerrit.adaps.corp","软件gerrit服务器","需在公司内网",
 "ci.adaps.corp:8080","软件Jenkins服务器","需在公司内网",
-"https://thoughts.teambition.com/workspaces/6010c01531fe71004633fea0/docs/63d9d1a9ce56760001c15c51","QRD8550手机流转记录","",
+"https://thoughts.teambition.com/workspaces/6010c01531fe71004633fea0/docs/63d9d1a9ce56760001c15c51","QRD8550手机流转记录","需登录",
 "","",""
 );
 
 Favorite1=new Array(
-"热门AI",
+"搜索引擎 & 热门AI",
 
-"https://chat.openai.com","◆ChatGPT","最早最热的AI王者",
+"https://www.google.com","★Google","",
 "https://metaso.cn","◆秘塔AI搜索","国内免费AI搜索",
+"https://cn.bing.com/?ensearch=1","Bing国际版","无需梯子",
+
+"https://chat.openai.com","★◆ChatGPT","最早最热的AI王者",
 "https://chat.aimoshu.cc","chatAI","聚合AI,无需梯子chatGPT服务",
 
 "https://chatglm.cn","◆智谱清言","质量不错",
