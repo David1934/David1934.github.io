@@ -3,6 +3,14 @@ CoolSite=new Array(
 
 "https://space.bilibili.com/485578465","语文--国家玮-开明致学","",
 "https://space.bilibili.com/442129187","语文--乘风","",
+"https://space.bilibili.com/39737405","语文--学过石油的语文老师","",
+"https://space.bilibili.com/14229967","数学--一数","",
+"https://space.bilibili.com/123321175","数学--佟大大还是ETT","",
+"https://space.bilibili.com/321084528","历史--历史老师定哥","",
+"https://space.bilibili.com/402847001","历史政治--段sir是懂王","",
+"https://space.bilibili.com/3494354035411221","政治--琳妈讲政治","",
+"https://space.bilibili.com/281416828","政治--FredTao高考政治","",
+"https://space.bilibili.com/2036187097","生物--一生儿","",
 "","",""
 );
 
@@ -94,7 +102,62 @@ Favorite8=new Array(
 "","",""
 );
 
+Favorite9=new Array(
+"凉学长-高一数学必修一同步课",
+
+"https://www.bilibili.com/video/BV1j841117wj","01.集合的概念＆基本关系＆基本运算<br>2:08:46","",
+"https://www.bilibili.com/video/BV1j841117wj?p=2","02.充分必要条件＆全称量词存在量词<br>2:13:03","",
+"https://www.bilibili.com/video/BV1j841117wj?p=3","03.集合与常用逻辑用语拔高篇<br>2:11:56","",
+"https://www.bilibili.com/video/BV1j841117wj?p=4","04.集合与常用逻辑用语习题讲解<br>1:57:26","",
+"https://www.bilibili.com/video/BV1j841117wj?p=5","05.等式性质与不等式性质<br>1:18:24","",
+"https://www.bilibili.com/video/BV1j841117wj?p=6","06.基本不等式<br>2:04:33","",
+"https://www.bilibili.com/video/BV1j841117wj?p=7","07.二次函数与一元二次方程、不等式<br>55:05","",
+"https://www.bilibili.com/video/BV1j841117wj?p=8","08.一元二次函数、方程、不等式拔高篇<br>1:19:13","",
+"https://www.bilibili.com/video/BV1j841117wj?p=9","09.一元二次函数、方程、不等式习题讲解<br>2:11:20","",
+"https://www.bilibili.com/video/BV1j841117wj?p=10","010.函数的概念及其表示＆定义域值域<br>1:31:00","",
+"https://www.bilibili.com/video/BV1j841117wj?p=11","011.函数的单调性、奇偶性、周期性、对称性<br>1:49:07","",
+"https://www.bilibili.com/video/BV1j841117wj?p=12","012.对数函数、指数函数、幂函数、分段函数<br>3:49:05","",
+"https://www.bilibili.com/video/BV1j841117wj?p=13","013.初等函数图像与反函数<br>54:57","",
+"https://www.bilibili.com/video/BV1j841117wj?p=14","014.函数的零点与二分法＆实际应用模型（1）<br>45:04","",
+"https://www.bilibili.com/video/BV1j841117wj?p=15","015.抽象函数大总结<br>1:04:55","",
+"https://www.bilibili.com/video/BV1j841117wj?p=16","016.函数的零点与二分法＆实际应用模型（2）<br>45:54","",
+"https://www.bilibili.com/video/BV1j841117wj?p=17","017.高中数学的基石——函数拔高篇<br>1:36:30","",
+"https://www.bilibili.com/video/BV1j841117wj?p=18","018.高中数学的基石——函数习题讲解篇<br>1:47:18","",
+"https://www.bilibili.com/video/BV1j841117wj?p=19","019.高一必修一—函数知识补充<br>49:24","",
+"https://www.bilibili.com/video/BV1j841117wj?p=20","020.高一必修一【期中复习】<br>2:29:03","",
+"https://www.bilibili.com/video/BV1j841117wj?p=21","021.三角函数任意角＆弧度制＆三角函数的概念<br>1:58:35","",
+"https://www.bilibili.com/video/BV1j841117wj?p=22","022.诱导公式+习题<br>1:50:48","",
+"https://www.bilibili.com/video/BV1j841117wj?p=23","023.诱导公式＆合角公式＆二倍角公式<br>51:54","",
+"https://www.bilibili.com/video/BV1j841117wj?p=24","024.三角函数的图像<br>1:09:50","",
+"https://www.bilibili.com/video/BV1j841117wj?p=25","025.三角函数的应用（振幅、周期、频率、相位）<br>1:09:39","",
+"https://www.bilibili.com/video/BV1j841117wj?p=26","026.三角函数恒等变换与习题<br>1:50:32","",
+"https://www.bilibili.com/video/BV1j841117wj?p=27","027.三角恒等变换与化简<br>38:47","",
+"https://www.bilibili.com/video/BV1j841117wj?p=28","028.三角函数拔高篇<br>1:08:55","",
+"https://www.bilibili.com/video/BV1j841117wj?p=29","029.三角函数习题讲解<br>1:00:27","",
+"https://www.bilibili.com/video/BV1j841117wj?p=30","030.集合与常用逻辑用语【期末复习】<br>29:52","",
+"https://www.bilibili.com/video/BV1j841117wj?p=31","031.一元二次函数、方程和不等式【期末复习】<br>29:54","",
+"https://www.bilibili.com/video/BV1j841117wj?p=32","032.函数的概念及其性质【期末复习】<br>1:13:35","",
+"https://www.bilibili.com/video/BV1j841117wj?p=33","033.三角函数【期末复习】<br>1:10:00","",
+"","",""
+);
+
 Favorite10=new Array(
+"高考历史·选择题第一季(1--199)",
+
+"https://www.bilibili.com/video/BV14f4y1R7yo?p=1","P1 学习方法＋课程介绍<br>07:31","",
+"https://www.bilibili.com/video/BV14f4y1R7yo?p=2","P2 考点1：切片1 周·分封制的概念<br>05:23","",
+"","",""
+);
+
+Favorite11=new Array(
+"学考",
+
+"https://www.bilibili.com/video/BV1Rz421z7AJ","高中生物合格考复习","",
+"","",""
+);
+
+
+Favorite12=new Array(
 "搜索引擎 & 热门AI",
 
 "https://www.google.com","★Google","",
