@@ -39,7 +39,10 @@ function MakeAItem(Folder,index)
 			else
 				document.write('<a href="http://' + Folder[i] + '" target=_blank class=text>');
 
-			document.write('<h4>' + Folder[i+1] + '</h4></a></li>');
+			document.write('<h4>' + Folder[i+1] + '</h4>');
+			if(Folder[i+2]!="")
+				document.write('<h4>' + Folder[i+2] + '</h4>');
+			document.write('</a></li>');
 		}
 
 	}

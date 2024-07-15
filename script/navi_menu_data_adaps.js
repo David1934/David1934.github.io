@@ -20,6 +20,7 @@ Favorite1=new Array(
 "https://www.google.com","★Google","",
 "https://metaso.cn","◆秘塔AI搜索","国内免费AI搜索",
 "https://cn.bing.com/?ensearch=1","Bing国际版","无需梯子",
+"www.wikipedia.org",'★WikiPedia',"维基百科",
 
 "https://chat.openai.com","★◆ChatGPT","最早最热的AI王者",
 "https://chat.aimoshu.cc","chatAI","聚合AI,无需梯子chatGPT服务",

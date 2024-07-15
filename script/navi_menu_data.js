@@ -19,13 +19,13 @@ DNS服务器:
 CoolSite=new Array(
 "日常使用",
 
-"https://metaso.cn","◆秘塔AI搜索","国内免费AI搜索",
 "https://kimi.moonshot.cn","◆Kimi.AI","很火的国内AI",
 "https://ai.xiabb.chat","◆阿水AI6.0","无需梯子chatGPT服务",
-"https://www.google.com","★Google","AI前的王者,常需梯子", //ggssl.com
 "https://cn.bing.com/?ensearch=1","Bing国际版","无需梯子,无奈选择",
-"https://www.google.com/reader/","Google阅读器","",
-"www.google.com/ncr","Google/ncr","",   //no country redirect
+"https://metaso.cn","◆秘塔AI搜索","国内免费AI搜索",
+"https://www.google.com","★Google","AI前的王者,常需梯子", //ggssl.com
+//"https://www.google.com/reader/","Google阅读器","",
+"www.google.com/ncr","★Google/ncr","",   //no country redirect
 "www.cctv.com.cn/program/mzzlbg/06/index.shtml",'◆CCTV每周质量报告',"",
 "www.Zaobao.com",'联合早报网',"",
 "epaper.xkb.com.cn",'新快报',"",
@@ -34,7 +34,12 @@ CoolSite=new Array(
 );
 
 Favorite1=new Array(
-"热门AI工具",
+"搜索引擎 & 热门AI",
+
+"https://www.google.com","★Google","",
+"www.wikipedia.org",'★WikiPedia',"维基百科",
+"https://metaso.cn","◆秘塔AI搜索","国内免费AI搜索",
+"https://cn.bing.com/?ensearch=1","Bing国际版","无需梯子",
 
 "https://ai.xiabb.chat","◆阿水AI6.0","聚合AI,无需梯子chatGPT服务",
 "https://chat.aimoshu.cc","chatAI","聚合AI,无需梯子chatGPT服务",
@@ -50,7 +55,7 @@ Favorite1=new Array(
 "https://yiyan.baidu.com","文心一言","百度出品",
 "https://platform.baichuan-ai.com","百川","国内AI",
 
-"https://chat.openai.com","★ChatGPT","最早最热的AI王者",
+"https://chat.openai.com","★◆ChatGPT","最早最热的AI王者",
 "https://gemini.google.com","★Google Gemini","Google的AI,效果一般",
 "","",""
 );
@@ -190,6 +195,14 @@ Favorite5=new Array(
 "www.ip-adress.com/ip_tracer/encrypted.google.com","★查加密谷歌IP","",
 "www.google.com/codesearch","★Google代码搜索","",
 "code.google.com","★Google Code","",
+
+"www.makelinux.net/kernel_map/",'◆Linux Kernel Map',"",
+"www.makelinux.net/ldd3/",'LinuxDeviceDrivers 3rd',"",
+
+"www.gnu.org/software/libc/manual/html_node/index.html",'◆GNU C库指南',"",
+"www.datasheetcatalog.com",'◆DatasheetCatalog',"",
+"www.unicode.org",'UniCode.Org',"",
+"www.mandarintools.com",'在线中文工具',"",
 
 "www.all-nettools.com/toolbox","All Network Tools","", //216.92.207.177/tools1.htm
 "ipaddress.com","◆IP address tools","",
