@@ -20,7 +20,7 @@ CoolSite=new Array(
 "日常使用",
 
 "https://kimi.moonshot.cn","◆Kimi.AI","很火的国内AI",
-"https://ai.xiabb.chat","◆阿水AI6.0","无需梯子chatGPT服务",
+"https://ai.xiabb.chat","◆阿水AI6.0","聚合AI,无需梯子chatGPT服务",
 "https://cn.bing.com/?ensearch=1","Bing国际版","无需梯子,无奈选择",
 "https://metaso.cn","◆秘塔AI搜索","国内免费AI搜索",
 "https://www.google.com","★Google","AI前的王者,常需梯子", //ggssl.com

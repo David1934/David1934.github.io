@@ -23,6 +23,7 @@ Favorite1=new Array(
 "www.wikipedia.org",'★WikiPedia',"维基百科",
 
 "https://chat.openai.com","★◆ChatGPT","最早最热的AI王者",
+"https://ai.xiabb.chat","◆阿水AI6.0","聚合AI,无需梯子chatGPT服务",
 "https://chat.aimoshu.cc","chatAI","聚合AI,无需梯子chatGPT服务",
 
 "https://chatglm.cn","◆智谱清言","质量不错",
