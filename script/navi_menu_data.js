@@ -222,23 +222,29 @@ Favorite5=new Array(
 Favorite6=new Array(
 "HongKong香港",
 
-"www.hkpl.gov.hk",'◆香港公共图书馆',"",
-"www.weather.com.hk",'香港天气预报',"",
-"www.hko.gov.hk",'香港天文台',"",
 "https://www.edb.gov.hk",'香港教育局',"",
-"www.mtr.com.hk",'香港地铁',"",
+"www.hko.gov.hk",'香港天文臺',"",
+"www.weather.com.hk",'香港天氣預報',"",
+"www.hkpl.gov.hk",'◆香港公共圖書館',"",
+"www.cactm.edu.hk",'宣道中學',"",
+"www.hft.edu.hk",'何福堂小學',"",
+
+"news.gov.hk",'香港政府新聞網',"",
+"www.consumer.org.hk","◆HK消費者委員會","",
+
+"www.mtr.com.hk",'香港地鐵',"",
 "hketransport.gov.hk",'香港乘車易網',"",
-"bus.mapbar.com/hongkong/",'香港公交换乘1',"",
+"bus.mapbar.com/hongkong/",'香港公交換乘1',"",
 "www.kmb.com.hk",'九龍巴士',"",
 "www.nwstbus.com.hk",'城巴_新巴',"", //www.citybus.com.hk
 "www.newlantaobus.com",'新大嶼山巴士',"",
-"maps.google.com.hk",'Google香港地图',"",
-"www.map.gov.hk",'香港gov地图',"香港政府地图",
+"maps.google.com.hk",'Google香港地圖',"",
+"www.map.gov.hk",'香港gov地圖',"香港政府地圖",
 "www.ushb.net",'HK特區聯合交通網',"",
-"www.centamap.com",'中原香港地图',"",
+"www.centamap.com",'中原香港地圖',"",
 "www.midlandmap.hk",'美聯香港地圖',"",
-"https://www.landsd.gov.hk/sc/resources/mapping-information/hk-geographic-data.html","地政署地图","",
-"www.bochk.com",'中银香港',"",
+"https://www.landsd.gov.hk/sc/resources/mapping-information/hk-geographic-data.html","地政署地圖","",
+"www.bochk.com",'中銀香港',"",
 "","",""
 );
 
