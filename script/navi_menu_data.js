@@ -188,6 +188,8 @@ Favorite4=new Array(
 Favorite5=new Array(
 "软件开发相关",
 
+"https://www.drawio.com",'draw.io',"免费的画图工具",
+"https://www.rainpat.com",'润桐RainPat专利检索',"",
 "https://www.chaspark.com/#/patents/","◆查思专利","不注册也可查",
 "www.sipo.gov.cn/sipo/zljs/default.htm",'专利检索',"",
 "www.patent.com.cn",'中国专利信息网',"",
@@ -226,8 +228,12 @@ Favorite6=new Array(
 "www.hko.gov.hk",'香港天文臺',"",
 "www.weather.com.hk",'香港天氣預報',"",
 "www.hkpl.gov.hk",'◆香港公共圖書館',"",
+
 "www.cactm.edu.hk",'宣道中學',"",
 "www.hft.edu.hk",'何福堂小學',"",
+"www.zdic.net",'漢典',"",
+"https://dict.revised.moe.edu.tw",'國語詞典',"",
+"https://humanum.arts.cuhk.edu.hk/Lexis/Canton/",'粵音韻彙',"",
 
 "news.gov.hk",'香港政府新聞網',"",
 "www.consumer.org.hk","◆HK消費者委員會","",

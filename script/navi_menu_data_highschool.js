@@ -217,6 +217,7 @@ Favorite13=new Array(
 Favorite14=new Array(
 "搜索引擎 & 热门AI",
 
+"https://jc.pep.com.cn","人教版中小学教材","在线电子版",
 "https://www.google.com","★Google","",
 "https://metaso.cn","◆秘塔AI搜索","国内免费AI搜索",
 "https://cn.bing.com/?ensearch=1","Bing国际版","无需梯子",
