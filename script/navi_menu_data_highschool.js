@@ -218,32 +218,38 @@ Favorite14=new Array(
 "搜索引擎 & 热门AI",
 
 "https://jc.pep.com.cn","人教版中小学教材","在线电子版",
+
 "https://www.google.com","★Google","",
+"www.wikipedia.org",'★WikiPedia',"维基百科",
 "https://metaso.cn","◆秘塔AI搜索","国内免费AI搜索",
 "https://cn.bing.com/?ensearch=1","Bing国际版","无需梯子",
 
-"https://chat.openai.com","★◆ChatGPT","最早最热的AI王者",
+"https://ai.xiabb.chat","◆阿水AI6.0","聚合AI,无需梯子chatGPT服务",
 "https://chat.aimoshu.cc","chatAI","聚合AI,无需梯子chatGPT服务",
 
-"https://chatglm.cn","◆智谱清言","质量不错",
-"https://kimi.moonshot.cn","◆Kimi.AI","很火的免费国内AI",
 "https://www.doubao.com/chat","◆豆包","字节跳动出品",
-"https://yuanbao.tencent.com/chat","◆腾讯元宝","腾讯出品",
+"https://yiyan.baidu.com","◆文心一言","百度出品",
+"https://chatglm.cn","◆智谱清言","质量不错",
+"https://www.tiangong.cn","◆天工AI","国内AI",
+"https://kimi.moonshot.cn","◆Kimi.AI","很火的免费国内AI",
 
 "https://tongyi.aliyun.com/qianwen","通义千问","阿里出品",
-"https://www.tiangong.cn","天工AI","国内AI",
 "https://xinghuo.xfyun.cn","讯飞星火","科大讯飞出品",
-"https://yiyan.baidu.com","文心一言","百度出品",
-"https://platform.baichuan-ai.com","百川","国内AI",
 
+"https://yuanbao.tencent.com/chat","腾讯元宝","腾讯出品",
+
+
+"https://chat.openai.com","★◆ChatGPT","最早最热的AI王者",
 "https://gemini.google.com","★Google Gemini","Google的AI,效果一般",
 "","",""
 );
 
-Favorite15=new Array(
-"学考",
+Favorite16=new Array(
+"AI答题",
 
-"https://www.bilibili.com/video/BV1Rz421z7AJ","高中生物合格考复习","",
+"https://chat.mathsolver.top","AI数学拍照解题","ygzly01@163.com",
+"https://math-gpt.org","数学gpt","david51485220@gmail.com",
+"https://mymathsolver.ai/zh-CN","AI数学求解器","",
 "","",""
 );
 

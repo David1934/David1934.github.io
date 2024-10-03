@@ -44,16 +44,17 @@ Favorite1=new Array(
 "https://ai.xiabb.chat","◆阿水AI6.0","聚合AI,无需梯子chatGPT服务",
 "https://chat.aimoshu.cc","chatAI","聚合AI,无需梯子chatGPT服务",
 
-"https://chatglm.cn","◆智谱清言","质量不错",
-"https://kimi.moonshot.cn","◆Kimi.AI","很火的免费国内AI",
 "https://www.doubao.com/chat","◆豆包","字节跳动出品",
-"https://yuanbao.tencent.com/chat","◆腾讯元宝","腾讯出品",
+"https://yiyan.baidu.com","◆文心一言","百度出品",
+"https://chatglm.cn","◆智谱清言","质量不错",
+"https://www.tiangong.cn","◆天工AI","国内AI",
+"https://kimi.moonshot.cn","◆Kimi.AI","很火的免费国内AI",
 
 "https://tongyi.aliyun.com/qianwen","通义千问","阿里出品",
-"https://www.tiangong.cn","天工AI","国内AI",
 "https://xinghuo.xfyun.cn","讯飞星火","科大讯飞出品",
-"https://yiyan.baidu.com","文心一言","百度出品",
-"https://platform.baichuan-ai.com","百川","国内AI",
+
+"https://yuanbao.tencent.com/chat","腾讯元宝","腾讯出品",
+
 
 "https://chat.openai.com","★◆ChatGPT","最早最热的AI王者",
 "https://gemini.google.com","★Google Gemini","Google的AI,效果一般",
@@ -73,8 +74,18 @@ Favorite2=new Array(
 "www.differencebetween.info",'◆DiffBetween',"",
 "www.afterdawn.com/glossary/",'◆IT glossary',"",
 "www.zdic.net",'◆在线汉语字典',"",
-"www.edbchinese.hk/lexlist_ch/",'◆香港小學學習字詞表',"",
+"https://pinyin.info/romanization/compare/hanyu.html",'◆漢語拼音羅馬化',"Hanyu Pinyin romanization",
+"https://www.bmcx.com/wadegiles__pinyinconversion/",'◆威妥玛拼音转换',"",
+"https://www.zdic.net/ts/fulu/2019/05/18.html",'◆汉语拼音与其他对照表',"",
+
+"https://www.iamwawa.cn/yuepin.html",'◆粤语拼音转换工具',"",
+
 "humanum.arts.cuhk.edu.hk/Lexis/lexi-can/",'◆粵語審音配詞字庫',"",
+"www.edbchinese.hk/lexlist_ch/",'◆香港小學學習字詞表',"",
+"https://crptransfer.moe.gov.tw/",'◆拼音查詢',"",
+"https://dict.mini.moe.edu.tw/",'◆國語小詞典',"臺灣教育部",
+"https://dict.concised.moe.edu.tw",'◆國語辭典簡編本',"臺灣教育部",
+"https://dict.idioms.moe.edu.tw",'◆成語典',"",
 
 "www.chineseetymology.org",'◆中文词源',"", // https://hanziyuan.net/
 
@@ -133,6 +144,7 @@ Favorite3=new Array(
 "https://en.aptoide.com/group/applications",'Aptoide',"将Google Play应用下载到电脑",
 "https://apkpure.com",'Apkpure',"将Google Play应用下载到电脑",
 "apkleecher.com",'apkleecher.com',"将Google Play应用下载到电脑",
+"https://apkpac.com",'ApkPAC',"将Google Play应用下载到电脑",
 
 "www.virustotal.com",'◆单文件多引擎查毒1','上传文件在线查毒',
 "virusscan.jotti.org",'单文件多引擎查毒2','上传文件在线查毒',
@@ -189,6 +201,10 @@ Favorite5=new Array(
 "软件开发相关",
 
 "https://www.drawio.com",'draw.io',"免费的画图工具",
+"https://lvgl.io",'LVGL for embedded',"",
+"https://github.com/eez-open/studio",'EEZ Studio',"",
+"https://uviewui.com",'uView UI',"跨平台多端UI框架",
+
 "https://www.rainpat.com",'润桐RainPat专利检索',"",
 "https://www.chaspark.com/#/patents/","◆查思专利","不注册也可查",
 "www.sipo.gov.cn/sipo/zljs/default.htm",'专利检索',"",
@@ -196,6 +212,11 @@ Favorite5=new Array(
 
 "www.ip-adress.com/ip_tracer/encrypted.google.com","★查加密谷歌IP","",
 "www.google.com/codesearch","★Google代码搜索","",
+
+"https://elixir.bootlin.com/linux/latest/source","Linux kernel源码","",
+"https://github.com/aosp-mirror","Android AOSP源码","github",
+"androidxref.com/","Android XRef","",
+"https://code.google.com/archive/p/android-source-browsing/source","Android-source-browsing","",
 "code.google.com","★Google Code","",
 
 "www.makelinux.net/kernel_map/",'◆Linux Kernel Map',"",
@@ -235,6 +256,14 @@ Favorite6=new Array(
 "https://dict.revised.moe.edu.tw",'國語詞典',"",
 "https://humanum.arts.cuhk.edu.hk/Lexis/Canton/",'粵音韻彙',"",
 
+"https://www.bilibili.com/video/BV1st4y1r7Dr/",'香港中学数学全69P',"香港教育电视（粤语）",
+"https://isolution.oupchina.com.hk",'Oxford iSolution網頁版',"",
+"https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/nss-lang/settext-text.html",'指定文言經典學習材料',"原文及誦讀錄音",
+"https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/resources/practical-writing/practical-writing.html",'中小學實用文寫作參考資料',"",
+"https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/chinese-culture/chi-culture-main.html",'中華經典名句',"",
+"https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/resources/secondary-edu/lang/reciting-mp3.html",'中學古詩文誦讀材料選編',"",
+"https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/resources/secondary-edu/lang/culture.html",'中華文化學與教資源套',"",
+
 "news.gov.hk",'香港政府新聞網',"",
 "www.consumer.org.hk","◆HK消費者委員會","",
 
@@ -251,6 +280,11 @@ Favorite6=new Array(
 "www.midlandmap.hk",'美聯香港地圖',"",
 "https://www.landsd.gov.hk/sc/resources/mapping-information/hk-geographic-data.html","地政署地圖","",
 "www.bochk.com",'中銀香港',"",
+
+"https://www.edb.gov.hk/tc/edu-system/postsecondary/policy-doc/pilot-scheme.html",'內地高校招收香港學生計劃',"",
+"https://www.eeagd.edu.cn/lzks/main.jsp",'2024年联合招生管理系统',"",
+"https://eea.gd.gov.cn/bmbk/index.html",'广东省教育考试院',"",
+"https://www.cactm.edu.hk/~careers/",'升學及就業輔導部',"宣道中學",
 "","",""
 );
 
