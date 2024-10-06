@@ -6,6 +6,7 @@ CoolSite=new Array(
 "https://space.bilibili.com/442129187","语文--乘风","",
 "https://space.bilibili.com/14229967","数学--一数","",
 "https://space.bilibili.com/123321175","数学--佟大大还是ETT","",
+"https://space.bilibili.com/3546705530194223","数学--北大数学胡源老师","",
 "https://space.bilibili.com/321084528","历史--历史老师定哥","",
 "https://space.bilibili.com/402847001","历史政治--段sir是懂王","",
 "https://space.bilibili.com/3494354035411221","政治--琳妈讲政治","",
@@ -15,12 +16,87 @@ CoolSite=new Array(
 );
 
 Favorite1=new Array(
+"AI拍照解题",
+
+"https://chat.mathsolver.top","AI数学拍照解题","ygzly01@163.com",
+"https://math-gpt.org","数学gpt","david51485220@gmail.com",
+"https://mymathsolver.ai/zh-CN","AI数学求解器","",
+"","",""
+);
+
+Favorite2=new Array(
+"高中数学同步课 人教版A版<br>必修第1册（高一上学期）",
+
+"https://www.bilibili.com/video/BV1mv411L7wm","滴答课堂-80parts","",
+"https://www.bilibili.com/video/av36798054","滴答课堂-76parts","",
+"https://www.bilibili.com/video/av70352150","锦城大同教育-32parts","",
+"https://www.bilibili.com/video/BV1EU4y1N78f","高中学习之家-63parts","",
+"https://www.bilibili.com/video/BV1j841117wj","凉学长-33parts","",
+"","",""
+);
+
+Favorite3=new Array(
+"高中数学同步课 人教版A版<br>必修第2册（高一下学期）",
+
+"https://www.bilibili.com/video/av540344024","dc008-79parts","国家中小学网络云课堂",
+"https://www.bilibili.com/video/BV12b4y197bm","dc008-66parts","山东省实验中学",
+"https://www.bilibili.com/video/av18417339","高中学习帮-21parts","教室录屏",
+"","",""
+);
+
+Favorite4=new Array(
+"高中数学同步课 人教版A版<br>选择性必修第1册（高二上学期）",
+
+"https://www.bilibili.com/video/BV1qV411T76X","bluehouse123-50parts","",
+"https://www.bilibili.com/video/BV17o4y1Q7i5","青歌Kuroha-50parts","",
+"https://www.bilibili.com/video/BV1k94y1R73n","名师课堂-27parts","",
+"https://www.bilibili.com/video/BV16W1XYTEK5","砚池学院-英语-30parts","",
+"","",""
+);
+
+Favorite5=new Array(
+"高中数学同步课 人教版A版<br>选择性必修第2册（高二下学期）",
+
+"https://www.bilibili.com/video/BV1Ej411Z7Zp","bluehouse123-30parts","",
+"https://www.bilibili.com/video/av245282959","dc008-30parts","",
+"","",""
+);
+
+Favorite6=new Array(
+"高中数学同步课 人教版A版<br>选择性必修第3册（高二下学期）",
+
+"https://www.bilibili.com/video/BV1Mx4y1o7Yw","bluehouse123-28parts","",
+"https://www.bilibili.com/video/BV14m4y19719","dc008-28parts","",
+"","",""
+);
+
+Favorite7=new Array(
+"其他好视频-数学",
+/*
+* 本合集包含高中数学必修一，必修二，必修三，必修四，必修五（2019年新版必修同样适用），
+* 讲解顺序为1-4-5-2-3。
+* 一数辞典讲解基础知识，从零开始也一定看的懂，考点精华涵盖该章节所有主流方法！有了一数，
+* 学习数学不再求人[打call]
+* 中间部分视频片头较长，可以跳过，后面均改成了6秒短片头。
+* 由于视频较多，如果某个视频内大家发现了笔误等问题，可以私信UP或者评论留言均可,UP会修改
+* 视频确保每节课都没有任何问题！一数粉丝越来越多，谢谢大家的支持与喜爱
+*/
+"https://www.bilibili.com/video/BV147411K7xu","一数：高中数学基础与解法全集","从零开始拯救所有学渣！通俗易懂",
+"https://www.bilibili.com/video/BV1w7411w7kQ","一数：高考数学通法逆袭全集","高考复习有这个就够了！",
+"https://www.bilibili.com/video/BV1mE421A71a","一数：必刷100讲，新版来了！","高考数学救星,就看TA！",
+"https://www.bilibili.com/video/BV1dPxve7EQm","赵礼显：空间向量及其运算","",
+"https://basic.smartedu.cn/syncClassroom?defaultTag=e7bbcefe-0590-11ed-9c79-92fc3b3249d5%2Fe7bbcf80-0590-11ed-9c79-92fc3b3249d5%2F5036342963%2F5036342972&reportHistory=true","国家中小学智慧教育平台：高中.数学.人教A版","",
+"","",""
+);
+
+
+Favorite8=new Array(
 "学过石油的语文老师-语文",
 
 "https://www.bilibili.com/video/BV1xd4y1R7ea","高中语文？所有考点！体系搭建？新学期称王！","",
 "https://www.bilibili.com/video/BV19M4y1P7iN","如何提高？选择题正确率！","选择题翻身",
 "https://www.bilibili.com/video/BV1ZT4113744","新题型？新趋势！高考语文？启示录！","",
-"https://www.bilibili.com/video/BV1TJ4m147Ue","先写作文？纯扯淡！高考语文？时间安排！做题顺序？","【语文大合集32】",
+"https://www.bilibili.com/video/BV1TJ4m147Ue","先写作文？纯扯淡！时间安排！做题顺序？","【语文大合集32】",
 
 "https://www.bilibili.com/video/BV1FV4y1h7LT","高考语文！快速提分？没有捷径！只有辛苦！","【语文大合集01】",
 "https://www.bilibili.com/video/BV1yu41157sL","选择题！咋翻身？所有考点？体系梳理！","【语文大合集02】",
@@ -32,7 +108,7 @@ Favorite1=new Array(
 "","",""
 );
 
-Favorite2=new Array(
+Favorite9=new Array(
 "学过石油的语文老师-作文",
 
 "https://www.bilibili.com/video/BV1rh411p7ph","高考作文搞不定？明天我就跟你姓","15句话搞定作文",
@@ -59,7 +135,7 @@ Favorite2=new Array(
 "","",""
 );
 
-Favorite3=new Array(
+Favorite10=new Array(
 "国家玮-合集·高考作文精讲",
 
 "https://www.bilibili.com/video/BV1Rk4y1p7yq","【全卷别】2023高考作文实况解析及命题趋势<br>24届提前抢分","",
@@ -71,7 +147,7 @@ Favorite3=new Array(
 "","",""
 );
 
-Favorite4=new Array(
+Favorite11=new Array(
 "国家玮-高考语文如何解锁130+",
 
 "https://www.bilibili.com/video/BV1zB4y1w7Sk","高考语文如何解锁130+<br>每个高中生都要get的底层逻辑","",
@@ -85,7 +161,7 @@ Favorite4=new Array(
 "","",""
 );
 
-Favorite5=new Array(
+Favorite12=new Array(
 "国家玮-语文",
 
 "https://www.bilibili.com/video/BV1QH4y1F7M5","暑期必做5件事！<br>作文提前抢跑，50+真的不难","",
@@ -93,7 +169,7 @@ Favorite5=new Array(
 "","",""
 );
 
-Favorite6=new Array(
+Favorite13=new Array(
 "乘风-【文言文必备基础】",
 
 "https://www.bilibili.com/video/BV1HY4y137hT","310个高频文言文实词带背<br>part1  06:19","",
@@ -103,7 +179,7 @@ Favorite6=new Array(
 "","",""
 );
 
-Favorite7=new Array(
+Favorite14=new Array(
 "乘风-【高考必背文化常识】",
 
 "https://www.bilibili.com/video/BV13i4y197Er","每天五分钟，轻松掌握！<br>称谓篇 05:59","",
@@ -121,7 +197,7 @@ Favorite7=new Array(
 "","",""
 );
 
-Favorite8=new Array(
+Favorite15=new Array(
 "乘风-【高考语文一轮直击130+技巧】",
 
 "https://www.bilibili.com/video/BV1zx411f77t","一招破解近义成语辨析<br>part1 31:30","",
@@ -130,7 +206,7 @@ Favorite8=new Array(
 "","",""
 );
 
-Favorite9=new Array(
+Favorite16=new Array(
 "乘风-【4节课冲击55+高分作文】",
 
 "https://www.bilibili.com/video/BV1W4411o7cn?","揭秘考场新套路！<br>作文上不了一类文原因揭秘","",
@@ -140,71 +216,15 @@ Favorite9=new Array(
 "","",""
 );
 
-Favorite10=new Array(
+Favorite17=new Array(
 "乘风-语文",
 
 "https://www.bilibili.com/video/BV1b4411B7qS","学校从不讲的诗歌鉴赏技巧大全<br>30:37","",
 "","",""
 );
 
-Favorite11=new Array(
-"凉学长-高一数学必修一同步课",
 
-"https://www.bilibili.com/video/BV1j841117wj","01.集合的概念＆基本关系＆基本运算<br>2:08:46","",
-"https://www.bilibili.com/video/BV1j841117wj?p=2","02.充分必要条件＆全称量词存在量词<br>2:13:03","",
-"https://www.bilibili.com/video/BV1j841117wj?p=3","03.集合与常用逻辑用语拔高篇<br>2:11:56","",
-"https://www.bilibili.com/video/BV1j841117wj?p=4","04.集合与常用逻辑用语习题讲解<br>1:57:26","",
-"https://www.bilibili.com/video/BV1j841117wj?p=5","05.等式性质与不等式性质<br>1:18:24","",
-"https://www.bilibili.com/video/BV1j841117wj?p=6","06.基本不等式<br>2:04:33","",
-"https://www.bilibili.com/video/BV1j841117wj?p=7","07.二次函数与一元二次方程、不等式<br>55:05","",
-"https://www.bilibili.com/video/BV1j841117wj?p=8","08.一元二次函数、方程、不等式拔高篇<br>1:19:13","",
-"https://www.bilibili.com/video/BV1j841117wj?p=9","09.一元二次函数、方程、不等式习题讲解<br>2:11:20","",
-"https://www.bilibili.com/video/BV1j841117wj?p=10","010.函数的概念及其表示＆定义域值域<br>1:31:00","",
-"https://www.bilibili.com/video/BV1j841117wj?p=11","011.函数的单调性、奇偶性、周期性、对称性<br>1:49:07","",
-"https://www.bilibili.com/video/BV1j841117wj?p=12","012.对数函数、指数函数、幂函数、分段函数<br>3:49:05","",
-"https://www.bilibili.com/video/BV1j841117wj?p=13","013.初等函数图像与反函数<br>54:57","",
-"https://www.bilibili.com/video/BV1j841117wj?p=14","014.函数的零点与二分法＆实际应用模型（1）<br>45:04","",
-"https://www.bilibili.com/video/BV1j841117wj?p=15","015.抽象函数大总结<br>1:04:55","",
-"https://www.bilibili.com/video/BV1j841117wj?p=16","016.函数的零点与二分法＆实际应用模型（2）<br>45:54","",
-"https://www.bilibili.com/video/BV1j841117wj?p=17","017.高中数学的基石——函数拔高篇<br>1:36:30","",
-"https://www.bilibili.com/video/BV1j841117wj?p=18","018.高中数学的基石——函数习题讲解篇<br>1:47:18","",
-"https://www.bilibili.com/video/BV1j841117wj?p=19","019.高一必修一—函数知识补充<br>49:24","",
-"https://www.bilibili.com/video/BV1j841117wj?p=20","020.高一必修一【期中复习】<br>2:29:03","",
-"https://www.bilibili.com/video/BV1j841117wj?p=21","021.三角函数任意角＆弧度制＆三角函数的概念<br>1:58:35","",
-"https://www.bilibili.com/video/BV1j841117wj?p=22","022.诱导公式+习题<br>1:50:48","",
-"https://www.bilibili.com/video/BV1j841117wj?p=23","023.诱导公式＆合角公式＆二倍角公式<br>51:54","",
-"https://www.bilibili.com/video/BV1j841117wj?p=24","024.三角函数的图像<br>1:09:50","",
-"https://www.bilibili.com/video/BV1j841117wj?p=25","025.三角函数的应用（振幅、周期、频率、相位）<br>1:09:39","",
-"https://www.bilibili.com/video/BV1j841117wj?p=26","026.三角函数恒等变换与习题<br>1:50:32","",
-"https://www.bilibili.com/video/BV1j841117wj?p=27","027.三角恒等变换与化简<br>38:47","",
-"https://www.bilibili.com/video/BV1j841117wj?p=28","028.三角函数拔高篇<br>1:08:55","",
-"https://www.bilibili.com/video/BV1j841117wj?p=29","029.三角函数习题讲解<br>1:00:27","",
-"https://www.bilibili.com/video/BV1j841117wj?p=30","030.集合与常用逻辑用语【期末复习】<br>29:52","",
-"https://www.bilibili.com/video/BV1j841117wj?p=31","031.一元二次函数、方程和不等式【期末复习】<br>29:54","",
-"https://www.bilibili.com/video/BV1j841117wj?p=32","032.函数的概念及其性质【期末复习】<br>1:13:35","",
-"https://www.bilibili.com/video/BV1j841117wj?p=33","033.三角函数【期末复习】<br>1:10:00","",
-"","",""
-);
-
-Favorite12=new Array(
-"一数",
-/*
-* 本合集包含高中数学必修一，必修二，必修三，必修四，必修五（2019年新版必修同样适用），
-* 讲解顺序为1-4-5-2-3。
-* 一数辞典讲解基础知识，从零开始也一定看的懂，考点精华涵盖该章节所有主流方法！有了一数，
-* 学习数学不再求人[打call]
-* 中间部分视频片头较长，可以跳过，后面均改成了6秒短片头。
-* 由于视频较多，如果某个视频内大家发现了笔误等问题，可以私信UP或者评论留言均可,UP会修改
-* 视频确保每节课都没有任何问题！一数粉丝越来越多，谢谢大家的支持与喜爱
-*/
-"https://www.bilibili.com/video/BV147411K7xu","高中数学基础与解法全集","从零开始拯救所有学渣！通俗易懂",
-"https://www.bilibili.com/video/BV1w7411w7kQ","高考数学通法逆袭全集","高考复习有这个就够了！",
-"https://www.bilibili.com/video/BV1mE421A71a","必刷100讲，新版来了！","高考数学救星,就看TA！",
-"","",""
-);
-
-
-Favorite13=new Array(
+Favorite18=new Array(
 "高考历史·选择题第一季(1--199)",
 
 "https://www.bilibili.com/video/BV14f4y1R7yo?p=1","P1 学习方法＋课程介绍<br>07:31","",
@@ -214,10 +234,11 @@ Favorite13=new Array(
 
 
 
-Favorite14=new Array(
+Favorite19=new Array(
 "搜索引擎 & 热门AI",
 
 "https://jc.pep.com.cn","人教版中小学教材","在线电子版",
+"https://basic.smartedu.cn/tchMaterial?defaultTag=fa6200b8-b4aa-4d72-bebb-dddd93022a13%2Fd1914cee-dbcc-44e6-bab3-74eeed0e9875%2F0a724f60-913a-4c39-90a3-f9ce4c899e7b","中小学教材","国家中小学智慧教育平台",
 
 "https://www.google.com","★Google","",
 "www.wikipedia.org",'★WikiPedia',"维基百科",
@@ -244,13 +265,5 @@ Favorite14=new Array(
 "","",""
 );
 
-Favorite16=new Array(
-"AI答题",
-
-"https://chat.mathsolver.top","AI数学拍照解题","ygzly01@163.com",
-"https://math-gpt.org","数学gpt","david51485220@gmail.com",
-"https://mymathsolver.ai/zh-CN","AI数学求解器","",
-"","",""
-);
 
 
