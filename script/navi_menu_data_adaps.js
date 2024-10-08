@@ -19,7 +19,7 @@ Favorite1=new Array(
 
 "https://www.google.com","★Google","",
 "www.wikipedia.org",'★WikiPedia',"维基百科",
-"https://metaso.cn","◆秘塔AI搜索","国内免费AI搜索",
+"https://metaso.cn","秘塔AI搜索","国内免费AI搜索",
 "https://cn.bing.com/?ensearch=1","Bing国际版","无需梯子",
 
 "https://ai.xiabb.chat","◆阿水AI6.0","聚合AI,无需梯子chatGPT服务",
@@ -27,9 +27,10 @@ Favorite1=new Array(
 
 "https://www.doubao.com/chat","◆豆包","字节跳动出品",
 "https://yiyan.baidu.com","◆文心一言","百度出品",
-"https://chatglm.cn","◆智谱清言","质量不错",
 "https://www.tiangong.cn","◆天工AI","国内AI",
-"https://kimi.moonshot.cn","◆Kimi.AI","很火的免费国内AI",
+"https://chatglm.cn","◆智谱清言","质量不错",
+
+"https://kimi.moonshot.cn","Kimi.AI","很火的免费国内AI",
 
 "https://tongyi.aliyun.com/qianwen","通义千问","阿里出品",
 "https://xinghuo.xfyun.cn","讯飞星火","科大讯飞出品",
