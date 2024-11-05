@@ -46,11 +46,16 @@ Favorite1=new Array(
 Favorite2=new Array(
 "软件开发相关",
 
-"https://elixir.bootlin.com/linux/latest/source","Linux kernel源码","",
-"https://www.drawio.com",'draw.io',"免费的画图工具",
 "https://redmine.rock-chips.com",'瑞星微redmine',"Rockchip技术支持",
 "https://e2e.ti.com",'TI e2e',"TI技术支持",
 "https://myaccount.qualcomm.com/profile",'Qualcomm开发相关',"高通技术支持",
+
+"https://elixir.bootlin.com/linux/latest/source","Linux kernel源码","",
+"https://portableapps.com",'PortableApps',"",
+"https://www.drawio.com",'draw.io',"免费的画图工具",
+
+"https://hub.docker.com/",'Docker Hub',"",
+"https://docker.1panel.dev",'1Panel Docker镜像',"",
 
 "https://www.rainpat.com",'润桐RainPat专利检索',"",
 "https://www.chaspark.com/#/patents/","◆查思专利","不注册也可查",
