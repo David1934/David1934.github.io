@@ -47,6 +47,7 @@ Favorite2=new Array(
 "软件开发相关",
 
 "https://redmine.rock-chips.com",'瑞星微redmine',"Rockchip技术支持",
+"https://opensource.rock-chips.com",'瑞星微Open Source',"Rockchip开源代码及文档",
 "https://e2e.ti.com",'TI e2e',"TI技术支持",
 "https://myaccount.qualcomm.com/profile",'Qualcomm开发相关',"高通技术支持",
 
