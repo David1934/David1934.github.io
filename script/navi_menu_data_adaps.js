@@ -20,7 +20,9 @@ Favorite1=new Array(
 "https://www.google.com","★Google","",
 "www.wikipedia.org",'★WikiPedia',"维基百科",
 "https://metaso.cn","秘塔AI搜索","国内免费AI搜索",
+"https://n.cn","纳米搜索","原360 AI搜索升级",
 "https://cn.bing.com/?ensearch=1","Bing国际版","无需梯子",
+"https://ai-bot.cn","AI工具集","AI工具分类导航",
 
 "https://ai.xiabb.chat","◆阿水AI6.0","聚合AI,无需梯子chatGPT服务",
 "https://chat.aimoshu.cc","chatAI","聚合AI,无需梯子chatGPT服务",
