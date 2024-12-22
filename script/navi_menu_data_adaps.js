@@ -27,12 +27,14 @@ Favorite1=new Array(
 "https://ai.xiabb.chat","◆阿水AI6.0","聚合AI,无需梯子chatGPT服务",
 "https://chat.aimoshu.cc","chatAI","聚合AI,无需梯子chatGPT服务",
 
+"https://github.com/copilot","◆Copilot","Github Copilot",
 "https://www.doubao.com/chat","◆豆包","字节跳动出品",
+"https://kimi.moonshot.cn","Kimi.AI","很火的免费国内AI",
+
 "https://yiyan.baidu.com","◆文心一言","百度出品",
 "https://www.tiangong.cn","◆天工AI","国内AI",
 "https://chatglm.cn","◆智谱清言","质量不错",
 
-"https://kimi.moonshot.cn","Kimi.AI","很火的免费国内AI",
 
 "https://tongyi.aliyun.com/qianwen","通义千问","阿里出品",
 "https://xinghuo.xfyun.cn","讯飞星火","科大讯飞出品",
