@@ -25,9 +25,9 @@ Favorite1=new Array(
 "https://ai-bot.cn","AI工具集","AI工具分类导航",
 
 "https://ai.xiabb.chat","◆阿水AI6.0","聚合AI,无需梯子chatGPT服务",
-"https://chat.aimoshu.cc","chatAI","聚合AI,无需梯子chatGPT服务",
 
 "https://github.com/copilot","◆Copilot","Github Copilot",
+"https://www.deepseek.com","DeepSeek","又一个免费国内AI",
 "https://www.doubao.com/chat","◆豆包","字节跳动出品",
 "https://kimi.moonshot.cn","Kimi.AI","很火的免费国内AI",
 

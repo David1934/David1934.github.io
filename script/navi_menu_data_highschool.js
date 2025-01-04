@@ -232,27 +232,36 @@ Favorite18=new Array(
 "","",""
 );
 
+Favorite19=new Array(
+"电子版中小学教材",
+
+"https://jc.pep.com.cn","中小学教材","在线电子版",
+"https://basic.smartedu.cn/tchMaterial?defaultTag=fa6200b8-b4aa-4d72-bebb-dddd93022a13%2Fd1914cee-dbcc-44e6-bab3-74eeed0e9875%2F0a724f60-913a-4c39-90a3-f9ce4c899e7b","中小学教材","国家中小学智慧教育平台",
+"","",""
+);
 
 
 Favorite19=new Array(
 "搜索引擎 & 热门AI",
 
-"https://jc.pep.com.cn","人教版中小学教材","在线电子版",
-"https://basic.smartedu.cn/tchMaterial?defaultTag=fa6200b8-b4aa-4d72-bebb-dddd93022a13%2Fd1914cee-dbcc-44e6-bab3-74eeed0e9875%2F0a724f60-913a-4c39-90a3-f9ce4c899e7b","中小学教材","国家中小学智慧教育平台",
-
 "https://www.google.com","★Google","",
 "www.wikipedia.org",'★WikiPedia',"维基百科",
-"https://metaso.cn","◆秘塔AI搜索","国内免费AI搜索",
+"https://metaso.cn","秘塔AI搜索","国内免费AI搜索",
+"https://n.cn","纳米搜索","原360 AI搜索升级",
 "https://cn.bing.com/?ensearch=1","Bing国际版","无需梯子",
+"https://ai-bot.cn","AI工具集","AI工具分类导航",
 
 "https://ai.xiabb.chat","◆阿水AI6.0","聚合AI,无需梯子chatGPT服务",
-"https://chat.aimoshu.cc","chatAI","聚合AI,无需梯子chatGPT服务",
 
+"https://github.com/copilot","◆Copilot","Github Copilot",
+"https://www.deepseek.com","DeepSeek","又一个免费国内AI",
 "https://www.doubao.com/chat","◆豆包","字节跳动出品",
+"https://kimi.moonshot.cn","Kimi.AI","很火的免费国内AI",
+
 "https://yiyan.baidu.com","◆文心一言","百度出品",
-"https://chatglm.cn","◆智谱清言","质量不错",
 "https://www.tiangong.cn","◆天工AI","国内AI",
-"https://kimi.moonshot.cn","◆Kimi.AI","很火的免费国内AI",
+"https://chatglm.cn","◆智谱清言","质量不错",
+
 
 "https://tongyi.aliyun.com/qianwen","通义千问","阿里出品",
 "https://xinghuo.xfyun.cn","讯飞星火","科大讯飞出品",
