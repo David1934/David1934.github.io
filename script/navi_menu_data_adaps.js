@@ -27,13 +27,13 @@ Favorite1=new Array(
 "https://ai.xiabb.chat","◆阿水AI6.0","聚合AI,无需梯子chatGPT服务",
 
 "https://github.com/copilot","◆Copilot","Github Copilot",
-"https://www.deepseek.com","DeepSeek","又一个免费国内AI",
+"https://www.deepseek.com","◆DeepSeek","又一个免费国内AI",
 "https://www.doubao.com/chat","◆豆包","字节跳动出品",
-"https://kimi.moonshot.cn","Kimi.AI","很火的免费国内AI",
+"https://kimi.moonshot.cn","◆Kimi.AI","很火的免费国内AI",
 
-"https://yiyan.baidu.com","◆文心一言","百度出品",
-"https://www.tiangong.cn","◆天工AI","国内AI",
-"https://chatglm.cn","◆智谱清言","质量不错",
+"https://yiyan.baidu.com","文心一言","百度出品",
+"https://www.tiangong.cn","天工AI","国内AI",
+"https://chatglm.cn","智谱清言","质量不错",
 
 
 "https://tongyi.aliyun.com/qianwen","通义千问","阿里出品",
@@ -57,7 +57,9 @@ Favorite2=new Array(
 
 "https://elixir.bootlin.com/linux/latest/source","Linux kernel源码","",
 "https://portableapps.com",'PortableApps',"",
-"https://www.drawio.com",'draw.io',"免费的画图工具",
+"https://www.drawio.com",'◆draw.io',"免费的画图工具",
+"https://carbon.now.sh",'◆Carbon',"源码发布排版工具",
+"https://wavedrom.com/editor.html",'WaveDrom',"在线画时序图",
 
 "https://hub.docker.com/",'Docker Hub',"",
 "https://docker.1panel.dev",'1Panel Docker镜像',"",
@@ -67,9 +69,23 @@ Favorite2=new Array(
 "www.sipo.gov.cn/sipo/zljs/default.htm",'专利检索',"",
 "www.patent.com.cn",'中国专利信息网',"",
 
+"https://www.bilibili.com","BiliBili","",
 "https://www.runoob.com/","菜鸟教程","多种程序语言工具学习",
+
 "https://www.w3schools.com","Online web tutorials","英文版在线教程",
+"https://ocw.mit.edu/","◆MIT Open Course Ware","麻省理工开放课程",
+"https://www.coursera.org/","◆Coursera","",
+"https://www.edx.org","◆EdX","",
+"https://www.khanacademy.org/","◆Khan Academy","可汗学院",
 "","",""
 );
 
+Favorite2=new Array(
+"开源项目",
+
+"https://github.com/Serial-Studio/Serial-Studio","Serial-Studio","QT 跨平台",
+"https://github.com/deepin-community/v4l-utils","v4l2 utils","Linux v4l2",
+
+"","",""
+);
 
