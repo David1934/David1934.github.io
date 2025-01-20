@@ -80,7 +80,7 @@ Favorite2=new Array(
 "","",""
 );
 
-Favorite2=new Array(
+Favorite3=new Array(
 "开源项目",
 
 "https://github.com/Serial-Studio/Serial-Studio","Serial-Studio","QT 跨平台",
