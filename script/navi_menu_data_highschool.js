@@ -15,12 +15,22 @@ CoolSite=new Array(
 "","",""
 );
 
+/*
 Favorite1=new Array(
 "AI拍照解题",
 
 "https://chat.mathsolver.top","AI数学拍照解题","ygzly01@163.com",
 "https://math-gpt.org","数学gpt","david51485220@gmail.com",
 "https://mymathsolver.ai/zh-CN","AI数学求解器","",
+"","",""
+);
+*/
+
+Favorite1=new Array(
+"高中各科视频",
+
+"https://mp.weixin.qq.com/s/yHWEiUv8XeW6oNwptyy4kQ","高中全科目教学视频合集","",
+"https://mp.weixin.qq.com/s?__biz=MjM5NzQ4OTkwNg==&mid=2247610899&idx=1&sn=7eaa070b2f5ae1379c975e3fdec7b2c4&chksm=a6da4f8e91adc6985d0ce0f0e4c9df6ddc96dbaf76bffffc6c358d17161e7d4347ccf02a6c4e&token=362700357&lang=zh_CN&scene=21#wechat_redirect","高考复习教学视频（2023）","",
 "","",""
 );
 
