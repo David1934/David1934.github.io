@@ -1,6 +1,7 @@
 CoolSite=new Array(
 "日常使用",
 
+"https://adapsphotonics.com","公司网站","",
 "support.adapsphotonics.com","Redmine","项目问题进度跟踪",
 "https://www.teambition.com","Teambition","问题跟踪,技术文档",
 "https://qiye.aliyun.com","阿里云企业邮箱","收发公司邮件",
@@ -9,6 +10,7 @@ CoolSite=new Array(
 "https://vm.adaps.cn","vmware云桌面","查看SVN资料,需在公司内网",
 "ci.adaps.corp/ReleaseServer","内部发布软件下载","需在公司内网",
 "gerrit.adaps.corp","软件gerrit服务器","需在公司内网",
+"10.12.23.104:5173","Adaps代码审查服务","需在公司内网",
 "ci.adaps.corp:8080","软件Jenkins服务器","需在公司内网",
 "https://thoughts.teambition.com/workspaces/6010c01531fe71004633fea0/docs/63d9d1a9ce56760001c15c51","QRD8550手机流转记录","需登录",
 "","",""
