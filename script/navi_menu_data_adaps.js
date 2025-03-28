@@ -62,6 +62,9 @@ Favorite2=new Array(
 "https://www.drawio.com",'◆draw.io',"免费的画图工具",
 "https://carbon.now.sh",'◆Carbon',"源码发布排版工具",
 "https://wavedrom.com/editor.html",'WaveDrom',"在线画时序图",
+"https://dreampuf.github.io/GraphvizOnline/",'GraphvizOnline',"",
+"https://github.com/dreampuf/graphvizonline","GraphvizOnline Code", "",
+
 
 "https://hub.docker.com/",'Docker Hub',"",
 "https://docker.1panel.dev",'1Panel Docker镜像',"",

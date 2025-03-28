@@ -207,8 +207,13 @@ Favorite5=new Array(
 
 "https://www.drawio.com",'draw.io',"免费的画图工具",
 "https://lvgl.io",'LVGL for embedded',"",
+"https://github.com/lvgl/lvgl",'LVGL',"",
+"https://mp.weixin.qq.com/s?__biz=Mzg4Mjg4NDY4MA==&mid=2247483765&idx=1&sn=6be5c521e8a91cc3da7b6c85960cc22a",'LVGL快速入门',"",
+"https://github.com/CURTLab/LVGLBuilder",'LVGL builder',"",
+"https://github.com/mrQzs/Lvgl_Simulator",'LVGL Simulator',"",
 "https://github.com/eez-open/studio",'EEZ Studio',"",
-"https://uviewui.com",'uView UI',"跨平台多端UI框架",
+"https://github.com/zlgopen/awtk",'Toolkit AnyWhere',"cross-platform embedded GUI",
+"https://mp.weixin.qq.com/s/8zuz5xag78h83CJUisyy_g",'AWTK：跨平台GUI引擎的未来之路',"",
 
 "https://hub.docker.com/",'Docker Hub',"",
 "https://docker.1panel.dev",'1Panel Docker镜像',"",
@@ -246,6 +251,13 @@ Favorite5=new Array(
 "https://www.lookuptables.com/text/html-character-codes",'HTML Character Codes',"",
 "https://home.unicode.org/",'unicode.org',"unicode标准官网",
 "https://www.lookuptables.com/text/unicode-characters","Unicode Characters and Blocks","",
+
+"https://github.com/evolus/pencil",'Pencil',"free GUI prototyping",
+"https://mp.weixin.qq.com/s/edze99srQwlhlkbz5d_EJw",'Pencil：开源跨平台原型设计',"",
+"https://uviewui.com",'uView UI',"跨平台多端UI框架",
+"https://animxyz.com/",'AnimXYZ',"",
+"https://github.com/ingram-projects/animxyz",'AnimXYZ github',"",
+"https://mp.weixin.qq.com/s/0clMdyzlhQc6AgI5EocY-w",'前端动画工具库',"",
 "https://symbl.cc/en/emoji/",'Full Emoji List',"",
 "","",""
 );
