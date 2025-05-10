@@ -19,7 +19,7 @@ CoolSite=new Array(
 Favorite1=new Array(
 "搜索引擎 & 热门AI",
 
-"https://www.google.com","★Google","",
+"www.google.com/ncr","★Google/ncr","",   //no country redirect
 "www.wikipedia.org",'★WikiPedia',"维基百科",
 "https://metaso.cn","秘塔AI搜索","国内免费AI搜索",
 "https://n.cn","纳米搜索","原360 AI搜索升级",

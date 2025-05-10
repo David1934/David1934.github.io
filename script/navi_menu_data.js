@@ -101,7 +101,7 @@ Favorite2=new Array(
 "www.ldoceonline.com","Longman OnlineDict","",
 "www.abbreviations.com","Abbreviations","",
 "dictionary.reference.com","Dictionary.com","",
-"dictionary.cambridge.org","CambridgeDict","",
+"dictionary.cambridge.org","Cambridge Dict","",
 "www.dict.cn/search/","◆在线词典","",
 "cdict.net","线上英汉词典","",
 "https://dict.hjenglish.com/","沪江小D在线翻译","",
@@ -114,7 +114,6 @@ Favorite2=new Array(
 "www.dict.org",'Dict.Org',"",
 "www.thefreedictionary.com",'Free Dictionary',"",
 "www.dictionarylink.com",'FreeOnline Dict.',"",
-"dictionary.cambridge.org","Cambridge Dict.","",
 "www.dictionary.com","Dictionary.com","",
 "www.onelook.com",'OneLook Dict.',"",
 "","",""
