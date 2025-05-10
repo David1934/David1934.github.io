@@ -56,6 +56,9 @@ Favorite2=new Array(
 "數學科",
 
 "https://www.beyondmathedu.com/dse-formula","◆DSE 數學公式","DSE Formula",
+"https://www.beyondmathedu.com/f1-formula","◆中一數學公式","F.1 Formula",
+"https://www.beyondmathedu.com/f2-formula","◆中二數學公式","F.1 Formula",
+"https://www.beyondmathedu.com/f3-formula","◆中三數學公式","F.1 Formula",
 "https://www.beyondmathedu.com/%E5%85%8D%E8%B2%BB-%E6%95%B8%E5%AD%B8%E8%A3%9C%E7%BF%92-%E8%B2%BC%E5%A3%AB","◆免費 數學補習 貼士","",
 "https://www.youtube.com/channel/UCQBh87s2LFfCPVMzZ9sZd4w/featured?view_as=subscriber","◆Beyond Math YouTube","",
 "https://www.bilibili.com/video/BV1st4y1r7Dr/",'香港中学数学全69P',"香港教育电视（粤语）",
