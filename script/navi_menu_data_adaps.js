@@ -64,6 +64,9 @@ Favorite2=new Array(
 "https://wavedrom.com/editor.html",'WaveDrom',"在线画时序图",
 "https://dreampuf.github.io/GraphvizOnline/",'GraphvizOnline',"",
 "https://github.com/dreampuf/graphvizonline","GraphvizOnline Code", "",
+"https://pandao.github.io/editor.md/",'◆开源在线MD编辑器',"",
+"https://stackedit.io/app#",'◆StackEdit',"",
+"https://dillinger.io",'◆Dillinger',"",
 
 
 "https://hub.docker.com/",'Docker Hub',"",

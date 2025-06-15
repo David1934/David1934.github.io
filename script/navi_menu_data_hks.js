@@ -31,6 +31,11 @@ CoolSite=new Array(
 Favorite1=new Array(
 "English & IELTS",
 
+"https://www.youtube.com/@dse.engmrj","Mr.J English YouTube","DSE 英文考試技巧專家",
+"https://www.youtube.com/@antoniachengdseenglish4374","Antonia Cheng DSE English","DSE英文科教學片",
+"https://www.youtube.com/@bonlamdse","Bon Lam DSE","",
+"https://www.youtube.com/playlist?list=PLyyEw_iJ-KD5arpEjkZW9i5SAl0FEfhop","DSE英文 文法補底","Grandma教Grammar",
+
 "https://www.ielts.org","IELTS","IELTS offical website",
 "https://www.chinaielts.org","雅思中国官网","",
 "https://takeielts.britishcouncil.org","take ielts","英国文化协会",
@@ -49,6 +54,14 @@ Favorite1=new Array(
 "https://www.bilibili.com/video/BV1tkcVe1EkZ","7天背完7000个雅思单词","《雅思词汇真经》硬核记忆",
 "https://www.bilibili.com/video/BV1aP1FYgEKx","漫画秒记3000英语单词","分场景记忆",
 
+"https://www.youtube.com/watch?v=YGsE15cLJ2E","美国大学教授的高效背单词法","泡芙方 Prof. Fang",
+"https://www.youtube.com/watch?v=7tOGP1A8q_s","會了這個方法，我的英文一日千里","泡芙方 Prof. Fang",
+"https://www.youtube.com/watch?v=2IGeh6-iW00","30課新概念，讓我從學渣變成學霸","泡芙方 Prof. Fang",
+"https://www.youtube.com/@paofufang","泡芙方 Prof. Fang","",
+"https://www.youtube.com/watch?v=B-8NCUTD7Hs","雅思真经第一课","学为贵刘洪波",
+"https://www.youtube.com/watch?v=SrfrcStk3rg&list=PLhcW5Vlyw9CqwETLZMLmubZEnkkzqv8zI","2023最新XDF雅思词汇基础","25讲",
+"https://www.youtube.com/watch?v=We3SCTGK2f4","公立高中生如何從零首戰雅思7.5","短期閱讀5.5到8.5的自學高分技巧",
+
 "","",""
 );
 
@@ -61,6 +74,7 @@ Favorite2=new Array(
 "https://www.beyondmathedu.com/f3-formula","◆中三數學公式","F.1 Formula",
 "https://www.beyondmathedu.com/%E5%85%8D%E8%B2%BB-%E6%95%B8%E5%AD%B8%E8%A3%9C%E7%BF%92-%E8%B2%BC%E5%A3%AB","◆免費 數學補習 貼士","",
 "https://www.youtube.com/channel/UCQBh87s2LFfCPVMzZ9sZd4w/featured?view_as=subscriber","◆Beyond Math YouTube","",
+"https://www.youtube.com/playlist?list=PLyyEw_iJ-KD5lvjbfEs_D_5qwXOZdt3NB",'DSE數學台',"Snapask Hong Kong",
 "https://www.bilibili.com/video/BV1st4y1r7Dr/",'香港中学数学全69P',"香港教育电视（粤语）",
 
 "","",""
@@ -75,6 +89,7 @@ Favorite3=new Array(
 "https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/chinese-culture/chi-culture-main.html",'中華經典名句',"",
 "https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/resources/secondary-edu/lang/reciting-mp3.html",'中學古詩文誦讀材料選編',"",
 "https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/resources/secondary-edu/lang/culture.html",'中華文化學與教資源套',"",
+"https://www.youtube.com/playlist?list=PLyyEw_iJ-KD7ZrcxDd41R7z1e4AHwrS2r",'DSE中文台',"Snapask Hong Kong",
 
 "","",""
 );
