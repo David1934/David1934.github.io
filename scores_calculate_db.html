@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>广东美术高考综合成绩计算</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Microsoft YaHei', sans-serif;
+        }
+        
+        body {
+            background-color: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #2c5282;
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #e2e8f0;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+        }
+        
+        .section h2 {
+            color: #4a5568;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        
+        .form-group {
+            margin-bottom: 15px;
+            position: relative;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 500;
+        }
+        
+        .choice-group {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 10px;
+        }
+        
+        .choice-btn {
+            padding: 8px 12px;
+            border: 1px solid #cbd5e0;
+            border-radius: 4px;
+            cursor: pointer;
+            background-color: white;
+            transition: all 0.3s;
+            font-size: 14px;
+        }
+        
+        .choice-btn.active {
+            background-color: #ebf8ff;
+            border-color: #4299e1;
+            color: #2b6cb0;
+        }
+        
+        .score-control {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .score-input {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #cbd5e0;
+            border-radius: 5px;
+            font-size: 16px;
+            text-align: center;
+            max-width: 100px;
+        }
+        
+        .control-btn {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+        
+        .btn {
+            width: 30px;
+            height: 30px;
+            border: 1px solid #cbd5e0;
+            border-radius: 3px;
+            background-color: white;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background-color 0.3s;
+        }
+        
+        .btn:hover {
+            background-color: #edf2f7;
+        }
+        
+        .btn:active {
+            background-color: #e2e8f0;
+        }
+        
+        .input-group {
+            display: flex;
+            gap: 15px;
+        }
+        
+        .input-half {
+            flex: 1;
+        }
+        
+        button {
+            background-color: #2b6cb0;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            width: 100%;
+            transition: background-color 0.3s;
+        }
+        
+        button:hover {
+            background-color: #1a4a8c;
+        }
+        
+        .result {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #ebf8ff;
+            border-left: 4px solid #4299e1;
+            border-radius: 5px;
+            display: none;
+        }
+        
+        .result h3 {
+            color: #2b6cb0;
+            margin-bottom: 10px;
+        }
+        
+        .result p {
+            margin-bottom: 5px;
+            font-size: 16px;
+        }
+        
+        .error {
+            color: #c53030;
+            margin-top: 5px;
+            font-size: 14px;
+            display: none;
+        }
+        
+        .note {
+            font-size: 14px;
+            color: #718096;
+            margin-top: 5px;
+            font-style: italic;
+        }
+        
+        .selected-subjects {
+            margin-top: 15px;
+            padding: 10px;
+            background-color: #f7fafc;
+            border: 1px dashed #cbd5e0;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        
+        @media (max-width: 600px) {
+            .input-group, .choice-group {
+                flex-direction: column;
+            }
+            
+            .container {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>广东美术高考综合成绩计算</h1>
+        
+        <div class="section" id="art-section">
+            <h2>美术专业分 (每科满分100)</h2>
+            <div class="input-group">
+                <div class="input-half form-group">
+                    <label for="sketch">素描</label>
+                    <div class="score-control">
+                        <input type="number" id="sketch" class="score-input" min="0" max="100" value="0" placeholder="0">
+                        <div class="control-btn">
+                            <div class="btn" data-target="sketch" data-action="plus">+</div>
+                            <div class="btn" data-target="sketch" data-action="minus">-</div>
+                        </div>
+                    </div>
+                    <div class="error" id="sketch-error">请输入0-100之间的数字</div>
+                </div>
+                <div class="input-half form-group">
+                    <label for="color">色彩</label>
+                    <div class="score-control">
+                        <input type="number" id="color" class="score-input" min="0" max="100" value="0" placeholder="0">
+                        <div class="control-btn">
+                            <div class="btn" data-target="color" data-action="plus">+</div>
+                            <div class="btn" data-target="color" data-action="minus">-</div>
+                        </div>
+                    </div>
+                    <div class="error" id="color-error">请输入0-100之间的数字</div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="sketching">速写</label>
+                <div class="score-control">
+                    <input type="number" id="sketching" class="score-input" min="0" max="100" value="0" placeholder="0">
+                    <div class="control-btn">
+                        <div class="btn" data-target="sketching" data-action="plus">+</div>
+                        <div class="btn" data-target="sketching" data-action="minus">-</div>
+                    </div>
+                </div>
+                <div class="error" id="sketching-error">请输入0-100之间的数字</div>
+            </div>
+            <div class="note">综合总分计算公式：(专业总分*2.5+文化总分)/2</div>
+        </div>
+        
+        <div class="section" id="culture-section">
+            <h2>文化分</h2>
+            
+            <div class="form-group">
+                <label>主选科目 (物理/历史 2选一)</label>
+                <div class="choice-group" id="main-subject-choice">
+                    <div class="choice-btn" data-subject="物理">物理</div>
+                    <div class="choice-btn" data-subject="历史">历史</div>
+                </div>
+                <div class="score-control">
+                    <input type="number" id="main-subject" class="score-input" min="0" max="100" value="0" placeholder="0">
+                    <div class="control-btn">
+                        <div class="btn" data-target="main-subject" data-action="plus">+</div>
+                        <div class="btn" data-target="main-subject" data-action="minus">-</div>
+                    </div>
+                </div>
+                <div class="error" id="main-subject-error">请输入0-100之间的数字</div>
+            </div>
+            
+            <div class="input-group">
+                <div class="input-half form-group">
+                    <label>外语 (英语/日语 2选一)</label>
+                    <div class="choice-group" id="foreign-language-choice">
+                        <div class="choice-btn" data-subject="英语">英语</div>
+                        <div class="choice-btn" data-subject="日语">日语</div>
+                    </div>
+                    <div class="score-control">
+                        <input type="number" id="foreign-language" class="score-input" min="0" max="150" value="0" placeholder="0">
+                        <div class="control-btn">
+                            <div class="btn" data-target="foreign-language" data-action="plus">+</div>
+                            <div class="btn" data-target="foreign-language" data-action="minus">-</div>
+                        </div>
+                    </div>
+                    <div class="error" id="foreign-language-error">请输入0-150之间的数字</div>
+                </div>
+                
+                <div class="input-half form-group">
+                    <label>语文 (满分150)</label>
+                    <div class="score-control">
+                        <input type="number" id="chinese" class="score-input" min="0" max="150" value="0" placeholder="0">
+                        <div class="control-btn">
+                            <div class="btn" data-target="chinese" data-action="plus">+</div>
+                            <div class="btn" data-target="chinese" data-action="minus">-</div>
+                        </div>
+                    </div>
+                    <div class="error" id="chinese-error">请输入0-150之间的数字</div>
+                </div>
+            </div>
+            
+            <div class="input-group">
+                <div class="input-half form-group">
+                    <label>数学 (满分150)</label>
+                    <div class="score-control">
+                        <input type="number" id="math" class="score-input" min="0" max="150" value="0" placeholder="0">
+                        <div class="control-btn">
+                            <div class="btn" data-target="math" data-action="plus">+</div>
+                            <div class="btn" data-target="math" data-action="minus">-</div>
+                        </div>
+                    </div>
+                    <div class="error" id="math-error">请输入0-150之间的数字</div>
+                </div>
+                
+                <div class="input-half form-group">
+                    <label>选科1 (4选1)</label>
+                    <div class="choice-group" id="elective1-choice">
+                        <div class="choice-btn" data-subject="化学">化学</div>
+                        <div class="choice-btn" data-subject="生物">生物</div>
+                        <div class="choice-btn" data-subject="地理">地理</div>
+                        <div class="choice-btn" data-subject="政治">政治</div>
+                    </div>
+                    <div class="score-control">
+                        <input type="number" id="elective1" class="score-input" min="0" max="100" value="0" placeholder="0">
+                        <div class="control-btn">
+                            <div class="btn" data-target="elective1" data-action="plus">+</div>
+                            <div class="btn" data-target="elective1" data-action="minus">-</div>
+                        </div>
+                    </div>
+                    <div class="error" id="elective1-error">请输入0-100之间的数字</div>
+                </div>
+            </div>
+            
+            <div class="input-group">
+                <div class="input-half form-group">
+                    <label>选科2 (4选1，不可与选科1重复)</label>
+                    <div class="choice-group" id="elective2-choice">
+                        <div class="choice-btn" data-subject="化学">化学</div>
+                        <div class="choice-btn" data-subject="生物">生物</div>
+                        <div class="choice-btn" data-subject="地理">地理</div>
+                        <div class="choice-btn" data-subject="政治">政治</div>
+                    </div>
+                    <div class="score-control">
+                        <input type="number" id="elective2" class="score-input" min="0" max="100" value="0" placeholder="0">
+                        <div class="control-btn">
+                            <div class="btn" data-target="elective2" data-action="plus">+</div>
+                            <div class="btn" data-target="elective2" data-action="minus">-</div>
+                        </div>
+                    </div>
+                    <div class="error" id="elective2-error">请输入0-100之间的数字</div>
+                </div>
+            </div>
+            
+            <div class="selected-subjects" id="selected-subjects">
+                <strong>已选科目：</strong>
+                <span id="main-subject-display">请选择主选科目</span>，
+                <span id="foreign-language-display">请选择外语科目</span>，
+                <span id="elective1-display">请选择选科1</span>，
+                <span id="elective2-display">请选择选科2</span>
+            </div>
+        </div>
+        
+        <button id="calculate-btn">计算综合成绩</button>
+        
+        <div class="result" id="result">
+            <h3>成绩计算结果</h3>
+            <p><strong>美术专业总分:</strong> <span id="art-total">0</span> 分</p>
+            <p><strong>文化总分:</strong> <span id="culture-total">0</span> 分</p>
+            <p><strong>综合成绩:</strong> <span id="comprehensive-score">0</span> 分</p>
+            <p class="note">计算公式：(专业总分×2.5 + 文化总分)÷2</p>
+            <p class="note" id="subject-details">科目详情：请先选择科目</p>
+        </div>
+    </div>
+
+    <script>
+        // 获取DOM元素
+        const calculateBtn = document.getElementById('calculate-btn');
+        const resultDiv = document.getElementById('result');
+        const artTotalSpan = document.getElementById('art-total');
+        const cultureTotalSpan = document.getElementById('culture-total');
+        const comprehensiveScoreSpan = document.getElementById('comprehensive-score');
+        const subjectDetailsSpan = document.getElementById('subject-details');
+        
+        // 美术科目输入框
+        const sketchInput = document.getElementById('sketch');
+        const colorInput = document.getElementById('color');
+        const sketchingInput = document.getElementById('sketching');
+        
+        // 文化科目输入框
+        const chineseInput = document.getElementById('chinese');
+        const mathInput = document.getElementById('math');
+        const foreignLanguageInput = document.getElementById('foreign-language');
+        const mainSubjectInput = document.getElementById('main-subject');
+        const elective1Input = document.getElementById('elective1');
+        const elective2Input = document.getElementById('elective2');
+        
+        // 错误提示元素
+        const sketchError = document.getElementById('sketch-error');
+        const colorError = document.getElementById('color-error');
+        const sketchingError = document.getElementById('sketching-error');
+        const chineseError = document.getElementById('chinese-error');
+        const mathError = document.getElementById('math-error');
+        const foreignLanguageError = document.getElementById('foreign-language-error');
+        const mainSubjectError = document.getElementById('main-subject-error');
+        const elective1Error = document.getElementById('elective1-error');
+        const elective2Error = document.getElementById('elective2-error');
+        
+        // 科目选择组
+        const mainSubjectChoice = document.getElementById('main-subject-choice');
+        const foreignLanguageChoice = document.getElementById('foreign-language-choice');
+        const elective1Choice = document.getElementById('elective1-choice');
+        const elective2Choice = document.getElementById('elective2-choice');
+        
+        // 科目显示元素
+        const mainSubjectDisplay = document.getElementById('main-subject-display');
+        const foreignLanguageDisplay = document.getElementById('foreign-language-display');
+        const elective1Display = document.getElementById('elective1-display');
+        const elective2Display = document.getElementById('elective2-display');
+        
+        // 初始化科目选择
+        let selectedMainSubject = '';
+        let selectedForeignLanguage = '';
+        let selectedElective1 = '';
+        let selectedElective2 = '';
+        
+        // 主选科目选择事件
+        mainSubjectChoice.querySelectorAll('.choice-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                // 移除同组其他按钮的选中状态
+                mainSubjectChoice.querySelectorAll('.choice-btn').forEach(b => {
+                    b.classList.remove('active');
+                });
+                
+                // 添加当前按钮的选中状态
+                this.classList.add('active');
+                
+                // 更新选中的科目
+                selectedMainSubject = this.getAttribute('data-subject');
+                mainSubjectDisplay.textContent = selectedMainSubject;
+                updateSubjectDetails();
+            });
+        });
+        
+        // 外语科目选择事件
+        foreignLanguageChoice.querySelectorAll('.choice-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                // 移除同组其他按钮的选中状态
+                foreignLanguageChoice.querySelectorAll('.choice-btn').forEach(b => {
+                    b.classList.remove('active');
+                });
+                
+                // 添加当前按钮的选中状态
+                this.classList.add('active');
+                
+                // 更新选中的科目
+                selectedForeignLanguage = this.getAttribute('data-subject');
+                foreignLanguageDisplay.textContent = selectedForeignLanguage;
+                updateSubjectDetails();
+            });
+        });
+        
+        // 选科1选择事件
+        elective1Choice.querySelectorAll('.choice-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                // 移除同组其他按钮的选中状态
+                elective1Choice.querySelectorAll('.choice-btn').forEach(b => {
+                    b.classList.remove('active');
+                });
+                
+                // 添加当前按钮的选中状态
+                this.classList.add('active');
+                
+                // 更新选中的科目
+                selectedElective1 = this.getAttribute('data-subject');
+                elective1Display.textContent = selectedElective1;
+                
+                // 如果选科2已经选择了相同的科目，取消选科2的选择
+                if (selectedElective2 === selectedElective1) {
+                    elective2Choice.querySelectorAll('.choice-btn').forEach(b => {
+                        b.classList.remove('active');
+                    });
+                    selectedElective2 = '';
+                    elective2Display.textContent = '请选择选科2';
+                }
+                
+                // 禁用选科2中与选科1相同的选项
+                updateElective2Options();
+                updateSubjectDetails();
+            });
+        });
+        
+        // 选科2选择事件
+        elective2Choice.querySelectorAll('.choice-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                // 移除同组其他按钮的选中状态
+                elective2Choice.querySelectorAll('.choice-btn').forEach(b => {
+                    b.classList.remove('active');
+                });
+                
+                // 添加当前按钮的选中状态
+                this.classList.add('active');
+                
+                // 更新选中的科目
+                selectedElective2 = this.getAttribute('data-subject');
+                elective2Display.textContent = selectedElective2;
+                
+                // 禁用选科1中与选科2相同的选项
+                updateElective1Options();
+                updateSubjectDetails();
+            });
+        });
+        
+        // 更新选科1的可用选项
+        function updateElective1Options() {
+            elective1Choice.querySelectorAll('.choice-btn').forEach(btn => {
+                const subject = btn.getAttribute('data-subject');
+                if (subject === selectedElective2) {
+                    btn.disabled = true;
+                    btn.classList.add('opacity-50', 'cursor-not-allowed');
+                } else {
+                    btn.disabled = false;
+                    btn.classList.remove('opacity-50', 'cursor-not-allowed');
+                }
+            });
+        }
+        
+        // 更新选科2的可用选项
+        function updateElective2Options() {
+            elective2Choice.querySelectorAll('.choice-btn').forEach(btn => {
+                const subject = btn.getAttribute('data-subject');
+                if (subject === selectedElective1) {
+                    btn.disabled = true;
+                    btn.classList.add('opacity-50', 'cursor-not-allowed');
+                } else {
+                    btn.disabled = false;
+                    btn.classList.remove('opacity-50', 'cursor-not-allowed');
+                }
+            });
+        }
+        
+        // 更新科目详情显示
+        function updateSubjectDetails() {
+            if (selectedMainSubject && selectedForeignLanguage && selectedElective1 && selectedElective2) {
+                subjectDetailsSpan.textContent = `科目详情：主选科目 ${selectedMainSubject}，外语 ${selectedForeignLanguage}，选科 ${selectedElective1} 和 ${selectedElective2}`;
+            } else {
+                subjectDetailsSpan.textContent = '科目详情：请先选择所有科目';
+            }
+        }
+        
+        // 加减按钮
+        const plusBtns = document.querySelectorAll('.btn[data-action="plus"]');
+        const minusBtns = document.querySelectorAll('.btn[data-action="minus"]');
+        
+        // 为加减按钮添加点击事件
+        plusBtns.forEach(btn => {
+            btn.addEventListener('click', function() {
+                const targetId = this.getAttribute('data-target');
+                const input = document.getElementById(targetId);
+                let currentValue = parseInt(input.value) || 0;
+                const maxValue = parseInt(input.max) || 100;
+                
+                if (currentValue < maxValue) {
+                    input.value = currentValue + 1;
+                    resetErrors(); // 清除错误提示
+                }
+            });
+        });
+        
+        minusBtns.forEach(btn => {
+            btn.addEventListener('click', function() {
+                const targetId = this.getAttribute('data-target');
+                const input = document.getElementById(targetId);
+                let currentValue = parseInt(input.value) || 0;
+                const minValue = parseInt(input.min) || 0;
+                
+                if (currentValue > minValue) {
+                    input.value = currentValue - 1;
+                    resetErrors(); // 清除错误提示
+                }
+            });
+        });
+        
+        // 计算按钮点击事件
+        calculateBtn.addEventListener('click', function() {
+            // 重置所有错误提示
+            resetErrors();
+            
+            // 验证是否选择了所有科目
+            if (!selectedMainSubject || !selectedForeignLanguage || !selectedElective1 || !selectedElective2) {
+                alert('请先选择所有科目');
+                return;
+            }
+            
+            // 获取输入值并转换为数字
+            const sketch = parseFloat(sketchInput.value);
+            const color = parseFloat(colorInput.value);
+            const sketching = parseFloat(sketchingInput.value);
+            const chinese = parseFloat(chineseInput.value);
+            const math = parseFloat(mathInput.value);
+            const foreignLanguage = parseFloat(foreignLanguageInput.value);
+            const mainSubject = parseFloat(mainSubjectInput.value);
+            const elective1 = parseFloat(elective1Input.value);
+            const elective2 = parseFloat(elective2Input.value);
+            
+            // 验证输入
+            let hasError = false;
+            
+            if (isNaN(sketch) || sketch < 0 || sketch > 100) {
+                sketchError.style.display = 'block';
+                hasError = true;
+            }
+            
+            if (isNaN(color) || color < 0 || color > 100) {
+                colorError.style.display = 'block';
+                hasError = true;
+            }
+            
+            if (isNaN(sketching) || sketching < 0 || sketching > 100) {
+                sketchingError.style.display = 'block';
+                hasError = true;
+            }
+            
+            if (isNaN(chinese) || chinese < 0 || chinese > 150) {
+                chineseError.style.display = 'block';
+                hasError = true;
+            }
+            
+            if (isNaN(math) || math < 0 || math > 150) {
+                mathError.style.display = 'block';
+                hasError = true;
+            }
+            
+            if (isNaN(foreignLanguage) || foreignLanguage < 0 || foreignLanguage > 150) {
+                foreignLanguageError.style.display = 'block';
+                hasError = true;
+            }
+            
+            if (isNaN(mainSubject) || mainSubject < 0 || mainSubject > 100) {
+                mainSubjectError.style.display = 'block';
+                hasError = true;
+            }
+            
+            if (isNaN(elective1) || elective1 < 0 || elective1 > 100) {
+                elective1Error.style.display = 'block';
+                hasError = true;
+            }
+            
+            if (isNaN(elective2) || elective2 < 0 || elective2 > 100) {
+                elective2Error.style.display = 'block';
+                hasError = true;
+            }
+            
+            // 如果有错误，不进行计算
+            if (hasError) {
+                return;
+            }
+            
+            // 计算美术专业总分
+            const artTotal = sketch + color + sketching;
+            
+            // 计算文化总分
+            const cultureTotal = chinese + math + foreignLanguage + mainSubject + elective1 + elective2;
+            
+            // 计算综合成绩
+            const comprehensiveScore = (artTotal * 2.5 + cultureTotal) / 2;
+            
+            // 显示结果
+            artTotalSpan.textContent = artTotal.toFixed(2);
+            cultureTotalSpan.textContent = cultureTotal.toFixed(2);
+            comprehensiveScoreSpan.textContent = comprehensiveScore.toFixed(2);
+            resultDiv.style.display = 'block';
+            
+            // 更新科目详情
+            updateSubjectDetails();
+            
+            // 滚动到结果区域
+            resultDiv.scrollIntoView({ behavior: 'smooth' });
+        });
+        
+        // 重置所有错误提示
+        function resetErrors() {
+            sketchError.style.display = 'none';
+            colorError.style.display = 'none';
+            sketchingError.style.display = 'none';
+            chineseError.style.display = 'none';
+            mathError.style.display = 'none';
+            foreignLanguageError.style.display = 'none';
+            mainSubjectError.style.display = 'none';
+            elective1Error.style.display = 'none';
+            elective2Error.style.display = 'none';
+        }
+        
+        // 为输入框添加输入事件，清除错误提示
+        const allInputs = document.querySelectorAll('input');
+        allInputs.forEach(input => {
+            input.addEventListener('input', resetErrors);
+        });
+    </script>
+</body>
+</html>

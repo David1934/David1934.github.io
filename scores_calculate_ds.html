@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>广东美术高考综合成绩计算器</title>
+    <style>
+        body {
+            font-family: 'Microsoft YaHei', sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .section {
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #444;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        .score-input {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        label {
+            width: 120px;
+            font-weight: bold;
+        }
+        input[type="number"] {
+            width: 80px;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            text-align: center;
+        }
+        .input-controls {
+            display: flex;
+            margin-left: 10px;
+        }
+        .btn {
+            width: 30px;
+            height: 30px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 5px;
+        }
+        .btn:hover {
+            background-color: #45a049;
+        }
+        .btn-minus {
+            background-color: #f44336;
+        }
+        .btn-minus:hover {
+            background-color: #d32f2f;
+        }
+        .result {
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #e8f5e9;
+            border-radius: 4px;
+            text-align: center;
+        }
+        .total-score {
+            color: #2e7d32;
+            font-size: 24px;
+        }
+        .formula {
+            font-style: italic;
+            color: #666;
+            text-align: center;
+            margin: 20px 0;
+        }
+        select {
+            padding: 8px;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+            margin-left: 10px;
+            width: 120px;
+        }
+        .subject-selection {
+            margin-bottom: 15px;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-radius: 4px;
+        }
+        .subject-option {
+            display: inline-block;
+            margin-right: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>广东美术高考综合成绩计算器</h1>
+    
+    <p class="formula">综合总分 = (专业总分 × 2.5 + 文化总分) ÷ 2</p>
+    
+    <div class="section">
+        <h2>专业成绩</h2>
+        <div class="score-input">
+            <label for="sketch">素描:</label>
+            <input type="number" id="sketch" min="0" max="100" value="0">
+            <div class="input-controls">
+                <button class="btn btn-minus" onclick="adjustValue('sketch', -1)">-</button>
+                <button class="btn" onclick="adjustValue('sketch', 1)">+</button>
+            </div>
+        </div>
+        <div class="score-input">
+            <label for="color">色彩:</label>
+            <input type="number" id="color" min="0" max="100" value="0">
+            <div class="input-controls">
+                <button class="btn btn-minus" onclick="adjustValue('color', -1)">-</button>
+                <button class="btn" onclick="adjustValue('color', 1)">+</button>
+            </div>
+        </div>
+        <div class="score-input">
+            <label for="sketching">速写:</label>
+            <input type="number" id="sketching" min="0" max="100" value="0">
+            <div class="input-controls">
+                <button class="btn btn-minus" onclick="adjustValue('sketching', -1)">-</button>
+                <button class="btn" onclick="adjustValue('sketching', 1)">+</button>
+            </div>
+        </div>
+        <div class="result">
+            专业总分: <span id="art-total" class="total-score">0</span> 分
+        </div>
+    </div>
+    
+    <div class="section">
+        <h2>文化成绩</h2>
+        
+        <div class="subject-selection">
+            <strong>科目选择:</strong>
+            <div class="subject-option">
+                <label for="main-subject-select">主选科目:</label>
+                <select id="main-subject-select" onchange="updateSubjectLabels()">
+                    <option value="physics">物理</option>
+                    <option value="history">历史</option>
+                </select>
+            </div>
+            <div class="subject-option">
+                <label for="foreign-language">外语:</label>
+                <select id="foreign-language" onchange="updateSubjectLabels()">
+                    <option value="english">英语</option>
+                    <option value="japanese">日语</option>
+                </select>
+            </div>
+        </div>
+        
+        <div class="subject-selection">
+            <strong>选考科目 (4选2):</strong>
+            <div class="subject-option">
+                <input type="checkbox" id="chemistry-cb" onchange="toggleSubject('chemistry')">
+                <label for="chemistry-cb">化学</label>
+            </div>
+            <div class="subject-option">
+                <input type="checkbox" id="biology-cb" onchange="toggleSubject('biology')">
+                <label for="biology-cb">生物</label>
+            </div>
+            <div class="subject-option">
+                <input type="checkbox" id="geography-cb" onchange="toggleSubject('geography')">
+                <label for="geography-cb">地理</label>
+            </div>
+            <div class="subject-option">
+                <input type="checkbox" id="politics-cb" onchange="toggleSubject('politics')">
+                <label for="politics-cb">政治</label>
+            </div>
+        </div>
+        
+        <div class="score-input">
+            <label for="chinese">语文:</label>
+            <input type="number" id="chinese" min="0" max="150" value="0">
+            <div class="input-controls">
+                <button class="btn btn-minus" onclick="adjustValue('chinese', -1)">-</button>
+                <button class="btn" onclick="adjustValue('chinese', 1)">+</button>
+            </div>
+        </div>
+        <div class="score-input">
+            <label for="math">数学:</label>
+            <input type="number" id="math" min="0" max="150" value="0">
+            <div class="input-controls">
+                <button class="btn btn-minus" onclick="adjustValue('math', -1)">-</button>
+                <button class="btn" onclick="adjustValue('math', 1)">+</button>
+            </div>
+        </div>
+        <div class="score-input">
+            <label id="foreign-language-label" for="foreign-language-score">英语:</label>
+            <input type="number" id="foreign-language-score" min="0" max="150" value="0">
+            <div class="input-controls">
+                <button class="btn btn-minus" onclick="adjustValue('foreign-language-score', -1)">-</button>
+                <button class="btn" onclick="adjustValue('foreign-language-score', 1)">+</button>
+            </div>
+        </div>
+        <div class="score-input">
+            <label id="main-subject-label" for="main-subject-score">物理:</label>
+            <input type="number" id="main-subject-score" min="0" max="100" value="0">
+            <div class="input-controls">
+                <button class="btn btn-minus" onclick="adjustValue('main-subject-score', -1)">-</button>
+                <button class="btn" onclick="adjustValue('main-subject-score', 1)">+</button>
+            </div>
+        </div>
+        
+        <!-- 选考科目输入框，默认隐藏 -->
+        <div class="score-input" id="chemistry-container" style="display:none;">
+            <label for="chemistry-score">化学:</label>
+            <input type="number" id="chemistry-score" min="0" max="100" value="0">
+            <div class="input-controls">
+                <button class="btn btn-minus" onclick="adjustValue('chemistry-score', -1)">-</button>
+                <button class="btn" onclick="adjustValue('chemistry-score', 1)">+</button>
+            </div>
+        </div>
+        <div class="score-input" id="biology-container" style="display:none;">
+            <label for="biology-score">生物:</label>
+            <input type="number" id="biology-score" min="0" max="100" value="0">
+            <div class="input-controls">
+                <button class="btn btn-minus" onclick="adjustValue('biology-score', -1)">-</button>
+                <button class="btn" onclick="adjustValue('biology-score', 1)">+</button>
+            </div>
+        </div>
+        <div class="score-input" id="geography-container" style="display:none;">
+            <label for="geography-score">地理:</label>
+            <input type="number" id="geography-score" min="0" max="100" value="0">
+            <div class="input-controls">
+                <button class="btn btn-minus" onclick="adjustValue('geography-score', -1)">-</button>
+                <button class="btn" onclick="adjustValue('geography-score', 1)">+</button>
+            </div>
+        </div>
+        <div class="score-input" id="politics-container" style="display:none;">
+            <label for="politics-score">政治:</label>
+            <input type="number" id="politics-score" min="0" max="100" value="0">
+            <div class="input-controls">
+                <button class="btn btn-minus" onclick="adjustValue('politics-score', -1)">-</button>
+                <button class="btn" onclick="adjustValue('politics-score', 1)">+</button>
+            </div>
+        </div>
+        
+        <div class="result">
+            文化总分: <span id="culture-total" class="total-score">0</span> 分
+        </div>
+    </div>
+    
+    <div class="section">
+        <div class="result">
+            综合总分: <span id="final-score" class="total-score">0</span> 分
+        </div>
+    </div>
+
+    <script>
+        // 已选择的选考科目数量
+        let selectedElectives = 0;
+        const MAX_ELECTIVES = 2;
+        
+        // 获取所有输入框并添加事件监听
+        const inputs = document.querySelectorAll('input[type="number"]');
+        inputs.forEach(input => {
+            input.addEventListener('input', calculateTotal);
+            input.addEventListener('change', validateInput);
+        });
+
+        // 调整数值的函数
+        function adjustValue(id, change) {
+            const input = document.getElementById(id);
+            let value = parseInt(input.value) || 0;
+            value += change;
+            
+            // 确保值在合理范围内
+            const max = parseInt(input.max) || Infinity;
+            const min = parseInt(input.min) || 0;
+            value = Math.max(min, Math.min(max, value));
+            
+            input.value = value;
+            calculateTotal();
+        }
+
+        // 验证输入值
+        function validateInput(e) {
+            const input = e.target;
+            let value = parseInt(input.value) || 0;
+            
+            const max = parseInt(input.max) || Infinity;
+            const min = parseInt(input.min) || 0;
+            
+            if (value > max) {
+                input.value = max;
+            } else if (value < min) {
+                input.value = min;
+            }
+            
+            calculateTotal();
+        }
+
+        // 更新科目标签
+        function updateSubjectLabels() {
+            const mainSubjectSelect = document.getElementById('main-subject-select');
+            const foreignLanguageSelect = document.getElementById('foreign-language');
+            
+            // 更新主选科目标签
+            const mainSubjectLabel = document.getElementById('main-subject-label');
+            mainSubjectLabel.textContent = mainSubjectSelect.value === 'physics' ? '物理:' : '历史:';
+            
+            // 更新外语标签
+            const foreignLanguageLabel = document.getElementById('foreign-language-label');
+            foreignLanguageLabel.textContent = foreignLanguageSelect.value === 'english' ? '英语:' : '日语:';
+        }
+
+        // 切换选考科目显示
+        function toggleSubject(subject) {
+            const checkbox = document.getElementById(`${subject}-cb`);
+            const container = document.getElementById(`${subject}-container`);
+            
+            if (checkbox.checked) {
+                if (selectedElectives < MAX_ELECTIVES) {
+                    container.style.display = 'flex';
+                    selectedElectives++;
+                } else {
+                    checkbox.checked = false;
+                    alert(`最多只能选择${MAX_ELECTIVES}门选考科目`);
+                }
+            } else {
+                container.style.display = 'none';
+                document.getElementById(`${subject}-score`).value = 0;
+                selectedElectives--;
+            }
+            
+            calculateTotal();
+        }
+
+        // 计算总分
+        function calculateTotal() {
+            // 计算专业总分
+            const sketch = parseInt(document.getElementById('sketch').value) || 0;
+            const color = parseInt(document.getElementById('color').value) || 0;
+            const sketching = parseInt(document.getElementById('sketching').value) || 0;
+            const artTotal = sketch + color + sketching;
+            document.getElementById('art-total').textContent = artTotal;
+            
+            // 计算文化总分
+            const chinese = parseInt(document.getElementById('chinese').value) || 0;
+            const math = parseInt(document.getElementById('math').value) || 0;
+            const foreignLanguage = parseInt(document.getElementById('foreign-language-score').value) || 0;
+            const mainSubject = parseInt(document.getElementById('main-subject-score').value) || 0;
+            
+            // 计算选考科目分数
+            let elective1 = 0, elective2 = 0;
+            const electiveScores = [];
+            
+            if (document.getElementById('chemistry-cb').checked) {
+                electiveScores.push(parseInt(document.getElementById('chemistry-score').value) || 0);
+            }
+            if (document.getElementById('biology-cb').checked) {
+                electiveScores.push(parseInt(document.getElementById('biology-score').value) || 0);
+            }
+            if (document.getElementById('geography-cb').checked) {
+                electiveScores.push(parseInt(document.getElementById('geography-score').value) || 0);
+            }
+            if (document.getElementById('politics-cb').checked) {
+                electiveScores.push(parseInt(document.getElementById('politics-score').value) || 0);
+            }
+            
+            // 只取分数最高的两门选考科目
+            electiveScores.sort((a, b) => b - a);
+            if (electiveScores.length > 0) elective1 = electiveScores[0];
+            if (electiveScores.length > 1) elective2 = electiveScores[1];
+            
+            const cultureTotal = chinese + math + foreignLanguage + mainSubject + elective1 + elective2;
+            document.getElementById('culture-total').textContent = cultureTotal;
+            
+            // 计算综合总分
+            const finalScore = (artTotal * 2.5 + cultureTotal) / 2;
+            document.getElementById('final-score').textContent = finalScore.toFixed(1);
+        }
+
+        // 初始化计算
+        calculateTotal();
+    </script>
+</body>
+</html>

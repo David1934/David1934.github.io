@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sensor Frequency Calculator by deepseek</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        .input-section {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        .register-input {
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .register-input label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .register-input input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            display: block;
+            width: 200px;
+            padding: 10px;
+            margin: 20px auto;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .results {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 4px;
+            white-space: pre-wrap;
+            font-family: monospace;
+            overflow-x: auto;
+        }
+        .section-title {
+            font-weight: bold;
+            margin-top: 15px;
+            color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Sensor Frequency Calculator for ADS6311</h1>
+        
+        <div class="input-section">
+            <div class="register-input">
+                <label for="hawk_mipi_tx_delay">HAWK_MIPI_TX_DELAY_REG (0x001B)</label>
+                <input type="text" id="hawk_mipi_tx_delay" value="0">
+            </div>
+            
+            <div class="register-input">
+                <label for="hawk_pll0_div1">HAWK_PLL0_DIV1_REG (0x006A)</label>
+                <input type="text" id="hawk_pll0_div1" value="0">
+            </div>
+            
+            <div class="register-input">
+                <label for="hawk_pll0_div2">HAWK_PLL0_DIV2_REG (0x006B)</label>
+                <input type="text" id="hawk_pll0_div2" value="0">
+            </div>
+            
+            <div class="register-input">
+                <label for="hawk_pll1_div1">HAWK_PLL1_DIV1_REG (0x006E)</label>
+                <input type="text" id="hawk_pll1_div1" value="0">
+            </div>
+            
+            <div class="register-input">
+                <label for="hawk_pll1_div2">HAWK_PLL1_DIV2_REG (0x006F)</label>
+                <input type="text" id="hawk_pll1_div2" value="0">
+            </div>
+            
+            <div class="register-input">
+                <label for="hawk_mipipll_lpdh">HAWK_MIPIPLL_LPDH_REG (0x0074)</label>
+                <input type="text" id="hawk_mipipll_lpdh" value="0">
+            </div>
+            
+            <div class="register-input">
+                <label for="hawk_mipipll_lpdl">HAWK_MIPIPLL_LPDL_REG (0x0075)</label>
+                <input type="text" id="hawk_mipipll_lpdl" value="0">
+            </div>
+            
+            <div class="register-input">
+                <label for="hawk_mipipll_ppd">HAWK_MIPIPLL_PPD_REG (0x0077)</label>
+                <input type="text" id="hawk_mipipll_ppd" value="0">
+            </div>
+            
+            <div class="register-input">
+                <label for="hawk_txesc_clkdiv">HAWK_TXESC_CLKDIV_REG (0x0079)</label>
+                <input type="text" id="hawk_txesc_clkdiv" value="0">
+            </div>
+            
+            <div class="register-input">
+                <label for="hawk_d_phy_tx_frange_l">HAWK_D_PHY_TX_FRANGE_L_REG (0x21E)</label>
+                <input type="text" id="hawk_d_phy_tx_frange_l" value="0">
+            </div>
+            
+            <div class="register-input">
+                <label for="hawk_d_phy_tx_frange_h">HAWK_D_PHY_TX_FRANGE_H_REG (0x221)</label>
+                <input type="text" id="hawk_d_phy_tx_frange_h" value="0">
+            </div>
+        </div>
+        
+        <button onclick="calculateFrequencies()">Calculate Frequencies</button>
+        
+        <div class="section-title">Results:</div>
+        <div class="results" id="results"></div>
+    </div>
+
+    <script>
+        function calculateFrequencies() {
+            // Get input values
+            const xclk = 24; // SENSOR_XVCLK_FREQ_M
+            const X10 = 10;
+            
+            // Read register values
+            const mipi_tx_delay_cfg = parseInt(document.getElementById('hawk_mipi_tx_delay').value) & 0xFF;
+            
+            const d_phy_tx_frange_h = parseInt(document.getElementById('hawk_d_phy_tx_frange_h').value) & 0xFF;
+            let mipi_dphy_tx_frange_cfg = ((d_phy_tx_frange_h >> 3) & 0x4);
+            
+            const d_phy_tx_frange_l = parseInt(document.getElementById('hawk_d_phy_tx_frange_l').value) & 0xFF;
+            mipi_dphy_tx_frange_cfg |= (d_phy_tx_frange_l >> 2) & 0x3;
+            
+            const mipi_dphy_tx_freq_range = 6 * (1 << mipi_dphy_tx_frange_cfg);
+            
+            // PLL0
+            const pll0_div1 = parseInt(document.getElementById('hawk_pll0_div1').value) & 0xFF;
+            const syspll_id0 = ((pll0_div1 >> 4) & 0x07);
+            const syspll_od0 = (1 << ((pll0_div1 & 0x03) + 1));
+            
+            const pll0_div2 = parseInt(document.getElementById('hawk_pll0_div2').value) & 0xFF;
+            const syspll_fb0 = pll0_div2;
+            
+            // PLL1
+            const pll1_div1 = parseInt(document.getElementById('hawk_pll1_div1').value) & 0xFF;
+            const syspll_id1 = ((pll1_div1 >> 4) & 0x07);
+            const syspll_od1 = (1 << ((pll1_div1 & 0x03) + 1));
+            
+            const pll1_div2 = parseInt(document.getElementById('hawk_pll1_div2').value) & 0xFF;
+            const syspll_fb1 = pll1_div2;
+            
+            // MIPI PLL
+            const mipipll_lpdh = parseInt(document.getElementById('hawk_mipipll_lpdh').value) & 0xFF;
+            let mipipll_div_ns = ((mipipll_lpdh << 8) & 0x100);
+            
+            const mipipll_lpdl = parseInt(document.getElementById('hawk_mipipll_lpdl').value) & 0xFF;
+            mipipll_div_ns |= mipipll_lpdl;
+            
+            const mipipll_ppd = parseInt(document.getElementById('hawk_mipipll_ppd').value) & 0xFF;
+            const mipipll_div_ps = (mipipll_ppd & 0x1F);
+            const mipipll_div_ms = ((mipipll_ppd >> 5) & 0x07);
+            
+            // TXESC
+            const txesc_clkdiv = parseInt(document.getElementById('hawk_txesc_clkdiv').value) & 0xFF;
+            const mipi_TxEsc_ClkDiv = (txesc_clkdiv & 0x1F);
+            const mipi_TxEsc_ClkDutyCycle = ((txesc_clkdiv >> 5) & 0x07);
+            
+            // Validate inputs
+            if (mipipll_div_ms === 0) {
+                alert("mipipll_div_ms can not be 0.");
+                return;
+            }
+            
+            if (mipipll_div_ps === 0) {
+                alert("mipipll_div_ps can not be 0.");
+                return;
+            }
+            
+            if (syspll_id0 === 0 || syspll_id1 === 0) {
+                alert("syspll_id can not be 0.");
+                return;
+            }
+            
+            // Calculate frequencies
+            const syspll_Fvco = [0, 0];
+            const sys_clk = [0, 0];
+            
+            syspll_Fvco[0] = (xclk * syspll_fb0) / syspll_id0;
+            sys_clk[0] = syspll_Fvco[0] / syspll_od0;
+            
+            syspll_Fvco[1] = (xclk * syspll_fb1) / syspll_id1;
+            sys_clk[1] = syspll_Fvco[1] / syspll_od1;
+            
+            const mipipll_Fvco = (xclk * mipipll_div_ns) / mipipll_div_ms;
+            const mipi_clk_X10 = mipipll_Fvco * X10 / (mipipll_div_ps * 8);
+            const mipi_speed_per_lane = mipi_clk_X10 * 8 / X10;
+            
+            const mipi_TxEscClk_X10 = sys_clk[1] * X10 / (mipi_TxEsc_ClkDiv + 1);
+            const mipi_TxEsc_ClkDutyCycle_X10 = (mipi_TxEsc_ClkDutyCycle + 1) * 100 * X10 / (mipi_TxEsc_ClkDiv + 1);
+            
+            // Format output strings
+            function formatX10(value) {
+                if (value % X10 !== 0) {
+                    return (value / X10).toFixed(1);
+                } else {
+                    return (value / X10).toString();
+                }
+            }
+            
+            const mipi_clk_string = formatX10(mipi_clk_X10);
+            const mipi_TxEscClk_string = formatX10(mipi_TxEscClk_X10);
+            const mipi_TxEscClkDutyCycle_string = formatX10(mipi_TxEsc_ClkDutyCycle_X10);
+            
+            // Calculate delays
+            const mipi_frame_end_delay = 4 * (1 << ((mipi_tx_delay_cfg >> 6) & 0x3));
+            const mipi_packet_delay = mipi_tx_delay_cfg & 0x3F;
+            
+            // Generate output
+            let output = `System frequency list:
+syspll0_id:                            ${syspll_id0}
+syspll0_od:                            ${syspll_od0}
+syspll0_fb:                            ${syspll_fb0}
+syspll1_id:                            ${syspll_id1}
+syspll1_od:                            ${syspll_od1}
+syspll1_fb:                            ${syspll_fb1}
+mipi_TxEsc_ClkDiv:                     ${mipi_TxEsc_ClkDiv}
+mipi_TxEsc_ClkDutyCycle                ${mipi_TxEsc_ClkDutyCycle}
+mipi_tx_delay_cfg:                     ${mipi_tx_delay_cfg}
+mipi_dphy_tx_pll_frange_config:        ${mipi_dphy_tx_frange_cfg}
+mipipll_div_ns:                        ${mipipll_div_ns}
+mipipll_div_ms:                        ${mipipll_div_ms}
+mipipll_div_ps:                        ${mipipll_div_ps}
+
+xclk:                                  ${xclk} MHz
+syspll_Fvco_0(1G - 2G Hz):             ${syspll_Fvco[0]} MHz 
+sys_clk_0:                             ${sys_clk[0]} MHz
+
+syspll_Fvco_1(1G - 2G Hz):             ${syspll_Fvco[1]} MHz 
+sys_clk_1:                             ${sys_clk[1]} MHz
+
+mipi_TxEscClk [16M -- 20M]:            ${mipi_TxEscClk_string} MHz
+mipi_TxEscClk DutyCycle [40% - 60%]:   ${mipi_TxEscClkDutyCycle_string} %
+
+mipipll_Fvco (1G - 2G Hz):             ${mipipll_Fvco} MHz
+mipi_clk:                              ${mipi_clk_string} MHz
+mipi_dphy_tx_pll_freq_range:           ${mipi_dphy_tx_freq_range} ~ ${mipi_dphy_tx_freq_range*2} MHz
+mipi_frame_end_delay:                  ${mipi_frame_end_delay} us
+mipi_packet_delay:                     ${mipi_packet_delay} us
+mipi_speed (per_lane):                 ${mipi_speed_per_lane} Mbps
+
+---PLL0: for refTDC and ZDD.
+---PLL1: for SysClk, measurementTDC, etc.
+`;
+
+            document.getElementById('results').textContent = output;
+        }
+    </script>
+</body>
+</html>
