@@ -326,5 +326,23 @@ Favorite7=new Array(
 "","",""
 );
 
+Favorite8=new Array(
+"网盘搜索",
+
+"cn.epubee.com/","在线电子书转换器","",
+"https://www.jiumodiary.com","鸠摩搜书","中文电子书聚合搜索引擎",
+"https://pan.qianfan.app","千帆搜索","",
+"https://www.upyunso.com","UP云搜","",
+"https://www.gutenberg.org/","Project Gutenberg","",
+"","",""
+);
+
+Favorite8=new Array(
+"视频下载",
+
+"https://yt1d.com/zh-tw","YouTube視頻下載器","",
+"https://snapany.com/zh/bilibili","哔哩哔哩视频下载","",
+"","",""
+);
 
 

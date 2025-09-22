@@ -98,6 +98,7 @@ Favorite3=new Array(
 Favorite4=new Array(
 "English Dictionaris",
 
+"https://www.aristo.com.hk/dshkdse/e-Dictionary/grammar3ea/edict.html?s=1","◆DSE e-Dictionary","香港DSE线上英文字典",
 "www.m-w.com","◆merriam-webster.com","",
 "oxforddictionaries.com","◆Oxford Dictionary","",
 "oald8.oxfordlearnersdictionaries.com","◆Oxford Advanced Dict.","",
@@ -159,6 +160,13 @@ Favorite6=new Array(
 
 "https://chat.openai.com","★◆ChatGPT","最早最热的AI王者",
 "https://gemini.google.com","★Google Gemini","Google的AI,效果一般",
+"","",""
+);
+
+Favorite7=new Array(
+"Python入门",
+
+"https://www.runoob.com/","菜鸟教程","多种程序语言工具学习",
 "","",""
 );
 
