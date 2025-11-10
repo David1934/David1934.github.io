@@ -205,6 +205,8 @@ Favorite5=new Array(
 "软件开发相关",
 
 "https://www.drawio.com",'draw.io',"免费的画图工具",
+"https://mermaid.live/edit",'Mermaid Live Editor',"流程图等编辑查看",
+"https://excalidraw.com",'◆excalidraw.com',"免费的画图工具",
 "https://lvgl.io",'LVGL for embedded',"",
 "https://github.com/lvgl/lvgl",'LVGL',"",
 "https://mp.weixin.qq.com/s?__biz=Mzg4Mjg4NDY4MA==&mid=2247483765&idx=1&sn=6be5c521e8a91cc3da7b6c85960cc22a",'LVGL快速入门',"",
