@@ -1,6 +1,7 @@
 CoolSite=new Array(
 "讲师导航",
 
+"https://basic.smartedu.cn","国家中小学智慧教育平台","★★★电子教材及教学视频",
 "https://space.bilibili.com/39737405","语文--学过石油的语文老师","",
 "https://space.bilibili.com/485578465","语文--国家玮-开明致学","",
 "https://space.bilibili.com/442129187","语文--乘风","",
@@ -29,7 +30,6 @@ Favorite1=new Array(
 Favorite1=new Array(
 "高中各科视频",
 
-"https://mp.weixin.qq.com/s/yHWEiUv8XeW6oNwptyy4kQ","高中全科目教学视频合集","",
 "https://mp.weixin.qq.com/s?__biz=MjM5NzQ4OTkwNg==&mid=2247610899&idx=1&sn=7eaa070b2f5ae1379c975e3fdec7b2c4&chksm=a6da4f8e91adc6985d0ce0f0e4c9df6ddc96dbaf76bffffc6c358d17161e7d4347ccf02a6c4e&token=362700357&lang=zh_CN&scene=21#wechat_redirect","高考复习教学视频（2023）","",
 "","",""
 );
@@ -92,7 +92,7 @@ Favorite7=new Array(
 * 视频确保每节课都没有任何问题！一数粉丝越来越多，谢谢大家的支持与喜爱
 */
 "https://www.bilibili.com/video/BV147411K7xu","一数：高中数学基础与解法全集","从零开始拯救所有学渣！通俗易懂",
-"https://www.bilibili.com/video/BV1w7411w7kQ","一数：高考数学通法逆袭全集","高考复习有这个就够了！",
+"https://www.bilibili.com/video/BV1w7411w7kQ","一数：高考数学通法逆袭全集","★★★高考复习有这个就够了！",
 "https://www.bilibili.com/video/BV1mE421A71a","一数：必刷100讲，新版来了！","高考数学救星,就看TA！",
 "https://www.bilibili.com/video/BV1dPxve7EQm","赵礼显：空间向量及其运算","",
 "https://basic.smartedu.cn/syncClassroom?defaultTag=e7bbcefe-0590-11ed-9c79-92fc3b3249d5%2Fe7bbcf80-0590-11ed-9c79-92fc3b3249d5%2F5036342963%2F5036342972&reportHistory=true","国家中小学智慧教育平台：高中.数学.人教A版","",
@@ -179,13 +179,25 @@ Favorite12=new Array(
 "","",""
 );
 
-Favorite13=new Array(
-"乘风-【文言文必备基础】",
+Favorite12=new Array(
+"高考大仙儿语文",
 
-"https://www.bilibili.com/video/BV1HY4y137hT","310个高频文言文实词带背<br>part1  06:19","",
-"https://www.bilibili.com/video/BV1id4y1Q7Gk","310个高频文言文实词带背<br>part2  06:10","",
-"https://www.bilibili.com/video/BV1wB4y137Uk","310个高频文言文实词带背<br>part3  14:47","",
-"https://www.bilibili.com/video/BV1Z14y1V7Qz","310个高频文言文实词带背<br>part4  07:41","",
+"https://www.bilibili.com/video/BV11t411Z7pP","高考语文·作文万能审题套路","★★★",
+"https://www.bilibili.com/video/BV12W411872z","高考文言文满分 你只差这一课！","★★★",
+"","",""
+);
+
+Favorite13=new Array(
+"【文言文必备基础】",
+
+"https://www.bilibili.com/video/BV1HY4y137hT","310个高频文言文实词带背<br>part1  06:19","乘风",
+"https://www.bilibili.com/video/BV1id4y1Q7Gk","310个高频文言文实词带背<br>part2  06:10","乘风",
+"https://www.bilibili.com/video/BV1wB4y137Uk","310个高频文言文实词带背<br>part3  14:47","乘风",
+"https://www.bilibili.com/video/BV1Z14y1V7Qz","310个高频文言文实词带背<br>part4  07:41","乘风",
+"https://www.bilibili.com/video/BV1h5jhzwEcX","高中文言文虚词 一词多义 看动画学文言文","★★★",
+"https://www.bilibili.com/video/BV1Dt411p7ce","高中语文-文言文全套精讲","",
+"https://www.bilibili.com/video/BV1Rb411J7km","高考语文文言文阅读满分集训","★★",
+"https://www.bilibili.com/video/BV1uT4y137uB","【高考语文】《万能答题模板》","★★★",
 "","",""
 );
 
