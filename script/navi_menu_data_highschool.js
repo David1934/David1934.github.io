@@ -1,18 +1,21 @@
 CoolSite=new Array(
-"讲师导航",
+"优先推荐",
 
-"https://basic.smartedu.cn","国家中小学智慧教育平台","★★★电子教材及教学视频",
-"https://space.bilibili.com/39737405","语文--学过石油的语文老师","",
-"https://space.bilibili.com/485578465","语文--国家玮-开明致学","",
-"https://space.bilibili.com/442129187","语文--乘风","",
-"https://space.bilibili.com/14229967","数学--一数","",
-"https://space.bilibili.com/123321175","数学--佟大大还是ETT","",
-"https://space.bilibili.com/3546705530194223","数学--北大数学胡源老师","",
-"https://space.bilibili.com/321084528","历史--历史老师定哥","",
-"https://space.bilibili.com/402847001","历史政治--段sir是懂王","",
-"https://space.bilibili.com/3494354035411221","政治--琳妈讲政治","",
-"https://space.bilibili.com/281416828","政治--FredTao高考政治","",
-"https://space.bilibili.com/2036187097","生物--一生儿","",
+"https://www.bilibili.com/video/BV1JvHtzUEV9","【数飞】2026届一轮复习-每天1h<br>30天速通高考数学","★★★",
+"https://www.bilibili.com/video/BV1mE421A71a","一数：必刷100讲，新版来了！","高考数学救星,就看TA！",
+
+"https://www.bilibili.com/video/BV1h5jhzwEcX","高中文言文虚词 一词多义 看动画学文言文","★★★",
+"https://www.bilibili.com/video/BV1Dt411p7ce","高中语文-文言文全套精讲","",
+"https://www.bilibili.com/video/BV1Rb411J7km","高考语文文言文阅读满分集训","★★",
+"https://www.bilibili.com/video/BV1uT4y137uB","【高考语文】《万能答题模板》","★★★",
+"https://www.bilibili.com/video/BV11m4tzMEEf","【高考语文·课内文言文】超详细的讲解","",
+"https://www.bilibili.com/video/BV1HY4y137hT","310个高频文言文实词带背<br>part1  06:19","乘风",
+"https://www.bilibili.com/video/BV1id4y1Q7Gk","310个高频文言文实词带背<br>part2  06:10","乘风",
+"https://www.bilibili.com/video/BV1wB4y137Uk","310个高频文言文实词带背<br>part3  14:47","乘风",
+"https://www.bilibili.com/video/BV1Z14y1V7Qz","310个高频文言文实词带背<br>part4  07:41","乘风",
+
+"https://mp.weixin.qq.com/s?__biz=MjM5NzQ4OTkwNg==&mid=2247610899&idx=1&sn=7eaa070b2f5ae1379c975e3fdec7b2c4&chksm=a6da4f8e91adc6985d0ce0f0e4c9df6ddc96dbaf76bffffc6c358d17161e7d4347ccf02a6c4e&token=362700357&lang=zh_CN&scene=21#wechat_redirect","高考复习教学视频（各科）","",
+
 "","",""
 );
 
@@ -28,9 +31,20 @@ Favorite1=new Array(
 */
 
 Favorite1=new Array(
-"高中各科视频",
+"讲师导航",
 
-"https://mp.weixin.qq.com/s?__biz=MjM5NzQ4OTkwNg==&mid=2247610899&idx=1&sn=7eaa070b2f5ae1379c975e3fdec7b2c4&chksm=a6da4f8e91adc6985d0ce0f0e4c9df6ddc96dbaf76bffffc6c358d17161e7d4347ccf02a6c4e&token=362700357&lang=zh_CN&scene=21#wechat_redirect","高考复习教学视频（2023）","",
+"https://space.bilibili.com/39737405","语文--学过石油的语文老师","",
+"https://space.bilibili.com/485578465","语文--国家玮-开明致学","",
+"https://space.bilibili.com/442129187","语文--乘风","",
+"https://space.bilibili.com/14229967","数学--一数","",
+"https://space.bilibili.com/123321175","数学--佟大大还是ETT","",
+"https://space.bilibili.com/3546705530194223","数学--北大数学胡源老师","",
+"https://space.bilibili.com/321084528","历史--历史老师定哥","",
+"https://space.bilibili.com/402847001","历史政治--段sir是懂王","",
+"https://space.bilibili.com/3494354035411221","政治--琳妈讲政治","",
+"https://space.bilibili.com/281416828","政治--FredTao高考政治","",
+"https://space.bilibili.com/2036187097","生物--一生儿","",
+
 "","",""
 );
 
@@ -179,15 +193,22 @@ Favorite12=new Array(
 "","",""
 );
 
-Favorite12=new Array(
-"高考大仙儿语文",
+Favorite13=new Array(
+"★★★高考大仙儿语文",
 
 "https://www.bilibili.com/video/BV11t411Z7pP","高考语文·作文万能审题套路","★★★",
 "https://www.bilibili.com/video/BV12W411872z","高考文言文满分 你只差这一课！","★★★",
+"https://www.bilibili.com/video/BV1X7411G7dN","高考高分语文·议论文写作初阶教程","★★★",
+
+"https://www.bilibili.com/video/BV1vE41147iY","高考高分语文·古诗鉴赏满分答题公式","★★★",
+"https://www.bilibili.com/video/BV1AE41197Au","高考语文·课内文言文《烛之武退秦师》基础知识","★★★",
+"https://www.bilibili.com/video/BV1i4411k7Jd","高考语文课内文言文《赤壁赋》知识难点","★★★",
+"https://www.bilibili.com/video/BV1a441167oo","高考语文·课内文言文，带你掌握《劝学》难点","★★★",
+"https://www.bilibili.com/video/BV1uJ411g7Zo","高考语文·课内文言文，《师说》基础知识","★★★",
 "","",""
 );
 
-Favorite13=new Array(
+Favorite14=new Array(
 "【文言文必备基础】",
 
 "https://www.bilibili.com/video/BV1HY4y137hT","310个高频文言文实词带背<br>part1  06:19","乘风",
@@ -198,10 +219,11 @@ Favorite13=new Array(
 "https://www.bilibili.com/video/BV1Dt411p7ce","高中语文-文言文全套精讲","",
 "https://www.bilibili.com/video/BV1Rb411J7km","高考语文文言文阅读满分集训","★★",
 "https://www.bilibili.com/video/BV1uT4y137uB","【高考语文】《万能答题模板》","★★★",
+"https://www.bilibili.com/video/BV11m4tzMEEf","【高考语文·课内文言文】超详细的讲解","",
 "","",""
 );
 
-Favorite14=new Array(
+Favorite15=new Array(
 "乘风-【高考必背文化常识】",
 
 "https://www.bilibili.com/video/BV13i4y197Er","每天五分钟，轻松掌握！<br>称谓篇 05:59","",
@@ -219,7 +241,7 @@ Favorite14=new Array(
 "","",""
 );
 
-Favorite15=new Array(
+Favorite16=new Array(
 "乘风-【高考语文一轮直击130+技巧】",
 
 "https://www.bilibili.com/video/BV1zx411f77t","一招破解近义成语辨析<br>part1 31:30","",
@@ -228,7 +250,7 @@ Favorite15=new Array(
 "","",""
 );
 
-Favorite16=new Array(
+Favorite17=new Array(
 "乘风-【4节课冲击55+高分作文】",
 
 "https://www.bilibili.com/video/BV1W4411o7cn?","揭秘考场新套路！<br>作文上不了一类文原因揭秘","",
@@ -238,7 +260,7 @@ Favorite16=new Array(
 "","",""
 );
 
-Favorite17=new Array(
+Favorite18=new Array(
 "乘风-语文",
 
 "https://www.bilibili.com/video/BV1b4411B7qS","学校从不讲的诗歌鉴赏技巧大全<br>30:37","",
@@ -246,7 +268,7 @@ Favorite17=new Array(
 );
 
 
-Favorite18=new Array(
+Favorite19=new Array(
 "高考历史·选择题第一季(1--199)",
 
 "https://www.bilibili.com/video/BV14f4y1R7yo?p=1","P1 学习方法＋课程介绍<br>07:31","",
@@ -254,45 +276,22 @@ Favorite18=new Array(
 "","",""
 );
 
-Favorite19=new Array(
+Favorite20=new Array(
 "电子版中小学教材",
 
 "https://jc.pep.com.cn","中小学教材","在线电子版",
-"https://basic.smartedu.cn/tchMaterial?defaultTag=fa6200b8-b4aa-4d72-bebb-dddd93022a13%2Fd1914cee-dbcc-44e6-bab3-74eeed0e9875%2F0a724f60-913a-4c39-90a3-f9ce4c899e7b","中小学教材","国家中小学智慧教育平台",
+"https://basic.smartedu.cn","中小学教材","国家中小学智慧教育平台",
 "","",""
 );
 
 
-Favorite19=new Array(
+Favorite21=new Array(
 "搜索引擎 & 热门AI",
 
-"https://www.google.com","★Google","",
-"www.wikipedia.org",'★WikiPedia',"维基百科",
-"https://metaso.cn","秘塔AI搜索","国内免费AI搜索",
-"https://n.cn","纳米搜索","原360 AI搜索升级",
 "https://cn.bing.com/?ensearch=1","Bing国际版","无需梯子",
-"https://ai-bot.cn","AI工具集","AI工具分类导航",
-
-"https://ai.xiabb.chat","◆阿水AI6.0","聚合AI,无需梯子chatGPT服务",
-
-"https://github.com/copilot","◆Copilot","Github Copilot",
 "https://www.deepseek.com","DeepSeek","又一个免费国内AI",
 "https://www.doubao.com/chat","◆豆包","字节跳动出品",
 "https://kimi.moonshot.cn","Kimi.AI","很火的免费国内AI",
-
-"https://yiyan.baidu.com","◆文心一言","百度出品",
-"https://www.tiangong.cn","◆天工AI","国内AI",
-"https://chatglm.cn","◆智谱清言","质量不错",
-
-
-"https://tongyi.aliyun.com/qianwen","通义千问","阿里出品",
-"https://xinghuo.xfyun.cn","讯飞星火","科大讯飞出品",
-
-"https://yuanbao.tencent.com/chat","腾讯元宝","腾讯出品",
-
-
-"https://chat.openai.com","★◆ChatGPT","最早最热的AI王者",
-"https://gemini.google.com","★Google Gemini","Google的AI,效果一般",
 "","",""
 );
 
