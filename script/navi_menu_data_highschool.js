@@ -14,6 +14,9 @@ CoolSite=new Array(
 "https://www.bilibili.com/video/BV1wB4y137Uk","310个高频文言文实词带背<br>part3  14:47","乘风",
 "https://www.bilibili.com/video/BV1Z14y1V7Qz","310个高频文言文实词带背<br>part4  07:41","乘风",
 
+"https://www.ximalaya.com/album/110530565","优点日语|高考日语听力高效训练2026版","初阶版 音频",
+// https://www.ximalaya.com/album/73256774
+
 "https://mp.weixin.qq.com/s?__biz=MjM5NzQ4OTkwNg==&mid=2247610899&idx=1&sn=7eaa070b2f5ae1379c975e3fdec7b2c4&chksm=a6da4f8e91adc6985d0ce0f0e4c9df6ddc96dbaf76bffffc6c358d17161e7d4347ccf02a6c4e&token=362700357&lang=zh_CN&scene=21#wechat_redirect","高考复习教学视频（各科）","",
 
 "","",""
