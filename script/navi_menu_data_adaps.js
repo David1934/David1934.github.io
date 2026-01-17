@@ -26,7 +26,8 @@ Favorite1=new Array(
 "https://cn.bing.com/?ensearch=1","Bing国际版","无需梯子",
 "https://ai-bot.cn","AI工具集","AI工具分类导航",
 
-"https://ai.xiabb.chat","◆阿水AI6.0","聚合AI,无需梯子chatGPT服务",
+//"https://ai.xiabb.chat","◆阿水AI6.0","聚合AI,无需梯子chatGPT服务",
+"https://ish.chat","◆ish.chat","",
 
 "https://github.com/copilot","◆Copilot","Github Copilot",
 "https://www.deepseek.com","◆DeepSeek","又一个免费国内AI",
@@ -56,6 +57,7 @@ Favorite2=new Array(
 "https://opensource.rock-chips.com",'瑞星微Open Source',"Rockchip开源代码及文档",
 "https://e2e.ti.com",'TI e2e',"TI技术支持",
 "https://myaccount.qualcomm.com/profile",'Qualcomm开发相关',"高通技术支持",
+"https://www.falstad.com/circuit/",'电路模拟',"",
 
 "https://elixir.bootlin.com/linux/latest/source","Linux kernel源码","",
 "https://portableapps.com",'PortableApps',"",

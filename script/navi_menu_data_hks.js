@@ -62,6 +62,28 @@ Favorite1=new Array(
 "https://www.youtube.com/watch?v=SrfrcStk3rg&list=PLhcW5Vlyw9CqwETLZMLmubZEnkkzqv8zI","2023最新XDF雅思词汇基础","25讲",
 "https://www.youtube.com/watch?v=We3SCTGK2f4","公立高中生如何從零首戰雅思7.5","短期閱讀5.5到8.5的自學高分技巧",
 
+"https://www.frontpages.com/south-china-morning-post/","★South China Morning Post<br>南華早報","https://www.scmp.com/",
+"https://www.frontpages.com/china-daily/","China Daily<br>中國日報","https://www.chinadaily.com.cn/",
+
+"https://www.frontpages.com/oriental-daily-news/","★Oriental Daily News<br>東方日報","https://orientaldaily.on.cc/",
+"https://www.frontpages.com/hong-kong-economic-journal/","★Hongkong Econimic Journal<br>信報","https://wwww.hkej.com/",
+
+"https://www.frontpages.com/the-guardian-usa/","★The Guardian US<br>卫报","https://www.theguardian.com/us",
+"https://www.frontpages.com/usa-today/","★USA Today","https://www.usatoday.com/",
+"https://www.frontpages.com/the-new-york-times/","★The New York Times<br>纽约时报","https://www.nytimes.com/",
+"https://www.frontpages.com/los-angeles-times/","★Los Angeles Times","https://www.latimes.com/",
+"https://www.frontpages.com/the-washington-post/","★The Washington Post","https://www.washingtonpost.com/",
+"https://www.frontpages.com/new-york-post/","★New York Post","https://nypost.com/",
+"https://www.frontpages.com/newsweek/","Newsweek","https://www.newsweek.com/",
+"https://www.frontpages.com/forbes/","Forbes","https://www.forbes.com/",
+
+"https://www.frontpages.com/cambridge-news/","Cambridge News","https://www.cambridge-news.co.uk/",
+"https://www.frontpages.com/financial-times/","★Financial Times<br>金融时报","https://ft.com/",
+
+"https://www.frontpages.com/the-straits-times/","The Straits Times","https://www.straitstimes.com/",
+"https://www.frontpages.com/lianhe-zaobao/","Lianhe zaobao","https://www.zaobao.com.sg/",
+"https://www.frontpages.com/the-business-times/","THE BUSINESS TIMES","https://www.businesstimes.com.sg/",
+
 "","",""
 );
 

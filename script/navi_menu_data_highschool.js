@@ -4,6 +4,7 @@ CoolSite=new Array(
 "https://www.bilibili.com/video/BV1JvHtzUEV9","【数飞】2026届一轮复习-每天1h<br>30天速通高考数学","★★★",
 "https://www.bilibili.com/video/BV1mE421A71a","一数：必刷100讲，新版来了！","高考数学救星,就看TA！",
 
+"https://www.bilibili.com/video/BV1KW411g71Y","高考语文大一轮精讲","★★★",
 "https://www.bilibili.com/video/BV1h5jhzwEcX","高中文言文虚词 一词多义 看动画学文言文","★★★",
 "https://www.bilibili.com/video/BV1Dt411p7ce","高中语文-文言文全套精讲","",
 "https://www.bilibili.com/video/BV1Rb411J7km","高考语文文言文阅读满分集训","★★",
@@ -16,6 +17,17 @@ CoolSite=new Array(
 
 "https://www.ximalaya.com/album/110530565","优点日语|高考日语听力高效训练2026版","初阶版 音频",
 // https://www.ximalaya.com/album/73256774
+
+"https://www.bilibili.com/video/BV1g14y1X7eB","高考生物【一轮复习】","★★★",
+
+"https://www.bilibili.com/video/BV1GP4mzgEec","高三历史一轮复习","",
+"https://www.bilibili.com/video/BV1aA411Q7Cb","思维导图搞定高中历史（纲要+选修）","历史老师定哥",
+"https://www.bilibili.com/video/BV1Wb4y1X797","十三天通关高中历史","历史老师定哥",
+"https://www.bilibili.com/video/BV1ZU4y1E7cq","看熟+10分！新教材高中历史大事年表！",
+"https://www.bilibili.com/video/BV18K411W7Kx","历史选择题正确做法（选择题高分技巧）",
+"https://www.bilibili.com/video/BV18K411W7Kx","历史选择题正确做法（选择题高分技巧）",
+"https://www.bilibili.com/video/BV14f4y1R7yo","【高考历史·选择题第一季】","段sir是懂王",
+"https://www.bilibili.com/video/BV13i4y157HL","【高考历史】全国通用大题高频模板","段sir是懂王",
 
 "https://mp.weixin.qq.com/s?__biz=MjM5NzQ4OTkwNg==&mid=2247610899&idx=1&sn=7eaa070b2f5ae1379c975e3fdec7b2c4&chksm=a6da4f8e91adc6985d0ce0f0e4c9df6ddc96dbaf76bffffc6c358d17161e7d4347ccf02a6c4e&token=362700357&lang=zh_CN&scene=21#wechat_redirect","高考复习教学视频（各科）","",
 
