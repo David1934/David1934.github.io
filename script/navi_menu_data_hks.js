@@ -29,6 +29,38 @@ CoolSite=new Array(
 );
 
 Favorite1=new Array(
+"Bilibili英文",
+
+"https://www.bilibili.com/video/BV1HBzZY6EUm","油管最好的英语播客对话<br>★★★★发音/速度/声音非常完美","比利英语",
+"https://www.bilibili.com/video/BV1fq4y1g7nb","【EnglishPod】完整对话字幕版","比利英语",
+
+"https://www.bilibili.com/video/BV1q2iiBWEBa","【跟读】VOA慢速英语<br>★★★第一辑（全200集）","较瘦Slim_Eng",
+"https://www.bilibili.com/video/BV1LFbDz4E2F","【跟读】VOA慢速新闻（1-50）<br>★★★VOA SpecialEnglish","一樹yishu",
+"https://www.bilibili.com/video/BV115hPz7EPk","【跟读/精听】VOA新闻英语<br>听力100篇（双语版）","一樹yishu",
+
+"https://www.bilibili.com/video/BV1qDuvzBE85","【影子跟读】BBC新闻听力1-50篇","一樹yishu",
+"https://www.bilibili.com/video/BV1QC4y1b7ro","【影子跟读】BBC新闻听力51-100","一樹yishu",
+"https://space.bilibili.com/3537109151386355","英语播客党 频道","BBC新闻播客",
+
+"https://www.bilibili.com/video/BV1cg4y137ko","【雅思口语】23年最强跟读训练<br>★★★★从初级到高级循序渐进","雅思Louise",
+"https://www.bilibili.com/video/BV15Y411Q7YK","雅思口语听力练习素材<br>每天沉浸式跟读精听一小时","逢春晚",
+"https://www.bilibili.com/video/BV1kh4y1w7jb","【英语口语】从入门到精通<br>★★★★Daily English 1305期","英语喵Bella",
+"https://www.bilibili.com/video/BV1hvfdYYEdB","【跟读】ESL Podcast 合集（上）","较瘦Slim_Eng",
+"https://www.bilibili.com/video/BV1HgNBeEEdN","【跟读】ESL Podcast 合集（下）","较瘦Slim_Eng",
+
+"https://www.bilibili.com/video/BV1B841157DV","每天一话题带你融入全英文语境<br>[油管最受欢迎的英语播客]","比利英语",
+
+"https://www.bilibili.com/video/BV1c54y187SH","雅思真经第一课","雅思教父刘洪波",
+"https://www.bilibili.com/video/BV1rq4CeDE1h","雅思播客 全100集","油管最好的学雅思播客之一",
+"https://www.bilibili.com/video/BV1B4PpetEKf","一周吃透《雅思词汇真经》","",
+"https://www.bilibili.com/video/BV1tkcVe1EkZ","7天背完7000个雅思单词","《雅思词汇真经》硬核记忆",
+"https://www.bilibili.com/video/BV1aP1FYgEKx","漫画秒记3000英语单词","分场景记忆",
+
+"","",""
+);
+
+
+Favorite2=new Array(
 "English & IELTS",
 
 "https://www.youtube.com/@dse.engmrj","Mr.J English YouTube","DSE 英文考試技巧專家",
@@ -48,11 +80,6 @@ Favorite1=new Array(
 "https://ieltsliz.com","IELTS Liz","前雅思考官",
 "https://ieltsliz.com/vocabulary","Liz vocabulary","Liz词汇",
 "https://ieltsmaterial.com","IELTS material","雅思素材",
-"https://www.bilibili.com/video/BV1c54y187SH","雅思真经第一课","雅思教父刘洪波",
-"https://www.bilibili.com/video/BV1rq4CeDE1h","雅思播客 全100集","油管最好的学雅思播客之一",
-"https://www.bilibili.com/video/BV1B4PpetEKf","一周吃透《雅思词汇真经》","",
-"https://www.bilibili.com/video/BV1tkcVe1EkZ","7天背完7000个雅思单词","《雅思词汇真经》硬核记忆",
-"https://www.bilibili.com/video/BV1aP1FYgEKx","漫画秒记3000英语单词","分场景记忆",
 
 "https://www.youtube.com/watch?v=YGsE15cLJ2E","美国大学教授的高效背单词法","泡芙方 Prof. Fang",
 "https://www.youtube.com/watch?v=7tOGP1A8q_s","會了這個方法，我的英文一日千里","泡芙方 Prof. Fang",
@@ -62,18 +89,21 @@ Favorite1=new Array(
 "https://www.youtube.com/watch?v=SrfrcStk3rg&list=PLhcW5Vlyw9CqwETLZMLmubZEnkkzqv8zI","2023最新XDF雅思词汇基础","25讲",
 "https://www.youtube.com/watch?v=We3SCTGK2f4","公立高中生如何從零首戰雅思7.5","短期閱讀5.5到8.5的自學高分技巧",
 
-"https://www.frontpages.com/south-china-morning-post/","★South China Morning Post<br>南華早報","https://www.scmp.com/",
+"https://www.frontpages.com/south-china-morning-post/","★South China Morning Post<br>南華早報","",
+"https://www.scmp.com/","★South China Morning Post<br>南華早報","",
+"https://www.thestandard.com.hk","★The Standard<br>英文虎報","",
 "https://www.frontpages.com/china-daily/","China Daily<br>中國日報","https://www.chinadaily.com.cn/",
 
 "https://www.frontpages.com/oriental-daily-news/","★Oriental Daily News<br>東方日報","https://orientaldaily.on.cc/",
 "https://www.frontpages.com/hong-kong-economic-journal/","★Hongkong Econimic Journal<br>信報","https://wwww.hkej.com/",
 
 "https://www.frontpages.com/the-guardian-usa/","★The Guardian US<br>卫报","https://www.theguardian.com/us",
+"https://www.frontpages.com/time/","★Time","https://time.com/",
 "https://www.frontpages.com/usa-today/","★USA Today","https://www.usatoday.com/",
 "https://www.frontpages.com/the-new-york-times/","★The New York Times<br>纽约时报","https://www.nytimes.com/",
 "https://www.frontpages.com/los-angeles-times/","★Los Angeles Times","https://www.latimes.com/",
 "https://www.frontpages.com/the-washington-post/","★The Washington Post","https://www.washingtonpost.com/",
-"https://www.frontpages.com/new-york-post/","★New York Post","https://nypost.com/",
+"https://www.frontpages.com/new-york-post/","New York Post","https://nypost.com/",
 "https://www.frontpages.com/newsweek/","Newsweek","https://www.newsweek.com/",
 "https://www.frontpages.com/forbes/","Forbes","https://www.forbes.com/",
 
@@ -87,7 +117,7 @@ Favorite1=new Array(
 "","",""
 );
 
-Favorite2=new Array(
+Favorite3=new Array(
 "數學科",
 
 "https://www.beyondmathedu.com/dse-formula","◆DSE 數學公式","DSE Formula",
@@ -103,7 +133,7 @@ Favorite2=new Array(
 );
 
 
-Favorite3=new Array(
+Favorite4=new Array(
 "中文科",
 
 "https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/nss-lang/settext-text.html",'指定文言經典學習材料',"原文及誦讀錄音",
@@ -117,7 +147,7 @@ Favorite3=new Array(
 );
 
 
-Favorite4=new Array(
+Favorite5=new Array(
 "English Dictionaris",
 
 "https://www.aristo.com.hk/dshkdse/e-Dictionary/grammar3ea/edict.html?s=1","◆DSE e-Dictionary","香港DSE线上英文字典",
@@ -137,7 +167,7 @@ Favorite4=new Array(
 "","",""
 );
 
-Favorite5=new Array(
+Favorite6=new Array(
 "字典 詞典",
 
 "https://dict.mini.moe.edu.tw/",'◆國語小詞典',"臺灣教育部",
@@ -163,7 +193,7 @@ Favorite5=new Array(
 "","",""
 );
 
-Favorite6=new Array(
+Favorite7=new Array(
 "搜索引擎 & 热门AI",
 
 "https://www.google.com","★Google","",
@@ -185,7 +215,7 @@ Favorite6=new Array(
 "","",""
 );
 
-Favorite7=new Array(
+Favorite8=new Array(
 "Python入门",
 
 "https://www.runoob.com/","菜鸟教程","多种程序语言工具学习",
