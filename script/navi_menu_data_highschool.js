@@ -2,7 +2,22 @@ CoolSite=new Array(
 "优先推荐",
 
 "https://www.bilibili.com/video/BV1JvHtzUEV9","【数飞】2026届一轮复习-每天1h<br>30天速通高考数学","★★★",
-"https://www.bilibili.com/video/BV1mE421A71a","一数：必刷100讲，新版来了！","高考数学救星,就看TA！",
+"https://www.bilibili.com/video/BV13t411E7M5","2026高考数学必刷100讲【基础+中档】","★★★★一数",
+//"https://www.bilibili.com/video/BV1mE421A71a","一数：必刷100讲，新版来了！","★★★高考数学救星,就看TA！",
+"https://www.bilibili.com/video/BV1w7411w7kQ","一数：高考数学通法逆袭全集","★★★高考复习有这个就够了！",
+"https://www.bilibili.com/video/BV1ienBzTEVA","高考数学5年真题全面分类拆解”！","★★★★欧拉imath",
+"https://www.bilibili.com/video/BV1mUWmztEzQ","新高考数学真题分类讲解<br>2025新高考I卷逐题讲解","★★★数学老师恩哲kaka",
+"https://www.bilibili.com/video/BV1xT421e7q6","新高考数学真题分类讲解<br>2024新高考I卷逐题讲解","★★★数学老师恩哲kaka",
+"https://www.bilibili.com/video/BV15M4m167pA","新高考数学真题分类讲解<br>2023新高考I卷逐题讲解","★★★数学老师恩哲kaka",
+"https://www.bilibili.com/video/BV18bJWzJEMG","新高考数学真题分类讲解<br>2022新高考I卷逐题讲解","★★★数学老师恩哲kaka",
+"https://www.bilibili.com/video/BV1TY7nzAEKh","新高考数学真题分类讲解<br>2021新高考I卷逐题讲解","★★★数学老师恩哲kaka",
+"https://www.bilibili.com/video/BV1j54111722","新高考数学真题分类讲解-集合","★★★数学老师恩哲kaka",
+"https://www.bilibili.com/video/BV1BT4y1r7SC","新高考数学真题分类讲解-函数性质综合","★★★数学老师恩哲kaka",
+"https://www.bilibili.com/video/BV1cS4y1Y7tx","新高考数学真题分类讲解-基本不等式&比较大小","★★★数学老师恩哲kaka",
+"https://www.bilibili.com/video/BV1wT4y1Y7wa","新高考数学真题分类讲解-平面向量","★★★数学老师恩哲kaka",
+"https://www.bilibili.com/video/BV1vB4y1272X","新高考数学真题分类讲解-复数","★★★数学老师恩哲kaka",
+"https://www.bilibili.com/video/BV1oY4y1r729","新高考数学真题分类讲解-空间几何体","★★★数学老师恩哲kaka",
+"https://www.bilibili.com/video/BV18Z4y1t7Ax","新高考数学真题分类讲解-空间位置关系","★★★数学老师恩哲kaka",
 
 "https://www.bilibili.com/video/BV1KW411g71Y","高考语文大一轮精讲","★★★",
 "https://www.bilibili.com/video/BV1h5jhzwEcX","高中文言文虚词 一词多义 看动画学文言文","★★★",
@@ -18,14 +33,18 @@ CoolSite=new Array(
 "https://www.ximalaya.com/album/110530565","优点日语|高考日语听力高效训练2026版","初阶版 音频",
 // https://www.ximalaya.com/album/73256774
 
-"https://www.bilibili.com/video/BV1g14y1X7eB","高考生物【一轮复习】","★★★",
+"https://www.bilibili.com/video/BV1g14y1X7eB","高考生物【一轮复习】","★★★喵喵老师@一生儿",
+"https://www.bilibili.com/video/BV1Xg3Xz1Emp","【2025高考生物】广东卷-选择 精讲分析","★★★喵喵老师@一生儿",
+"https://www.bilibili.com/video/BV1wi421a7M3","【2024高考生物】广东卷-精讲分析","★★★喵喵老师@一生儿",
+"https://www.bilibili.com/video/BV1uv4y1g7Q6","【2022高考生物】广东卷-逐题全解","★★★喵喵老师@一生儿",
+"https://www.bilibili.com/video/BV1tN41127DS","【2023高考生物】遗传大题怎么考<br>甲卷/广东卷/山东卷","★★★喵喵老师@一生儿",
 
 "https://www.bilibili.com/video/BV1GP4mzgEec","高三历史一轮复习","",
 "https://www.bilibili.com/video/BV1aA411Q7Cb","思维导图搞定高中历史（纲要+选修）","历史老师定哥",
 "https://www.bilibili.com/video/BV1Wb4y1X797","十三天通关高中历史","历史老师定哥",
-"https://www.bilibili.com/video/BV1ZU4y1E7cq","看熟+10分！新教材高中历史大事年表！",
-"https://www.bilibili.com/video/BV18K411W7Kx","历史选择题正确做法（选择题高分技巧）",
-"https://www.bilibili.com/video/BV18K411W7Kx","历史选择题正确做法（选择题高分技巧）",
+"https://www.bilibili.com/video/BV1ZU4y1E7cq","看熟+10分！新教材高中历史大事年表！","",
+"https://www.bilibili.com/video/BV18K411W7Kx","历史选择题正确做法（选择题高分技巧）","",
+"https://www.bilibili.com/video/BV18K411W7Kx","历史选择题正确做法（选择题高分技巧）","",
 "https://www.bilibili.com/video/BV14f4y1R7yo","【高考历史·选择题第一季】","段sir是懂王",
 "https://www.bilibili.com/video/BV13i4y157HL","【高考历史】全国通用大题高频模板","段sir是懂王",
 
@@ -307,6 +326,20 @@ Favorite21=new Array(
 "https://www.deepseek.com","DeepSeek","又一个免费国内AI",
 "https://www.doubao.com/chat","◆豆包","字节跳动出品",
 "https://kimi.moonshot.cn","Kimi.AI","很火的免费国内AI",
+"","",""
+);
+
+Favorite22=new Array(
+"学习经验 & 效率提升",
+
+"https://www.bilibili.com/video/BV1PcbPzgELs","面对任何科目，我的学习流程<br>★★★★高考683","爱学习的呼噜",
+"https://www.bilibili.com/video/BV1FnbFehEMq","我的时间管理秘籍！<br>★★★★高考683","爱学习的呼噜",
+"https://www.bilibili.com/video/BV1jKdmY6EyB","生物满分！带你从零基础直冲90+<br>★★★★高考683","爱学习的呼噜",
+"https://www.bilibili.com/video/BV1KCY9zbEuj","清华上岸<br>高三数学一轮复习有效提分指南！","勇敢菜菜Amora",
+"https://www.bilibili.com/video/BV1cBvDBAEk5","清华上岸<br>一个视频帮你彻底解决生物遗传问题！","勇敢菜菜Amora",
+"https://www.bilibili.com/video/BV1BYtJzzEX9","清华上岸<br>3步把厚书读薄，高效搞定知识碎片！","勇敢菜菜Amora",
+"https://www.bilibili.com/video/BV16BLVzZEBE","清华上岸<br>其实最好的学习方法是…","勇敢菜菜Amora",
+"https://www.bilibili.com/video/BV1pZnmzrEc8","清华上岸<br>不自律怎么考清华？聊聊自律","勇敢菜菜Amora",
 "","",""
 );
 

@@ -40,7 +40,7 @@ Favorite1=new Array(
 
 "https://www.bilibili.com/video/BV1qDuvzBE85","【影子跟读】BBC新闻听力1-50篇","一樹yishu",
 "https://www.bilibili.com/video/BV1QC4y1b7ro","【影子跟读】BBC新闻听力51-100","一樹yishu",
-"https://space.bilibili.com/3537109151386355","英语播客党 频道","BBC新闻播客",
+"https://space.bilibili.com/3537109151386355","英语播客党 频道","BBC新闻播客等",
 
 "https://www.bilibili.com/video/BV1cg4y137ko","【雅思口语】23年最强跟读训练<br>★★★★从初级到高级循序渐进","雅思Louise",
 "https://www.bilibili.com/video/BV15Y411Q7YK","雅思口语听力练习素材<br>每天沉浸式跟读精听一小时","逢春晚",
@@ -49,6 +49,7 @@ Favorite1=new Array(
 "https://www.bilibili.com/video/BV1HgNBeEEdN","【跟读】ESL Podcast 合集（下）","较瘦Slim_Eng",
 
 "https://www.bilibili.com/video/BV1B841157DV","每天一话题带你融入全英文语境<br>[油管最受欢迎的英语播客]","比利英语",
+"https://www.bilibili.com/video/BV1HgNBeEEdN","EnglishLearning 4 CuriousMinds<br>满足你对世界好奇心的英语播客","英语播客党",
 
 "https://www.bilibili.com/video/BV1c54y187SH","雅思真经第一课","雅思教父刘洪波",
 "https://www.bilibili.com/video/BV1rq4CeDE1h","雅思播客 全100集","油管最好的学雅思播客之一",
