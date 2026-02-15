@@ -58,6 +58,7 @@ Favorite2=new Array(
 "https://e2e.ti.com",'TI e2e',"TI技术支持",
 "https://myaccount.qualcomm.com/profile",'Qualcomm开发相关',"高通技术支持",
 "https://www.falstad.com/circuit/",'电路模拟',"",
+"https://rustdesk.com/web/",'RustDesk',"RustDesk Web",
 
 "https://elixir.bootlin.com/linux/latest/source","Linux kernel源码","",
 "https://portableapps.com",'PortableApps',"",

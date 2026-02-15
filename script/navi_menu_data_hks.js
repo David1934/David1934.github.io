@@ -62,15 +62,24 @@ Favorite1=new Array(
 
 
 Favorite2=new Array(
-"English & IELTS",
+"DSE & IELTS",
 
+"https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzg2MDY0MDMyOQ==&action=getalbum&album_id=2992492581462949889","★★★TED精读计划1","词汇扩充,听说挺高",
+
+"https://www.chenglish.hk/","HKDSE English","DSE英文免费资源",
+"https://www.chenglish.hk/vocabulary/learn.html","HKDSE Vocabulary","DSE词汇学习",
+"https://www.chenglish.hk/reading/index.html","HKDSE Reading Exercise","DSE阅读练习",
 "https://www.youtube.com/@dse.engmrj","Mr.J English YouTube","DSE 英文考試技巧專家",
 "https://www.youtube.com/@antoniachengdseenglish4374","Antonia Cheng DSE English","DSE英文科教學片",
 "https://www.youtube.com/@bonlamdse","Bon Lam DSE","",
 "https://www.youtube.com/playlist?list=PLyyEw_iJ-KD5arpEjkZW9i5SAl0FEfhop","DSE英文 文法補底","Grandma教Grammar",
 
 "https://www.ielts.org","IELTS","IELTS offical website",
-"https://www.chinaielts.org","雅思中国官网","",
+"https://www.chinaielts.org","Cambridge IELTS","剑桥雅思准备",
+"https://ieltsliz.com","IELTS Liz","前雅思考官Liz",
+"https://ieltsliz.com/vocabulary","Liz vocabulary","Liz词汇",
+"https://www.cambridgeenglish.org/exams-and-tests/ielts/preparation/","雅思中国官网","",
+
 "https://takeielts.britishcouncil.org","take ielts","英国文化协会",
 "https://ielts.idp.com","idp IELTS","",
 "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests","free test","免费测试练习",
@@ -78,8 +87,6 @@ Favorite2=new Array(
 "https://ieltsonlinetests.com","IELTS online test","雅思在线测试",
 "https://ielts-simon.study/video-courses/","video-courses","",
 "https://www.ieltsbuddy.com","IELTS buddy","",
-"https://ieltsliz.com","IELTS Liz","前雅思考官",
-"https://ieltsliz.com/vocabulary","Liz vocabulary","Liz词汇",
 "https://ieltsmaterial.com","IELTS material","雅思素材",
 
 "https://www.youtube.com/watch?v=YGsE15cLJ2E","美国大学教授的高效背单词法","泡芙方 Prof. Fang",
