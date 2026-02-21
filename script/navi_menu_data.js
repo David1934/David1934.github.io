@@ -122,6 +122,12 @@ Favorite2=new Array(
 Favorite3=new Array(
 "实用工具",
 
+"https://file.pizza","◆filePizza","P2P(WebRTC)文件传输",
+"https://pairdrop.net","◆PairDrop","P2P(WebRTC)文件传输<br>备用: https://pairdrop.io",
+"https://wormhole.app","◆Wormhole","P2P(WebRTC)文件传输",
+"https://www.localsend.org","◆localsend","P2P(WebRTC)文件传输",
+"https://www.locsend.com","◆locsend","P2P(WebRTC)文件传输",
+
 "Speedtest.net","◆Speedtest.net","网速测试",
 "www.linkwan.com/gb/broadmeter/","带宽测试1","网速测试",
 "iruler.net",'Online ruler','在线直尺',
