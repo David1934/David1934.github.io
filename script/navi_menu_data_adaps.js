@@ -33,7 +33,7 @@ Favorite1=new Array(
 "https://github.com/copilot","◆Copilot","Github Copilot",
 "https://www.deepseek.com","◆DeepSeek","又一个免费国内AI",
 "https://www.doubao.com/chat","◆豆包","字节跳动出品",
-"https://kimi.moonshot.cn","◆Kimi.AI","很火的免费国内AI",
+"https://kimi.moonshot.cn","◆Kimi.AI","◆可以长文档输入",
 
 "https://yiyan.baidu.com","文心一言","百度出品",
 "https://www.tiangong.cn","天工AI","国内AI",
@@ -58,6 +58,8 @@ Favorite2=new Array(
 "https://opensource.rock-chips.com",'瑞星微Open Source',"Rockchip开源代码及文档",
 "https://e2e.ti.com",'TI e2e',"TI技术支持",
 "https://myaccount.qualcomm.com/profile",'Qualcomm开发相关',"高通技术支持",
+"https://forlinx-book.yuque.com/pxh4d1/ok536",'全志OK536-C开发板<在线参考手册>',"飞凌嵌入式",
+"https://forlinx-book.yuque.com/pxh4d1/ok527",'全志OK527-C开发板<在线参考手册>',"飞凌嵌入式",
 "https://www.falstad.com/circuit/",'电路模拟',"",
 "https://rustdesk.com/web/",'RustDesk',"RustDesk Web",
 
