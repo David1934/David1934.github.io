@@ -58,8 +58,8 @@ Favorite2=new Array(
 "https://opensource.rock-chips.com",'瑞星微Open Source',"Rockchip开源代码及文档",
 "https://e2e.ti.com",'TI e2e',"TI技术支持",
 "https://myaccount.qualcomm.com/profile",'Qualcomm开发相关',"高通技术支持",
-"https://forlinx-book.yuque.com/pxh4d1/ok536",'全志OK536-C开发板<在线参考手册>',"飞凌嵌入式",
-"https://forlinx-book.yuque.com/pxh4d1/ok527",'全志OK527-C开发板<在线参考手册>',"飞凌嵌入式",
+"https://forlinx-book.yuque.com/pxh4d1/ok536",'全志OK536-C开发板<br>在线参考手册',"飞凌嵌入式",
+"https://forlinx-book.yuque.com/pxh4d1/ok527",'全志OK527-C开发板<br>在线参考手册',"飞凌嵌入式",
 "https://www.falstad.com/circuit/",'电路模拟',"",
 "https://rustdesk.com/web/",'RustDesk',"RustDesk Web",
 
