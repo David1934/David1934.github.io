@@ -73,7 +73,7 @@ Favorite2=new Array(
 "https://dreampuf.github.io/GraphvizOnline/",'GraphvizOnline',"",
 "https://github.com/dreampuf/graphvizonline","GraphvizOnline Code", "",
 "https://carbon.now.sh",'◆Carbon',"源码发布排版工具",
-"https://www.markdownonline.net/",'◆在线MD编辑器',"Professional Markdown Online Editor",
+"https://www.markdownonline.net/",'◆在线MD编辑器',"Pro Markdown Online Editor",
 "https://pandao.github.io/editor.md/",'◆开源在线MD编辑器',"",
 "https://md.doocs.org/",'◆在线MD编辑器',"https://github.com/doocs/md",
 "https://html5-editor.net/",'◆在线H5编辑器',"html5 editor",
