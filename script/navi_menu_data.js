@@ -221,15 +221,14 @@ Favorite5=new Array(
 "https://github.com/mrQzs/Lvgl_Simulator",'LVGL Simulator',"",
 "https://github.com/eez-open/studio",'EEZ Studio',"",
 "https://github.com/zlgopen/awtk",'Toolkit AnyWhere',"cross-platform embedded GUI",
-"https://mp.weixin.qq.com/s/8zuz5xag78h83CJUisyy_g",'AWTK：跨平台GUI引擎的未来之路',"",
+"https://mp.weixin.qq.com/s/8zuz5xag78h83CJUisyy_g",'AWTK',"跨平台GUI引擎未来之路",
 
 "https://hub.docker.com/",'Docker Hub',"",
 "https://docker.1panel.dev",'1Panel Docker镜像',"",
 
+"https://cponline.cnipa.gov.cn",'专利业务办理系统',"国家知识产权局",
 "https://www.rainpat.com",'润桐RainPat专利检索',"",
-"https://www.chaspark.com/#/patents/","◆查思专利","不注册也可查",
-"www.sipo.gov.cn/sipo/zljs/default.htm",'专利检索',"",
-"www.patent.com.cn",'中国专利信息网',"",
+"https://www.chaspark.com/#/patents/","◆查思专利","",
 
 "www.ip-adress.com/ip_tracer/encrypted.google.com","★查加密谷歌IP","",
 "www.google.com/codesearch","★Google代码搜索","",

@@ -84,10 +84,9 @@ Favorite2=new Array(
 "https://hub.docker.com/",'Docker Hub',"",
 "https://docker.1panel.dev",'1Panel Docker镜像',"",
 
+"https://cponline.cnipa.gov.cn",'专利业务办理系统',"国家知识产权局",
 "https://www.rainpat.com",'润桐RainPat专利检索',"",
-"https://www.chaspark.com/#/patents/","◆查思专利","不注册也可查",
-"www.sipo.gov.cn/sipo/zljs/default.htm",'专利检索',"",
-"www.patent.com.cn",'中国专利信息网',"",
+"https://www.chaspark.com/#/patents/","◆查思专利","",
 
 "https://www.bilibili.com","BiliBili","",
 "https://www.runoob.com/","菜鸟教程","多种程序语言工具学习",
