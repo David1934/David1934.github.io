@@ -14,6 +14,9 @@ DNS服务器:
 能够控制国内的DNS服务器，而对于国外的DNS服务器则无能为力，因此只要不使用国内的DNS即可）
 
 "www.zccw.info","◆掷出窗外：食品安全危机",
+
+www.rzzx.com.cn 注册用户: 18520838190, 密码: Cyy@19730808
+
 */
 
 CoolSite=new Array(
@@ -123,6 +126,7 @@ Favorite2=new Array(
 Favorite3=new Array(
 "实用工具",
 
+"https://www.rzzx.com.cn","◆证件数码相片认证中心","自己上传1.5元/次",
 "https://file.pizza","◆filePizza","P2P(WebRTC)文件传输",
 "https://pairdrop.net","◆PairDrop","P2P(WebRTC)文件传输<br>备用: https://pairdrop.io",
 "https://wormhole.app","◆Wormhole","P2P(WebRTC)文件传输",
