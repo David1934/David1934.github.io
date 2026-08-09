@@ -1,4 +1,6 @@
-CoolSite=new Array(
+var Categories = [];
+
+Categories.push(new Array(
 "日常使用",
 
 "https://adapsphotonics.com","公司网站","",
@@ -20,9 +22,9 @@ CoolSite=new Array(
 "https://github.com/David1934/SpadisQT","SpadisQT应用源码","github开源",
 "https://github.com/David1934/TinySwiftApp","TinySwiftApp应用源码","github开源",
 "","",""
-);
+));
 
-Favorite1=new Array(
+Categories.push(new Array(
 "搜索引擎 & 热门AI",
 
 "www.google.com/ncr","★Google/ncr","",   //no country redirect
@@ -55,9 +57,9 @@ Favorite1=new Array(
 "https://chat.openai.com","★◆ChatGPT","最早最热的AI王者",
 "https://gemini.google.com","★Google Gemini","Google的AI,效果一般",
 "","",""
-);
+));
 
-Favorite2=new Array(
+Categories.push(new Array(
 "软件开发相关",
 
 "https://redmine.rock-chips.com",'瑞星微redmine',"Rockchip技术支持",
@@ -104,14 +106,14 @@ Favorite2=new Array(
 "https://www.edx.org","◆EdX","",
 "https://www.khanacademy.org/","◆Khan Academy","可汗学院",
 "","",""
-);
+));
 
-Favorite3=new Array(
+Categories.push(new Array(
 "开源项目",
 
 "https://github.com/Serial-Studio/Serial-Studio","Serial-Studio","QT 跨平台",
 "https://github.com/deepin-community/v4l-utils","v4l2 utils","Linux v4l2",
 
 "","",""
-);
+));
 

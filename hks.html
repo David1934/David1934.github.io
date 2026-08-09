@@ -56,19 +56,9 @@ function MakeAItem(Folder,index)
 <h1 class="title">香港學生導航</h1>
 
 <script language="JavaScript1.2">
-	var FavoriteName;
-	var Favorite_Num;
-
-	FavoriteName=eval("CoolSite")
-	MakeAItem(FavoriteName,1);
-	Favorite_Num=1;
-	while(eval("window.Favorite"+Favorite_Num))
-		Favorite_Num++;
-
-	for(var i=1;i<Favorite_Num;i++)
+	for(var i=0;i<Categories.length;i++)
 	{
-		FavoriteName=eval("Favorite"+i)
-		MakeAItem(FavoriteName,i+1);
+		MakeAItem(Categories[i],i+1);
 	}
 </script>
 

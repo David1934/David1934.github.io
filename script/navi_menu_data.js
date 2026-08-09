@@ -19,7 +19,9 @@ www.rzzx.com.cn 注册用户: 18520838190, 密码: Cyy@19730808
 
 */
 
-CoolSite=new Array(
+var Categories = [];
+
+Categories.push(new Array(
 "日常使用",
 
 "https://kimi.moonshot.cn","◆Kimi.AI","很火的国内AI",
@@ -34,9 +36,9 @@ CoolSite=new Array(
 "epaper.xkb.com.cn",'新快报',"",
 "www.nfcmag.com",'◆《南风窗》',"",
 "","",""
-);
+));
 
-Favorite1=new Array(
+Categories.push(new Array(
 "搜索引擎 & 热门AI",
 
 "https://www.google.com","★Google","",
@@ -68,9 +70,9 @@ Favorite1=new Array(
 "https://chat.openai.com","★◆ChatGPT","最早最热的AI王者",
 "https://gemini.google.com","★Google Gemini","Google的AI,效果一般",
 "","",""
-);
+));
 
-Favorite2=new Array(
+Categories.push(new Array(
 "在线字典-语言学习",
 
 "www.inputking.com","在线多语言输入","在线多语言输入",
@@ -121,9 +123,9 @@ Favorite2=new Array(
 "www.dictionary.com","Dictionary.com","",
 "www.onelook.com",'OneLook Dict.',"",
 "","",""
-);
+));
 
-Favorite3=new Array(
+Categories.push(new Array(
 "实用工具",
 
 "https://www.rzzx.com.cn","◆证件数码相片认证中心","自己上传1.5元/次",
@@ -168,9 +170,9 @@ Favorite3=new Array(
 "www.virtualpiano.net",'◆在线钢琴','◆虚拟在线钢琴',
 "www.virtualmusicalinstruments.com",'◆虚拟乐器','◆虚拟各种乐器',
 "","",""
-);
+));
 
-Favorite4=new Array(
+Categories.push(new Array(
 "外出旅行",
 
 "www.12306.cn",'◆12306.cn',"12306高铁火车票",
@@ -210,9 +212,9 @@ Favorite4=new Array(
 "www.tjgdjt.com",'天津轨道交通',"",
 "https://www.zzmetro.cn",'郑州地铁',"",
 "","",""
-);
+));
 
-Favorite5=new Array(
+Categories.push(new Array(
 "软件开发相关",
 
 "https://www.drawio.com",'draw.io',"免费的画图工具",
@@ -271,9 +273,9 @@ Favorite5=new Array(
 "https://mp.weixin.qq.com/s/0clMdyzlhQc6AgI5EocY-w",'前端动画工具库',"",
 "https://symbl.cc/en/emoji/",'Full Emoji List',"",
 "","",""
-);
+));
 
-Favorite6=new Array(
+Categories.push(new Array(
 "HongKong香港",
 
 "https://www.edb.gov.hk",'香港教育局',"",
@@ -317,9 +319,9 @@ Favorite6=new Array(
 "https://eea.gd.gov.cn/bmbk/index.html",'广东省教育考试院',"",
 "https://www.cactm.edu.hk/~careers/",'升學及就業輔導部',"宣道中學",
 "","",""
-);
+));
 
-Favorite7=new Array(
+Categories.push(new Array(
 "电脑菜鸟学苑",
 
 "https://www.runoob.com/","菜鸟教程","多种程序语言工具学习",
@@ -336,9 +338,9 @@ Favorite7=new Array(
 "www.eet-china.com","电子工程专辑","",
 "www.icpcw.com","电脑报","",
 "","",""
-);
+));
 
-Favorite8=new Array(
+Categories.push(new Array(
 "网盘搜索",
 
 "cn.epubee.com/","在线电子书转换器","",
@@ -347,14 +349,14 @@ Favorite8=new Array(
 "https://www.upyunso.com","UP云搜","",
 "https://www.gutenberg.org/","Project Gutenberg","",
 "","",""
-);
+));
 
-Favorite8=new Array(
+Categories.push(new Array(
 "视频下载",
 
 "https://yt1d.com/zh-tw","YouTube視頻下載器","",
 "https://snapany.com/zh/bilibili","哔哩哔哩视频下载","",
 "","",""
-);
+));
 
 

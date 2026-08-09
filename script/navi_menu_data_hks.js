@@ -1,4 +1,6 @@
-CoolSite=new Array(
+var Categories = [];
+
+Categories.push(new Array(
 "日常使用",
 
 "www.cactm.edu.hk",'宣道中學',"",
@@ -26,9 +28,9 @@ CoolSite=new Array(
 "https://www.cactm.edu.hk/~careers/",'升學及就業輔導部',"宣道中學",
 
 "","",""
-);
+));
 
-Favorite1=new Array(
+Categories.push(new Array(
 "Bilibili英文",
 
 "https://www.bilibili.com/video/BV1HBzZY6EUm","油管最好的英语播客对话<br>★★★★发音/速度/声音非常完美","比利英语",
@@ -58,10 +60,10 @@ Favorite1=new Array(
 "https://www.bilibili.com/video/BV1aP1FYgEKx","漫画秒记3000英语单词","分场景记忆",
 
 "","",""
-);
+));
 
 
-Favorite2=new Array(
+Categories.push(new Array(
 "DSE & IELTS",
 
 "https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzg2MDY0MDMyOQ==&action=getalbum&album_id=2992492581462949889","★★★TED精读计划1","词汇扩充,听说挺高",
@@ -123,9 +125,9 @@ Favorite2=new Array(
 "https://www.frontpages.com/the-business-times/","THE BUSINESS TIMES","https://www.businesstimes.com.sg/",
 
 "","",""
-);
+));
 
-Favorite3=new Array(
+Categories.push(new Array(
 "數學科",
 
 "https://www.beyondmathedu.com/dse-formula","◆DSE 數學公式","DSE Formula",
@@ -138,10 +140,10 @@ Favorite3=new Array(
 "https://www.bilibili.com/video/BV1st4y1r7Dr/",'香港中学数学全69P',"香港教育电视（粤语）",
 
 "","",""
-);
+));
 
 
-Favorite4=new Array(
+Categories.push(new Array(
 "中文科",
 
 "https://www.edb.gov.hk/tc/curriculum-development/kla/chi-edu/nss-lang/settext-text.html",'指定文言經典學習材料',"原文及誦讀錄音",
@@ -152,10 +154,10 @@ Favorite4=new Array(
 "https://www.youtube.com/playlist?list=PLyyEw_iJ-KD7ZrcxDd41R7z1e4AHwrS2r",'DSE中文台',"Snapask Hong Kong",
 
 "","",""
-);
+));
 
 
-Favorite5=new Array(
+Categories.push(new Array(
 "English Dictionaris",
 
 "https://www.aristo.com.hk/dshkdse/e-Dictionary/grammar3ea/edict.html?s=1","◆DSE e-Dictionary","香港DSE线上英文字典",
@@ -173,9 +175,9 @@ Favorite5=new Array(
 "www.onelook.com",'OneLook Dict.',"",
 
 "","",""
-);
+));
 
-Favorite6=new Array(
+Categories.push(new Array(
 "字典 詞典",
 
 "https://dict.mini.moe.edu.tw/",'◆國語小詞典',"臺灣教育部",
@@ -199,9 +201,9 @@ Favorite6=new Array(
 "www.allwords.com",'西方多语言词典',"",
 
 "","",""
-);
+));
 
-Favorite7=new Array(
+Categories.push(new Array(
 "搜索引擎 & 热门AI",
 
 "https://www.google.com","★Google","",
@@ -221,12 +223,12 @@ Favorite7=new Array(
 "https://chat.openai.com","★◆ChatGPT","最早最热的AI王者",
 "https://gemini.google.com","★Google Gemini","Google的AI,效果一般",
 "","",""
-);
+));
 
-Favorite8=new Array(
+Categories.push(new Array(
 "Python入门",
 
 "https://www.runoob.com/","菜鸟教程","多种程序语言工具学习",
 "","",""
-);
+));
 

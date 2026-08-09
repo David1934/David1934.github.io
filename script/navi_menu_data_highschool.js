@@ -1,4 +1,6 @@
-CoolSite=new Array(
+var Categories = [];
+
+Categories.push(new Array(
 "优先推荐",
 
 "https://www.bilibili.com/video/BV1JvHtzUEV9","【数飞】2026届一轮复习-每天1h<br>30天速通高考数学","★★★",
@@ -51,20 +53,20 @@ CoolSite=new Array(
 "https://mp.weixin.qq.com/s?__biz=MjM5NzQ4OTkwNg==&mid=2247610899&idx=1&sn=7eaa070b2f5ae1379c975e3fdec7b2c4&chksm=a6da4f8e91adc6985d0ce0f0e4c9df6ddc96dbaf76bffffc6c358d17161e7d4347ccf02a6c4e&token=362700357&lang=zh_CN&scene=21#wechat_redirect","高考复习教学视频（各科）","",
 
 "","",""
-);
+));
 
 /*
-Favorite1=new Array(
+Categories.push(new Array(
 "AI拍照解题",
 
 "https://chat.mathsolver.top","AI数学拍照解题","ygzly01@163.com",
 "https://math-gpt.org","数学gpt","david51485220@gmail.com",
 "https://mymathsolver.ai/zh-CN","AI数学求解器","",
 "","",""
-);
+));
 */
 
-Favorite1=new Array(
+Categories.push(new Array(
 "讲师导航",
 
 "https://space.bilibili.com/39737405","语文--学过石油的语文老师","",
@@ -80,9 +82,9 @@ Favorite1=new Array(
 "https://space.bilibili.com/2036187097","生物--一生儿","",
 
 "","",""
-);
+));
 
-Favorite2=new Array(
+Categories.push(new Array(
 "高中数学同步课 人教版A版<br>必修第1册（高一上学期）",
 
 "https://www.bilibili.com/video/BV1mv411L7wm","滴答课堂-80parts","",
@@ -91,18 +93,18 @@ Favorite2=new Array(
 "https://www.bilibili.com/video/BV1EU4y1N78f","高中学习之家-63parts","",
 "https://www.bilibili.com/video/BV1j841117wj","凉学长-33parts","",
 "","",""
-);
+));
 
-Favorite3=new Array(
+Categories.push(new Array(
 "高中数学同步课 人教版A版<br>必修第2册（高一下学期）",
 
 "https://www.bilibili.com/video/av540344024","dc008-79parts","国家中小学网络云课堂",
 "https://www.bilibili.com/video/BV12b4y197bm","dc008-66parts","山东省实验中学",
 "https://www.bilibili.com/video/av18417339","高中学习帮-21parts","教室录屏",
 "","",""
-);
+));
 
-Favorite4=new Array(
+Categories.push(new Array(
 "高中数学同步课 人教版A版<br>选择性必修第1册（高二上学期）",
 
 "https://www.bilibili.com/video/BV1qV411T76X","bluehouse123-50parts","",
@@ -110,25 +112,25 @@ Favorite4=new Array(
 "https://www.bilibili.com/video/BV1k94y1R73n","名师课堂-27parts","",
 "https://www.bilibili.com/video/BV16W1XYTEK5","砚池学院-英语-30parts","",
 "","",""
-);
+));
 
-Favorite5=new Array(
+Categories.push(new Array(
 "高中数学同步课 人教版A版<br>选择性必修第2册（高二下学期）",
 
 "https://www.bilibili.com/video/BV1Ej411Z7Zp","bluehouse123-30parts","",
 "https://www.bilibili.com/video/av245282959","dc008-30parts","",
 "","",""
-);
+));
 
-Favorite6=new Array(
+Categories.push(new Array(
 "高中数学同步课 人教版A版<br>选择性必修第3册（高二下学期）",
 
 "https://www.bilibili.com/video/BV1Mx4y1o7Yw","bluehouse123-28parts","",
 "https://www.bilibili.com/video/BV14m4y19719","dc008-28parts","",
 "","",""
-);
+));
 
-Favorite7=new Array(
+Categories.push(new Array(
 "其他好视频-数学",
 /*
 * 本合集包含高中数学必修一，必修二，必修三，必修四，必修五（2019年新版必修同样适用），
@@ -145,10 +147,10 @@ Favorite7=new Array(
 "https://www.bilibili.com/video/BV1dPxve7EQm","赵礼显：空间向量及其运算","",
 "https://basic.smartedu.cn/syncClassroom?defaultTag=e7bbcefe-0590-11ed-9c79-92fc3b3249d5%2Fe7bbcf80-0590-11ed-9c79-92fc3b3249d5%2F5036342963%2F5036342972&reportHistory=true","国家中小学智慧教育平台：高中.数学.人教A版","",
 "","",""
-);
+));
 
 
-Favorite8=new Array(
+Categories.push(new Array(
 "学过石油的语文老师-语文",
 
 "https://www.bilibili.com/video/BV1xd4y1R7ea","高中语文？所有考点！体系搭建？新学期称王！","",
@@ -164,9 +166,9 @@ Favorite8=new Array(
 "https://www.bilibili.com/video/BV1Q64y1i7yx","高中练习册测评？OMG！别买它！","",
 "https://www.bilibili.com/video/BV1rU4y1F7pD","提桶跑路！离开教培我怎么养活自己？","",
 "","",""
-);
+));
 
-Favorite9=new Array(
+Categories.push(new Array(
 "学过石油的语文老师-作文",
 
 "https://www.bilibili.com/video/BV1rh411p7ph","高考作文搞不定？明天我就跟你姓","15句话搞定作文",
@@ -191,9 +193,9 @@ Favorite9=new Array(
 "https://www.bilibili.com/video/BV1RP411Q7ZP","高考作文？考前梳理！别信押题？重在审题！","高考作文冲刺",
 "https://www.bilibili.com/video/BV1A84y1i7BN","直播码字？在线写作！语文作文？这么写！","写作文逐字",
 "","",""
-);
+));
 
-Favorite10=new Array(
+Categories.push(new Array(
 "国家玮-合集·高考作文精讲",
 
 "https://www.bilibili.com/video/BV1Rk4y1p7yq","【全卷别】2023高考作文实况解析及命题趋势<br>24届提前抢分","",
@@ -203,9 +205,9 @@ Favorite10=new Array(
 "https://www.bilibili.com/video/BV1EY411T7Yt","【22全国新高考Ⅱ卷】意识觉醒<br>突破写作瓶颈，带你上分","",
 "https://www.bilibili.com/video/BV19r4y137Jy","【22北京卷】大小作文思路讲解<br>作文50+真的不难","",
 "","",""
-);
+));
 
-Favorite11=new Array(
+Categories.push(new Array(
 "国家玮-高考语文如何解锁130+",
 
 "https://www.bilibili.com/video/BV1zB4y1w7Sk","高考语文如何解锁130+<br>每个高中生都要get的底层逻辑","",
@@ -217,17 +219,17 @@ Favorite11=new Array(
 "https://www.bilibili.com/video/BV1zB4y1w7Sk?p=7","高考语文如何解锁130+<br>每个高中生都要get的底层逻辑","",
 "https://www.bilibili.com/video/BV1zB4y1w7Sk?p=8","高考语文如何解锁130+<br>每个高中生都要get的底层逻辑","",
 "","",""
-);
+));
 
-Favorite12=new Array(
+Categories.push(new Array(
 "国家玮-语文",
 
 "https://www.bilibili.com/video/BV1QH4y1F7M5","暑期必做5件事！<br>作文提前抢跑，50+真的不难","",
 "https://www.bilibili.com/video/BV1sS411A7DG","高一高二必备答题术语<br>暑假学习效率翻倍，提分20+","",
 "","",""
-);
+));
 
-Favorite13=new Array(
+Categories.push(new Array(
 "★★★高考大仙儿语文",
 
 "https://www.bilibili.com/video/BV11t411Z7pP","高考语文·作文万能审题套路","★★★",
@@ -240,9 +242,9 @@ Favorite13=new Array(
 "https://www.bilibili.com/video/BV1a441167oo","高考语文·课内文言文，带你掌握《劝学》难点","★★★",
 "https://www.bilibili.com/video/BV1uJ411g7Zo","高考语文·课内文言文，《师说》基础知识","★★★",
 "","",""
-);
+));
 
-Favorite14=new Array(
+Categories.push(new Array(
 "【文言文必备基础】",
 
 "https://www.bilibili.com/video/BV1HY4y137hT","310个高频文言文实词带背<br>part1  06:19","乘风",
@@ -255,9 +257,9 @@ Favorite14=new Array(
 "https://www.bilibili.com/video/BV1uT4y137uB","【高考语文】《万能答题模板》","★★★",
 "https://www.bilibili.com/video/BV11m4tzMEEf","【高考语文·课内文言文】超详细的讲解","",
 "","",""
-);
+));
 
-Favorite15=new Array(
+Categories.push(new Array(
 "乘风-【高考必背文化常识】",
 
 "https://www.bilibili.com/video/BV13i4y197Er","每天五分钟，轻松掌握！<br>称谓篇 05:59","",
@@ -273,18 +275,18 @@ Favorite15=new Array(
 "https://www.bilibili.com/video/BV1TY4y1p7M7","每天五分钟，轻松掌握！<br>风俗礼节2 08:01","",
 "https://www.bilibili.com/video/BV1Tu41167DL","每天五分钟，轻松掌握！<br>饮食器具/音乐文娱 07:16","",
 "","",""
-);
+));
 
-Favorite16=new Array(
+Categories.push(new Array(
 "乘风-【高考语文一轮直击130+技巧】",
 
 "https://www.bilibili.com/video/BV1zx411f77t","一招破解近义成语辨析<br>part1 31:30","",
 "https://www.bilibili.com/video/BV1zx411f77t?p=2","速度基本功快练<br>part2","",
 "https://www.bilibili.com/video/BV1zx411f77t?p=3","part3","",
 "","",""
-);
+));
 
-Favorite17=new Array(
+Categories.push(new Array(
 "乘风-【4节课冲击55+高分作文】",
 
 "https://www.bilibili.com/video/BV1W4411o7cn?","揭秘考场新套路！<br>作文上不了一类文原因揭秘","",
@@ -292,34 +294,34 @@ Favorite17=new Array(
 "https://www.bilibili.com/video/BV1zx411f77t?p=3","揭秘考场新套路！<br>作文素材自己编","",
 "https://www.bilibili.com/video/BV1zx411f77t?p=4","揭秘考场新套路！<br>作文刷题技巧","",
 "","",""
-);
+));
 
-Favorite18=new Array(
+Categories.push(new Array(
 "乘风-语文",
 
 "https://www.bilibili.com/video/BV1b4411B7qS","学校从不讲的诗歌鉴赏技巧大全<br>30:37","",
 "","",""
-);
+));
 
 
-Favorite19=new Array(
+Categories.push(new Array(
 "高考历史·选择题第一季(1--199)",
 
 "https://www.bilibili.com/video/BV14f4y1R7yo?p=1","P1 学习方法＋课程介绍<br>07:31","",
 "https://www.bilibili.com/video/BV14f4y1R7yo?p=2","P2 考点1：切片1 周·分封制的概念<br>05:23","",
 "","",""
-);
+));
 
-Favorite20=new Array(
+Categories.push(new Array(
 "电子版中小学教材",
 
 "https://jc.pep.com.cn","中小学教材","在线电子版",
 "https://basic.smartedu.cn","中小学教材","国家中小学智慧教育平台",
 "","",""
-);
+));
 
 
-Favorite21=new Array(
+Categories.push(new Array(
 "搜索引擎 & 热门AI",
 
 "https://cn.bing.com/?ensearch=1","Bing国际版","无需梯子",
@@ -327,9 +329,9 @@ Favorite21=new Array(
 "https://www.doubao.com/chat","◆豆包","字节跳动出品",
 "https://kimi.moonshot.cn","Kimi.AI","很火的免费国内AI",
 "","",""
-);
+));
 
-Favorite22=new Array(
+Categories.push(new Array(
 "学习经验 & 效率提升",
 
 "https://www.bilibili.com/video/BV1PcbPzgELs","面对任何科目，我的学习流程<br>★★★★高考683","爱学习的呼噜",
@@ -341,7 +343,7 @@ Favorite22=new Array(
 "https://www.bilibili.com/video/BV16BLVzZEBE","清华上岸<br>其实最好的学习方法是…","勇敢菜菜Amora",
 "https://www.bilibili.com/video/BV1pZnmzrEc8","清华上岸<br>不自律怎么考清华？聊聊自律","勇敢菜菜Amora",
 "","",""
-);
+));
 
 
 
