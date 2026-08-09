@@ -1,0 +1,67 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="shortcut icon" href="favicon.ico">
+<meta name="viewport" content="width=device-width">
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+<title>美术专业大学生常用网站--Art navigator</title>
+<meta name="keywords" content="美术专业大学生导航">
+<meta name="description" content="美术专业大学生导航">
+<link href="./css/navi_menu.css" type="text/css" rel="stylesheet">
+<link href="./css/dynamic_bg.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<script language="JavaScript1.2" src="script/navi_menu_data_art.js"></script>
+<script language="JavaScript1.2" src="script/dynamic_bg.js"></script>
+<script language="JavaScript1.2">
+function MakeAItem(Folder,index)
+{
+	var items=0;
+	
+	while(Folder[items+1])
+		items+=3;
+	items/=3;
+
+	if(Folder[0]!="")
+		document.write('<br><br><br><p class="category">' + Folder[0] + '</p><br><br>');
+
+	for(var i=1;i<items*3;i+=3)
+	{
+		if(Folder[i]!="-")
+		{
+			document.write('<li><img class="icon" src="images/explorer.png" alt="imgLost">');
+
+			if(Folder[i].substring(0,8)=='https://')
+				document.write('<a href="' + Folder[i] + '" target=_blank class=text>');
+			else
+				document.write('<a href="http://' + Folder[i] + '" target=_blank class=text>');
+
+			document.write('<h2>' + Folder[i+1] + '</h2>');
+
+            if(Folder[i+2]!="")
+                document.write('<h3>' + Folder[i+2] + '</h3></a></li>');
+            else
+                document.write('<h3>Art student navigator</h3></a></li>');
+		}
+
+	}
+	return items;
+}
+</script>
+
+<div class="list">
+<h1 class="title">美术专业大学生导航</h1>
+
+<script language="JavaScript1.2">
+	for(var i=0;i<Categories.length;i++)
+	{
+		MakeAItem(Categories[i],i+1);
+	}
+</script>
+
+</div> 
+</body>
+</html>
