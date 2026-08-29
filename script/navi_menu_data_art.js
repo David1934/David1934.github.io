@@ -1,34 +1,16 @@
 var Categories = [];
 
 Categories.push(new Array(
-"搜索引擎 & 热门AI",
+"我的日常",
 
-"www.google.com/ncr","★Google/ncr","",   //no country redirect
-"www.wikipedia.org",'★WikiPedia',"维基百科",
-"https://metaso.cn","秘塔AI搜索","国内免费AI搜索",
-"https://n.cn","纳米搜索","原360 AI搜索升级",
-"https://cn.bing.com/?ensearch=1","Bing国际版","无需梯子",
-"https://yandex.com","Yandex","无需梯子",
-"https://ai-bot.cn","AI工具集","AI工具分类导航",
-
-//"https://ai.xiabb.chat","◆阿水AI6.0","聚合AI,无需梯子chatGPT服务",
-"https://ish.chat","◆ish.chat","",
-
-"https://github.com/copilot","◆Copilot","Github Copilot",
-"https://www.deepseek.com","◆DeepSeek","又一个免费国内AI",
-"https://www.doubao.com/chat","◆豆包","字节跳动出品",
-"https://kimi.moonshot.cn","◆Kimi.AI","◆可以长文档输入",
-
-"https://www.codebuddy.cn","腾讯workbuddy","腾讯出品",
-
-"https://chat.openai.com","★◆ChatGPT","最早最热的AI王者",
-"https://gemini.google.com","★Google Gemini","Google的AI,效果一般",
+"https://jw.cucn.edu.cn/jwglxt/","南传教务系统","",
+"https://www.bilibili.com","BiliBili","",
+"https://www.njmetro.com.cn","南京地铁","",
 "","",""
 ));
 
 Categories.push(new Array(
 "工具",
-"https://www.njmetro.com.cn","南京地铁","",
 "https://www.qijishow.com/down/index.html",'设计软件下载',"",
 "https://www.qijishow.com/down/Office%202024.html",'Office2024',"",
 "https://www.qijishow.com/down/standard.html",'屏幕尺寸大全',"",
@@ -40,7 +22,6 @@ Categories.push(new Array(
 "https://www.photopea.com",'photopea',"在线类ps免费软件",
 "https://krita.org/zh-cn/post-download",'Krita免费教学',"",
 
-"https://www.bilibili.com","BiliBili","",
 "https://www.runoob.com/python3/python3-tutorial.html","Python 3教程","菜鸟教程",
 
 "https://portableapps.com",'PortableApps',"",
@@ -53,6 +34,28 @@ Categories.push(new Array(
 
 "https://gzxzgwl.2017mac.cn/",'广州青学在线',"",
 
+"","",""
+));
+
+Categories.push(new Array(
+"搜索引擎 & 热门AI",
+
+"www.google.com/ncr","★Google/ncr","",   //no country redirect
+"www.wikipedia.org",'★WikiPedia',"维基百科",
+"https://metaso.cn","秘塔AI搜索","国内免费AI搜索",
+"https://n.cn","纳米搜索","原360 AI搜索升级",
+"https://cn.bing.com/?ensearch=1","Bing国际版","无需梯子",
+"https://yandex.com","Yandex","无需梯子",
+"https://ai-bot.cn","AI工具集","AI工具分类导航",
+
+"https://www.deepseek.com","◆DeepSeek","又一个免费国内AI",
+"https://www.doubao.com/chat","◆豆包","字节跳动出品",
+"https://kimi.moonshot.cn","◆Kimi.AI","◆可以长文档输入",
+
+"https://www.codebuddy.cn","腾讯workbuddy","腾讯出品",
+
+"https://chat.openai.com","★◆ChatGPT","最早最热的AI王者",
+"https://gemini.google.com","★Google Gemini","Google的AI,效果一般",
 "","",""
 ));
 
