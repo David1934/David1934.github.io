@@ -4,8 +4,13 @@ Categories.push(new Array(
 "我的日常",
 
 "https://jw.cucn.edu.cn/jwglxt/","南传教务系统","",
+"https://www.cucn.edu.cn","南京传媒","",
+"https://cn.bing.com/?ensearch=1","Bing国际版","无需梯子",
 "https://www.bilibili.com","BiliBili","",
 "https://www.njmetro.com.cn","南京地铁","",
+"dict.bing.com.cn","◆微软bing词典","",
+"www.dict.cn/search/","◆在线词典","",
+"https://pairdrop.net","◆PairDrop","P2P(WebRTC)文件传输<br>备用: https://pairdrop.io",
 "","",""
 ));
 
