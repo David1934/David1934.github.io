@@ -6,18 +6,42 @@ Categories.push(new Array(
 "https://jw.cucn.edu.cn/jwglxt/","南传教务系统","",
 "https://www.cucn.edu.cn","南京传媒","",
 "https://cn.bing.com/?ensearch=1","Bing国际版","无需梯子",
+"https://www.youtube.com","Youtube","需要翻墙",
 "https://www.bilibili.com","BiliBili","",
 "https://www.njmetro.com.cn","南京地铁","",
 "dict.bing.com.cn","◆微软bing词典","",
 "www.dict.cn/search/","◆在线词典","",
-"https://pairdrop.net","◆PairDrop","P2P(WebRTC)文件传输<br>备用: https://pairdrop.io",
+"","",""
+));
+
+Categories.push(new Array(
+"学习教程",
+
+"https://doyoudo.com/202412141512",'史上最易听懂的PS 2024入门',"基础教程", // https://www.bilibili.com/video/BV1WZmdYtERy
+"https://doyoudo.com/202412141458",'最易听懂的AfterEffects课',"基础教程", // https://www.bilibili.com/video/BV1awSmYDEkf
+"https://doyoudo.com/201602281533","◆Premiere视频剪辑","基础入门课",
+"https://www.bilibili.com/video/BV1o5iQBhEkQ","◆PS2026零基础入门教程","100集（全）",
+"https://www.bilibili.com/video/BV1Ng411d7Be","◆Blender自学日记","",
+"https://www.bilibili.com/video/BV1kX4y1m7G5","◆Blender 3D建模","零基础入门",
+"https://space.bilibili.com/412846655","◆视频制作大叔","",
+
+"https://www.zhihu.com/question/21461041","◆有哪些值得推荐的AE插件","（Adobe After Effects）",
+"https://www.zhihu.com/question/21136217/answer/94543402","◆有哪些适合自学的Ae教程？","",
+"","",""
+));
+
+Categories.push(new Array(
+"软件及插件下载",
+
+"https://www.qijishow.com/down/index.html",'设计软件下载',"",
+"https://www.qijishow.com/down/Office%202024.html",'Office2024',"",
+"https://www.lookae.com",'AE插件下载',"",
+"https://www.gfxcamp.com/",'龋齿一号GFXCamp',"",
 "","",""
 ));
 
 Categories.push(new Array(
 "工具",
-"https://www.qijishow.com/down/index.html",'设计软件下载',"",
-"https://www.qijishow.com/down/Office%202024.html",'Office2024',"",
 "https://www.qijishow.com/down/standard.html",'屏幕尺寸大全',"",
 "https://www.qijishow.com/down/ios.html",'iOS/Android设计尺寸规范',"",
 "https://www.qijishow.com/Colors/gradient.html",'色彩空间',"",

@@ -78,13 +78,14 @@ Categories.push(new Array(
 
 "https://www.ielts.org","IELTS","IELTS offical website",
 "https://www.chinaielts.org","Cambridge IELTS","剑桥雅思准备",
-"https://ieltsliz.com","IELTS Liz","前雅思考官Liz",
-"https://ieltsliz.com/vocabulary","Liz vocabulary","Liz词汇",
+"https://ieltsliz.com","★★★IELTS Liz","前雅思考官Liz",
+"https://ieltsliz.com/vocabulary","★★★Liz vocabulary","Liz词汇",
 "https://www.cambridgeenglish.org/exams-and-tests/ielts/preparation/","雅思中国官网","",
 
-"https://takeielts.britishcouncil.org","take ielts","英国文化协会",
+"https://takeielts.britishcouncil.org","★★★take ielts","英国文化协会",
 "https://ielts.idp.com","idp IELTS","",
 "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests","free test","免费测试练习",
+"https://www.guixue.com/apps/word/","★★★学为贵拼鸭","单词会拼，嘎嘎得分",
 "https://www.guixue.com/words/primary.shtml","雅思词汇真经-配套音频","及方法介绍视频",
 "https://ieltsonlinetests.com","IELTS online test","雅思在线测试",
 "https://ielts-simon.study/video-courses/","video-courses","",
