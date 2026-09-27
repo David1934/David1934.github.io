@@ -11,6 +11,8 @@ Categories.push(new Array(
 "https://www.njmetro.com.cn","南京地铁","",
 "dict.bing.com.cn","◆微软bing词典","",
 "www.dict.cn/search/","◆在线词典","",
+"https://www.chsi.com.cn","学信网","",
+"https://jlpt.neea.edu.cn","JLPT中国教育考试网","◆◆日语考级", // https://jlpt.neea.cn
 "","",""
 ));
 
@@ -27,6 +29,7 @@ Categories.push(new Array(
 
 "https://www.zhihu.com/question/21461041","◆有哪些值得推荐的AE插件","（Adobe After Effects）",
 "https://www.zhihu.com/question/21136217/answer/94543402","◆有哪些适合自学的Ae教程？","",
+"https://gzxzgwl.2017mac.cn/",'广州青学在线',"",
 "","",""
 ));
 
@@ -61,7 +64,6 @@ Categories.push(new Array(
 "https://md.doocs.org/",'◆在线MD编辑器',"https://github.com/doocs/md",
 "https://html5-editor.net/",'◆在线H5编辑器',"html5 editor",
 
-"https://gzxzgwl.2017mac.cn/",'广州青学在线',"",
 
 "","",""
 ));
