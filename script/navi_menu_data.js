@@ -79,11 +79,13 @@ Categories.push(new Array(
 "视频下载",
 
 "https://yt1d.com/zh-tw","YouTube視頻下載器","",
-"https://snapany.com/zh/bilibili","哔哩哔哩视频下载","",
+"https://snapany.com/zh","万能视频图片下载","",
 "https://www.convry.com/video/sph/home","视频号在线下载","",
 "https://www.convry.com/video/bili/one","B站视频下载","",
 "https://www.convry.com/video/xhs/one","小红书去水印下载","",
 "https://www.convry.com/video/tiktok/one","抖音去水印下载","",
+"https://clipgrab.org","Youtube等视频下载","免费开源软件",
+//"https://www.byclickdownloader.com/","Youtube视频下载","需激活码",
 "","",""
 ));
 

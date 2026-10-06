@@ -51,6 +51,7 @@ Categories.push(new Array(
 "https://tongyi.aliyun.com/qianwen","通义千问","阿里出品",
 "https://xinghuo.xfyun.cn","讯飞星火","科大讯飞出品",
 
+"https://www.codebuddy.cn","腾讯workbuddy","腾讯出品",
 "https://yuanbao.tencent.com/chat","腾讯元宝","腾讯出品",
 
 

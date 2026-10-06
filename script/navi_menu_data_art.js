@@ -5,7 +5,7 @@ Categories.push(new Array(
 
 "https://jw.cucn.edu.cn/jwglxt/","南传教务系统","",
 "https://www.cucn.edu.cn","南京传媒","",
-"https://cn.bing.com/?ensearch=1","Bing国际版","无需梯子",
+"https://cn.bing.com/?ensearch=1","Bing国际版","",
 "https://www.youtube.com","Youtube","需FQ",
 "https://www.bilibili.com","BiliBili","",
 "https://www.njmetro.com.cn/njdtweb/dtweb/images/map_new.jpg","南京地铁线路图","",
@@ -71,8 +71,10 @@ Categories.push(new Array(
 
 "https://www.canva.cn/affinity",'免费Affinity Studio',"照片编辑/矢量设计/插画与排版", // https://www.affinity.studio, https://mp.weixin.qq.com/s/raxsEaaUwo1v_xJmLoNj_w
 "https://1nx.net",'◆1nx.net',"线上画图工具", // https://mp.weixin.qq.com/s/UlkxDiGnZ_5G2VYaoG8liQ
+"https://inkscape.org/zh-hans/",'◆Inkscape矢量图编辑',"插画/设计/网页设计",
 "https://kdenlive.org/zh-cn/",'◆Kdenlive',"开源免费视频编辑", // https://blog.csdn.net/2401_88055648/article/details/156166912
-"https://opencut.app",'◆线上视频剪辑',"开源免费软件",
+"https://opencut.app",'◆OpenCut线上视频剪辑',"开源免费软件", // https://github.com/OpenCut-app/OpenCut, https://mp.weixin.qq.com/s/DiXlkJkSxM0KqY1PaARhjw
+"https://concatenate.pages.dev/",'◆剪映替代ConCut',"开源剪辑工具,无水印", // https://github.com/jub0t/Concat, https://mp.weixin.qq.com/s/bf11AI-JxDVXHKhcw9Eo-Q
 "https://unbroken.blog.csdn.net/article/details/128731716",'◆5个开源免费',"视频编辑软件",
 "https://robbietilton.com/compositor",'PS替代compositor',"Mac苹果电脑",  // https://github.com/robbietilton/Compositor  https://mp.weixin.qq.com/s/Il-vAumjwaRfGtJEd4V2BQ
 "https://www.photopea.com",'photopea',"在线类ps免费软件",
