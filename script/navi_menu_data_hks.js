@@ -4,13 +4,15 @@ Categories.push(new Array(
 "日常使用",
 
 "www.cactm.edu.hk",'宣道中學',"",
+"https://www.mtr.com.hk/archive/ch/services/routemap.pdf",'港鐵路綫圖',"",
+"https://www.mtr.com.hk/archive/ch/services/LR_routemap.pdf",'輕鐵路綫圖',"",
 "https://www.mtr.com.hk",'港鐵',"",
 "hketransport.gov.hk",'香港乘車易網',"",
 "https://www.edb.gov.hk",'香港教育局',"",
 "www.hko.gov.hk",'香港天文臺',"",
 "www.weather.com.hk",'香港天氣預報',"",
-"www.hkpl.gov.hk",'◆香港公共圖書館',"",
 
+"https://www.szmc.net/shentieyunying/yunyingfuwu/szsgdjtyyxlwlt/",'深圳地铁运营线路图',"",
 "https://www.szmc.net",'深圳地铁',"",
 "https://www.lddgo.net/convert/traditional","◆简体繁体字转换","",
 "https://www.wetools.com/fanti","◆繁简转换","",
@@ -21,6 +23,33 @@ Categories.push(new Array(
 "https://www.landsd.gov.hk/sc/resources/mapping-information/hk-geographic-data.html","地政署地圖","",
 "www.centamap.com",'中原香港地圖',"",
 "www.midlandmap.hk",'美聯香港地圖',"",
+
+
+"","",""
+));
+
+Categories.push(new Array(
+"升学资讯",
+
+"https://www.hkeaa.edu.hk",'香港考試及評核局',"HKEAA",
+"www.hkpl.gov.hk",'◆香港公共圖書館',"",
+"https://roothk.org/dse-papers/",'◆DSE Past Paper',"歷屆試卷、答案",
+"https://roothk.org",'◆◆◆香港學生學習資源',"DSE 試卷與網上課程",
+"https://dse.best/",'◆dse.best',"DSE備戰拍檔", // *** https://dse.best/vocab
+"https://passpaper-unstoppable.github.io/dse.life/ppindex/ppindex.html",'◆PassPaper.Unstoppable',"",
+"https://dsepaper.hk",'◆dsepaper.hk',"需要注册", //david51485220@gmail.com, cyy51485220
+"https://dse247.com",'◆dse247',"DSE Past Paper下載",
+"https://dselib.com",'◆dselib',"DSE Past Paper下載",
+"https://www.kongpaper.com/zh-CN",'◆港卷',"DSE全面备考工具",
+"https://recurso.com.hk/column/dse-pastpaper/",'◆迴享',"Recurso",
+"http://www.1997day.com/",'◆1997day',"DSE試題網'",
+"https://www.thinka.ai/en-HK",'◆thinka',"",
+"https://examonlinecourse.com/hkdse-pastpaper/",'◆Examination',"歷屆試卷",
+"https://www.pastpaperking.com/",'◆PastPaper King',"By Topic",
+"https://afterschool.com.hk/blog/144-dse-past-paper-information/",'◆afterschool.com.hk',"",
+"https://www.chenglish.hk/",'◆chenglish',"Free DSE resources<br>for students & teachers",
+
+
 
 "https://www.edb.gov.hk/tc/edu-system/postsecondary/policy-doc/pilot-scheme.html",'內地高校招收香港學生計劃',"",
 "https://www.eeagd.edu.cn/lzks/main.jsp",'2024年联合招生管理系统',"",
@@ -81,6 +110,7 @@ Categories.push(new Array(
 "https://ieltsliz.com","★★★IELTS Liz","前雅思考官Liz",
 "https://ieltsliz.com/vocabulary","★★★Liz vocabulary","Liz词汇",
 "https://www.cambridgeenglish.org/exams-and-tests/ielts/preparation/","雅思中国官网","",
+"http://download.dogwood.com.cn/online/fkdysch/index.html","★疯狂的雅思词汇","微信扫码登录",
 
 "https://takeielts.britishcouncil.org","★★★take ielts","英国文化协会",
 "https://ielts.idp.com","idp IELTS","",
@@ -207,22 +237,37 @@ Categories.push(new Array(
 Categories.push(new Array(
 "搜索引擎 & 热门AI",
 
-"https://www.google.com","★Google","",
+"www.google.com/ncr","★Google/ncr","",   //no country redirect
 "www.wikipedia.org",'★WikiPedia',"维基百科",
+"https://metaso.cn","秘塔AI搜索","国内免费AI搜索",
+"https://n.cn","纳米搜索","原360 AI搜索升级",
 "https://cn.bing.com/?ensearch=1","Bing国际版","无需梯子",
+"https://yandex.com","Yandex","无需梯子",
+"https://ai-bot.cn","AI工具集","AI工具分类导航",
 
+//"https://ai.xiabb.chat","◆阿水AI6.0","聚合AI,无需梯子chatGPT服务",
+"https://ish.chat","◆ish.chat","",
+
+"https://github.com/copilot","◆Copilot","Github Copilot",
 "https://www.deepseek.com","◆DeepSeek","又一个免费国内AI",
 "https://www.doubao.com/chat","◆豆包","字节跳动出品",
-"https://kimi.moonshot.cn","◆Kimi.AI","很火的免费国内AI",
+"https://kimi.moonshot.cn","◆Kimi.AI","◆可以长文档输入",
 
+"https://yiyan.baidu.com","文心一言","百度出品",
 "https://www.tiangong.cn","天工AI","国内AI",
+"https://chatglm.cn","智谱清言","质量不错",
+
+
 "https://tongyi.aliyun.com/qianwen","通义千问","阿里出品",
 "https://xinghuo.xfyun.cn","讯飞星火","科大讯飞出品",
 
+"https://www.codebuddy.cn","腾讯workbuddy","腾讯出品",
 "https://yuanbao.tencent.com/chat","腾讯元宝","腾讯出品",
 
+
 "https://chat.openai.com","★◆ChatGPT","最早最热的AI王者",
-"https://gemini.google.com","★Google Gemini","Google的AI,效果一般",
+"https://gemini.google.com","★Google Gemini","Google的AI",
+"https://imageprompt.org/zh/image-to-prompt","免费图片转提示词","生成器",
 "","",""
 ));
 

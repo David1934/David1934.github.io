@@ -55,7 +55,8 @@ Categories.push(new Array(
 
 
 "https://chat.openai.com","★◆ChatGPT","最早最热的AI王者",
-"https://gemini.google.com","★Google Gemini","Google的AI,效果一般",
+"https://gemini.google.com","★Google Gemini","Google的AI",
+"https://imageprompt.org/zh/image-to-prompt","免费图片转提示词","生成器",
 "","",""
 ));
 
@@ -74,6 +75,7 @@ Categories.push(new Array(
 "https://elixir.bootlin.com/linux/latest/source","Linux kernel源码","多版本源码搜索浏览",
 "https://portableapps.com",'PortableApps',"",
 "https://www.drawio.com",'◆draw.io',"免费的画图工具",
+"https://1nx.net",'◆1nx.net',"线上画图工具",
 "https://mermaid.live/edit",'Mermaid Live Editor',"流程图等编辑查看",
 "https://excalidraw.com",'◆excalidraw.com',"免费的画图工具",
 "https://azad-sl.github.io/GitTree/",'◆GitHub项目目录树生成',"GitHub Repo Tree Generator",
@@ -95,10 +97,14 @@ Categories.push(new Array(
 
 "https://cponline.cnipa.gov.cn",'专利业务办理系统',"国家知识产权局",
 "https://www.rainpat.com",'润桐RainPat专利检索',"",
-"https://www.chaspark.com/#/patents/","◆查思专利","",
 
+"github.com/justjavac/free-programming-books-zh_CN","免费的编程中文书籍索引","",
 "https://www.bilibili.com","BiliBili","",
 "https://www.runoob.com/","菜鸟教程","多种程序语言工具学习",
+
+"https://www.vibevibe.cn/zh/","◆Vibe Coding教程","",
+"https://datawhalechina.github.io/llm-universe/#",'◆动手学大模型应用开发',"",
+"https://rustwiki.org/zh-CN/rust-by-example/",'◆通过例子学 Rust',"",
 
 "https://www.w3schools.com","Online web tutorials","英文版在线教程",
 "https://ocw.mit.edu/","◆MIT Open Course Ware","麻省理工开放课程",

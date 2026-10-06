@@ -41,7 +41,7 @@ Categories.push(new Array(
 Categories.push(new Array(
 "搜索引擎 & 热门AI",
 
-"https://www.google.com","★Google","",
+"www.google.com/ncr","★Google/ncr","",   //no country redirect
 "www.wikipedia.org",'★WikiPedia',"维基百科",
 "https://metaso.cn","秘塔AI搜索","国内免费AI搜索",
 "https://n.cn","纳米搜索","原360 AI搜索升级",
@@ -49,26 +49,107 @@ Categories.push(new Array(
 "https://yandex.com","Yandex","无需梯子",
 "https://ai-bot.cn","AI工具集","AI工具分类导航",
 
-"https://ai.xiabb.chat","◆阿水AI6.0","聚合AI,无需梯子chatGPT服务",
+//"https://ai.xiabb.chat","◆阿水AI6.0","聚合AI,无需梯子chatGPT服务",
+"https://ish.chat","◆ish.chat","",
 
 "https://github.com/copilot","◆Copilot","Github Copilot",
-"https://www.deepseek.com","DeepSeek","又一个免费国内AI",
+"https://www.deepseek.com","◆DeepSeek","又一个免费国内AI",
 "https://www.doubao.com/chat","◆豆包","字节跳动出品",
-"https://kimi.moonshot.cn","Kimi.AI","很火的免费国内AI",
+"https://kimi.moonshot.cn","◆Kimi.AI","◆可以长文档输入",
 
-"https://yiyan.baidu.com","◆文心一言","百度出品",
-"https://www.tiangong.cn","◆天工AI","国内AI",
-"https://chatglm.cn","◆智谱清言","质量不错",
+"https://yiyan.baidu.com","文心一言","百度出品",
+"https://www.tiangong.cn","天工AI","国内AI",
+"https://chatglm.cn","智谱清言","质量不错",
 
 
 "https://tongyi.aliyun.com/qianwen","通义千问","阿里出品",
 "https://xinghuo.xfyun.cn","讯飞星火","科大讯飞出品",
 
+"https://www.codebuddy.cn","腾讯workbuddy","腾讯出品",
 "https://yuanbao.tencent.com/chat","腾讯元宝","腾讯出品",
 
 
 "https://chat.openai.com","★◆ChatGPT","最早最热的AI王者",
-"https://gemini.google.com","★Google Gemini","Google的AI,效果一般",
+"https://gemini.google.com","★Google Gemini","Google的AI",
+"https://imageprompt.org/zh/image-to-prompt","免费图片转提示词","生成器",
+"","",""
+));
+
+Categories.push(new Array(
+"视频下载",
+
+"https://yt1d.com/zh-tw","YouTube視頻下載器","",
+"https://snapany.com/zh/bilibili","哔哩哔哩视频下载","",
+"https://www.convry.com/video/sph/home","视频号在线下载","",
+"https://www.convry.com/video/bili/one","B站视频下载","",
+"https://www.convry.com/video/xhs/one","小红书去水印下载","",
+"https://www.convry.com/video/tiktok/one","抖音去水印下载","",
+"","",""
+));
+
+Categories.push(new Array(
+"GooglePlay APK下载",
+
+"https://play.google.com/store/apps",'<&Hopf;> Google Play应用商店',"最官方,但需登录且不能下载到电脑",
+"https://apps.evozi.com/apk-downloader/",'apps.evozi.com',"将Google Play应用下载到电脑",
+"https://apk-dl.com/",'apk-dl.com',"将Google Play应用下载到电脑",
+"https://www.apkmirror.com",'APKMirror',"将Google Play应用下载到电脑",
+"https://apkcombo.com",'APKCombo',"将Google Play应用下载到电脑",
+"https://en.aptoide.com/group/applications",'Aptoide',"将Google Play应用下载到电脑",
+"https://apkpure.com",'Apkpure',"将Google Play应用下载到电脑",
+"apkleecher.com",'apkleecher.com',"将Google Play应用下载到电脑",
+"https://apkpac.com",'ApkPAC',"将Google Play应用下载到电脑",
+
+"","",""
+));
+
+Categories.push(new Array(
+"网盘搜索",
+
+"cn.epubee.com/","在线电子书转换器","",
+"https://www.jiumodiary.com","鸠摩搜书","中文电子书聚合搜索引擎",
+"https://pan.qianfan.app","千帆搜索","",
+"https://www.upyunso.com","UP云搜","",
+"https://www.gutenberg.org/","Project Gutenberg","",
+"","",""
+));
+
+Categories.push(new Array(
+"实用工具",
+
+"https://www.convry.com/video/gzh/home","微信公众号下载","文章/视频/音频",
+"https://www.rzzx.com.cn","◆证件数码相片认证中心","自己上传1.5元/次",
+"https://send.ravelloh.com","◆文件传输/视频/屏幕共享","Anonymousely",
+"https://file.pizza","◆filePizza","P2P(WebRTC)文件传输",
+"https://pairdrop.net","◆PairDrop","P2P(WebRTC)文件传输<br>备用: https://pairdrop.io",
+"https://wormhole.app","◆Wormhole","P2P(WebRTC)文件传输",
+"https://www.localsend.org","◆localsend","P2P(WebRTC)文件传输",
+"https://www.locsend.com","◆locsend","P2P(WebRTC)文件传输",
+
+"Speedtest.net","◆Speedtest.net","网速测试",
+"www.linkwan.com/gb/broadmeter/","带宽测试1","网速测试",
+"iruler.net",'Online ruler','在线直尺',
+"www.online-stopwatch.com",'Online-Stopwatch','在线秒表',
+
+"www.docspal.com","文件格式转换","文件格式转换",
+"www.PdfUnlock.com","PDF Unlock","PDF文件解锁",
+"www.WebResizer.com","在线图片无损压缩","在线图片无损压缩",
+"compresspng.com","Compress PNG","PNG图片压缩",
+"https://tinypng.com/","Tiny PNG","PNG图片压缩",
+"vectormagic.com",'在线免费位图转矢量图','在线免费位图转矢量图',
+"barcode.tec-it.com",'在线免费生成条码','在线免费生成条码',
+
+"24timezones.com/map_zh.htm",'世界时钟','世界各地时间',
+"www.zdic.net/appendix/f27.htm",'◆择吉老黄历','◆择吉老黄历',
+"https://www.allconversions.com","Unit Conversion","单位换算(英文)", // https://www.lookuptables.com/
+"www.metric-conversions.org",'metric conversions',"单位换算(英文)",
+
+"www.virustotal.com",'◆单文件多引擎查毒1','上传文件在线查毒',
+"virusscan.jotti.org",'单文件多引擎查毒2','上传文件在线查毒',
+"www.virscan.org",'单文件多引擎查毒3','上传文件在线查毒',
+
+"www.virtualpiano.net",'◆在线钢琴','◆虚拟在线钢琴',
+"www.virtualmusicalinstruments.com",'◆虚拟乐器','◆虚拟各种乐器',
 "","",""
 ));
 
@@ -126,53 +207,6 @@ Categories.push(new Array(
 ));
 
 Categories.push(new Array(
-"实用工具",
-
-"https://www.rzzx.com.cn","◆证件数码相片认证中心","自己上传1.5元/次",
-"https://file.pizza","◆filePizza","P2P(WebRTC)文件传输",
-"https://pairdrop.net","◆PairDrop","P2P(WebRTC)文件传输<br>备用: https://pairdrop.io",
-"https://wormhole.app","◆Wormhole","P2P(WebRTC)文件传输",
-"https://www.localsend.org","◆localsend","P2P(WebRTC)文件传输",
-"https://www.locsend.com","◆locsend","P2P(WebRTC)文件传输",
-
-"Speedtest.net","◆Speedtest.net","网速测试",
-"www.linkwan.com/gb/broadmeter/","带宽测试1","网速测试",
-"iruler.net",'Online ruler','在线直尺',
-"www.online-stopwatch.com",'Online-Stopwatch','在线秒表',
-
-"www.docspal.com","文件格式转换","文件格式转换",
-"www.PdfUnlock.com","PDF Unlock","PDF文件解锁",
-"www.WebResizer.com","在线图片无损压缩","在线图片无损压缩",
-"compresspng.com","Compress PNG","PNG图片压缩",
-"https://tinypng.com/","Tiny PNG","PNG图片压缩",
-"vectormagic.com",'在线免费位图转矢量图','在线免费位图转矢量图',
-"barcode.tec-it.com",'在线免费生成条码','在线免费生成条码',
-
-"24timezones.com/map_zh.htm",'世界时钟','世界各地时间',
-"www.zdic.net/appendix/f27.htm",'◆择吉老黄历','◆择吉老黄历',
-"https://www.allconversions.com","Unit Conversion","单位换算(英文)", // https://www.lookuptables.com/
-"www.metric-conversions.org",'metric conversions',"单位换算(英文)",
-
-"https://play.google.com/store/apps",'<&Hopf;> Google Play应用商店',"最官方,但需登录且不能下载到电脑",
-"https://apps.evozi.com/apk-downloader/",'apps.evozi.com',"将Google Play应用下载到电脑",
-"https://apk-dl.com/",'apk-dl.com',"将Google Play应用下载到电脑",
-"https://www.apkmirror.com",'APKMirror',"将Google Play应用下载到电脑",
-"https://apkcombo.com",'APKCombo',"将Google Play应用下载到电脑",
-"https://en.aptoide.com/group/applications",'Aptoide',"将Google Play应用下载到电脑",
-"https://apkpure.com",'Apkpure',"将Google Play应用下载到电脑",
-"apkleecher.com",'apkleecher.com',"将Google Play应用下载到电脑",
-"https://apkpac.com",'ApkPAC',"将Google Play应用下载到电脑",
-
-"www.virustotal.com",'◆单文件多引擎查毒1','上传文件在线查毒',
-"virusscan.jotti.org",'单文件多引擎查毒2','上传文件在线查毒',
-"www.virscan.org",'单文件多引擎查毒3','上传文件在线查毒',
-
-"www.virtualpiano.net",'◆在线钢琴','◆虚拟在线钢琴',
-"www.virtualmusicalinstruments.com",'◆虚拟乐器','◆虚拟各种乐器',
-"","",""
-));
-
-Categories.push(new Array(
 "外出旅行",
 
 "www.12306.cn",'◆12306.cn',"12306高铁火车票",
@@ -185,7 +219,8 @@ Categories.push(new Array(
 "https://www.dialingcode.com/","dialing/country codes","国际电话区号查询",
 "lidicity.com/lieguo/huobi.html",'货币兑换换算器','货币兑换换算器',
 
-"https://ditu.amap.com/",'◆高德地图',"电脑查看地图效果更佳",
+"https://www.zhijianshang.com",'◆指尖上',"全球全景360VR",
+"https://ditu.amap.com",'◆高德地图',"电脑查看地图效果更佳",
 "https://cn.bing.com/maps?FORM=Z9LH2",'◆必应地图',"电脑查看地图效果更佳",
 "www.openstreetmap.org",'◆OpenStreetMap',"电脑查看地图效果更佳",
 "www.tianditu.cn",'天地图',"电脑查看地图效果更佳",
@@ -337,25 +372,6 @@ Categories.push(new Array(
 "https://www.w3schools.com/spaces/index.php","W3Schools Spaces","",
 "www.eet-china.com","电子工程专辑","",
 "www.icpcw.com","电脑报","",
-"","",""
-));
-
-Categories.push(new Array(
-"网盘搜索",
-
-"cn.epubee.com/","在线电子书转换器","",
-"https://www.jiumodiary.com","鸠摩搜书","中文电子书聚合搜索引擎",
-"https://pan.qianfan.app","千帆搜索","",
-"https://www.upyunso.com","UP云搜","",
-"https://www.gutenberg.org/","Project Gutenberg","",
-"","",""
-));
-
-Categories.push(new Array(
-"视频下载",
-
-"https://yt1d.com/zh-tw","YouTube視頻下載器","",
-"https://snapany.com/zh/bilibili","哔哩哔哩视频下载","",
 "","",""
 ));
 
