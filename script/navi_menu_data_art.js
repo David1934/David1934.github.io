@@ -69,6 +69,7 @@ Categories.push(new Array(
 "https://www.lookae.com",'AE插件下载',"",
 "https://www.gfxcamp.com/",'龋齿一号GFXCamp',"",
 
+"https://github.com/storytold/photocraft",'PhotoCraft',"PS开源跨平台实现",
 "https://www.canva.cn/affinity",'免费Affinity Studio',"照片编辑/矢量设计/插画与排版", // https://www.affinity.studio, https://mp.weixin.qq.com/s/raxsEaaUwo1v_xJmLoNj_w
 "https://1nx.net",'◆1nx.net',"线上画图工具", // https://mp.weixin.qq.com/s/UlkxDiGnZ_5G2VYaoG8liQ
 "https://inkscape.org/zh-hans/",'◆Inkscape矢量图编辑',"插画/设计/网页设计",
