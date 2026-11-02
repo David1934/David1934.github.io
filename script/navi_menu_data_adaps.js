@@ -13,14 +13,16 @@ Categories.push(new Array(
 "gerrit.adaps.corp","软件gerrit服务器","需在公司内网",
 "10.12.23.104:5173","Adaps代码审查服务","需在公司内网",
 "gitlab.adaps.cn","gitlab服务器","需在公司内网",
-"192.168.100.208:8090/home/","Release资料看板","需在公司内网",
+//"192.168.100.208:8090/home/","Release资料看板","需在公司内网",
+"https://release.adaps-ai.com/","Adaps Release Hub","",
 "reviewcode.adaps.cn:8766/","AI Code Review控制台","需在公司内网",
 "ci.adaps.corp/ReleaseServer","内部发布软件下载","需在公司内网",
 "ci.adaps.corp:8080","软件Jenkins服务器","需在公司内网",
 "https://thoughts.teambition.com/workspaces/6010c01531fe71004633fea0/docs/63d9d1a9ce56760001c15c51","QRD8550手机流转记录","需登录",
-"https://github.com/David1934/Ads6401_Linux_Driver","Swift Linux驱动源码","github开源",
-"https://github.com/David1934/SpadisQT","SpadisQT应用源码","github开源",
-"https://github.com/David1934/TinySwiftApp","TinySwiftApp应用源码","github开源",
+"https://github.com/David1934/Ads6401_Linux_Driver","Ads6401 Linux驱动","源码及移植指南",
+"https://github.com/David1934/SpadisQT","SpadisQT应用","源码及移植指南",
+"https://github.com/David1934/TinySwiftApp","TinySwiftApp应用","源码及移植指南",
+"https://github.com/David1934/Ads6311_Linux_Driver","Ads6311 Linux驱动","源码及移植指南",
 "","",""
 ));
 
