@@ -121,10 +121,16 @@ Categories.push(new Array(
 
 "https://www.convry.com/video/gzh/home","微信公众号下载","文章/视频/音频",
 "https://www.rzzx.com.cn","◆证件数码相片认证中心","自己上传1.5元/次",
+
 "https://send.ravelloh.com","◆文件传输/视频/屏幕共享","Anonymousely",
 "https://file.pizza","◆filePizza","P2P(WebRTC)文件传输",
-"https://pairdrop.net","◆PairDrop","P2P(WebRTC)文件传输<br>备用: https://pairdrop.io",
 "https://wormhole.app","◆Wormhole","P2P(WebRTC)文件传输",
+"https://www.floe.one","◆Floe","P2P(WebRTC)文件传输",
+"https://www.airportal.cn","AirPortal空投快传","P2P(WebRTC)文件传输",
+"https://easychuan.cn","◆轻松传","P2P(WebRTC)文件传输",
+"https://www.wenshushu.cn","◆文叔叔","P2P(WebRTC)文件传输",
+
+"https://pairdrop.net","◆PairDrop","局域网内文件传输<br>备用: https://pairdrop.io",
 "https://www.localsend.org","◆localsend","P2P(WebRTC)文件传输",
 "https://www.locsend.com","◆locsend","P2P(WebRTC)文件传输",
 
